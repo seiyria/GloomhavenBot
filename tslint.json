@@ -21,7 +21,7 @@
       "object-literal-sort-keys": false,
       "ordered-imports": false,
       "forin": false,
-      "max-line-length": [true, 150],
+      "max-line-length": false,
       "prefer-const": false,
       "no-empty": false,
       "quotemark": [true, "single"]

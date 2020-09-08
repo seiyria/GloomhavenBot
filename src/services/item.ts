@@ -26,7 +26,11 @@ export class ItemService extends BaseService {
   }
 
   public getGloomItem(name: string): IItem {
-    return this.gloomItems.getFirst(name);
+    try {
+      return this.gloomItems.getFirst(name);
+    } catch {
+      return null;
+    }
   }
 
   private loadAll() {

@@ -4,7 +4,7 @@ import { FuzzySetContainer } from 'fuzzyset-obj';
 
 import { BaseService } from '../base/BaseService';
 
-interface IPersonalGoal {
+interface IBattleGoal {
   name: string;
   longImage: string;
   image: string;
@@ -12,9 +12,9 @@ interface IPersonalGoal {
 
 @Singleton
 @AutoWired
-export class PersonalGoalService extends BaseService {
+export class BattleGoalService extends BaseService {
 
-  private gloomPGoals: FuzzySetContainer<IPersonalGoal> = new FuzzySetContainer<IPersonalGoal>({ key: '_key' });
+  private gloomBGoals: FuzzySetContainer<IBattleGoal> = new FuzzySetContainer<IBattleGoal>({ key: '_key' });
 
   public async init(client) {
     super.init(client);
@@ -22,28 +22,28 @@ export class PersonalGoalService extends BaseService {
     this.loadAll();
   }
 
-  public getGloomPersonalGoal(name: string): IPersonalGoal {
+  public getGloomBattleGoal(name: string): IBattleGoal {
     try {
-      return this.gloomPGoals.getFirst(name);
+      return this.gloomBGoals.getFirst(name);
     } catch {
       return null;
     }
   }
 
   private loadAll() {
-    this.loadGloomPGoals();
+    this.loadGloomBGoals();
   }
 
-  private loadGloomPGoals() {
-    const cards = YAML.load('assets/gloomhaven/personalgoals.yml');
+  private loadGloomBGoals() {
+    const cards = YAML.load('assets/gloomhaven/battlegoals.yml');
 
     cards.forEach((card) => {
 
-      card.longImage = `assets/gloomhaven/images/personalgoals/${card.image}`;
+      card.longImage = `assets/gloomhaven/images/battlegoals/${card.image}`;
 
       const nameRef = Object.assign({ _key: card.name }, card);
 
-      this.gloomPGoals.add(nameRef);
+      this.gloomBGoals.add(nameRef);
     });
   }
 

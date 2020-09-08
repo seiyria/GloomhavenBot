@@ -13,6 +13,8 @@ import { ItemService } from './services/item';
 import { HelpService } from './services/help';
 import { TextParserService } from './services/text-parser';
 import { PersonalGoalService } from './services/personalgoal';
+import { BattleGoalService } from './services/battlegoal';
+import { AbilityService } from './services/ability';
 
 export class Bot {
   @Inject private logger: LoggerService;
@@ -25,6 +27,8 @@ export class Bot {
 
   @Inject private itemService: ItemService;
   @Inject private pgoalService: PersonalGoalService;
+  @Inject private bgoalService: BattleGoalService;
+  @Inject private abilityService: AbilityService;
 
   @Inject private commandParser: CommandParser;
 
@@ -48,6 +52,8 @@ export class Bot {
 
         this.itemService,
         this.pgoalService,
+        this.bgoalService,
+        this.abilityService,
 
         this.commandParser
       ].forEach((s) => s.init(client));

@@ -27,6 +27,7 @@
     "discord.js": "^11.5.1",
     "dotenv": "^8.0.0",
     "fuzzyset-obj": "^1.0.0",
+    "jimp": "^0.16.1",
     "typeorm": "^0.2.18",
     "typescript-ioc": "^1.2.5",
     "yamljs": "^0.3.0"

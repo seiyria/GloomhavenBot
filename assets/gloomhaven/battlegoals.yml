@@ -1,0 +1,74 @@
+
+- name: Streamliner
+  image: battlegoal-0.jpg
+
+- name: Layabout
+  image: battlegoal-1.jpg
+  
+- name: Workhorse
+  image: battlegoal-2.jpg
+  
+- name: Zealot
+  image: battlegoal-3.jpg
+  
+- name: Masochist
+  image: battlegoal-4.jpg
+  
+- name: Fast Healer
+  image: battlegoal-5.jpg
+  
+- name: Neutralizer
+  image: battlegoal-6.jpg
+  
+- name: Plunderer
+  image: battlegoal-7.jpg
+  
+- name: Protector
+  image: battlegoal-8.jpg
+  
+- name: Explorer
+  image: battlegoal-9.jpg
+  
+- name: Hoarder
+  image: battlegoal-10.jpg
+  
+- name: Indigent
+  image: battlegoal-11.jpg
+  
+- name: Pacifist
+  image: battlegoal-12.jpg
+  
+- name: Sadist
+  image: battlegoal-13.jpg
+  
+- name: Hunter
+  image: battlegoal-14.jpg
+  
+- name: Professional
+  image: battlegoal-15.jpg
+  
+- name: Aggressor
+  image: battlegoal-16.jpg
+  
+- name: Dynamo
+  image: battlegoal-17.jpg
+  
+- name: Purist
+  image: battlegoal-18.jpg
+  
+- name: Opener
+  image: battlegoal-19.jpg
+  
+- name: Diehard
+  image: battlegoal-20.jpg
+  
+- name: Executioner
+  image: battlegoal-21.jpg
+  
+- name: Straggler
+  image: battlegoal-22.jpg
+  
+- name: Scrambler
+  image: battlegoal-23.jpg
+  
+  

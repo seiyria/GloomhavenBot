@@ -1,0 +1,881 @@
+
+
+#- name:
+#  image:
+#  level:
+
+# Brute
+- name: Trample
+  char: brute
+  image: brute-1-0.jpg
+  level: 1
+
+- name: Eye for an Eye
+  char: brute
+  image: brute-1-1.jpg
+  level: 1
+
+- name: Sweeping Blow
+  char: brute
+  image: brute-1-2.jpg
+  level: 1
+
+- name: Provoking Roar
+  char: brute
+  image: brute-1-3.jpg
+  level: 1
+
+- name: Overwhelming Assault
+  char: brute
+  image: brute-1-4.jpg
+  level: 1
+
+- name: Grab and Go
+  char: brute
+  image: brute-1-5.jpg
+  level: 1
+
+- name: Warding Strength
+  char: brute
+  image: brute-1-6.jpg
+  level: 1
+
+- name: Shield Bash
+  char: brute
+  image: brute-1-7.jpg
+  level: 1
+
+- name: Leaping Cleave
+  char: brute
+  image: brute-1-8.jpg
+  level: 1
+
+- name: Spare Dagger
+  char: brute
+  image: brute-1-9.jpg
+  level: 1
+
+- name: Fatal Advance
+  char: brute
+  image: brute-2-0.jpg
+  level: 2
+
+- name: Juggernaut
+  char: brute
+  image: brute-2-1.jpg
+  level: 2
+
+- name: Hook and Chain
+  char: brute
+  image: brute-3-0.jpg
+  level: 3
+
+- name: Brute Force
+  char: brute
+  image: brute-3-1.jpg
+  level: 3
+
+- name: Unstoppable Charge
+  char: brute
+  image: brute-4-0.jpg
+  level: 4
+
+- name: Devastating Hack
+  char: brute
+  image: brute-4-1.jpg
+  level: 4
+
+- name: Whirlwind
+  char: brute
+  image: brute-5-0.jpg
+  level: 5
+
+- name: Skirmishing Maneuver
+  char: brute
+  image: brute-5-1.jpg
+  level: 5
+
+- name: Quietus
+  char: brute
+  image: brute-6-0.jpg
+  level: 6
+
+- name: Immovable Phalanx
+  char: brute
+  image: brute-6-1.jpg
+  level: 6
+
+- name: Defensive Tactics
+  char: brute
+  image: brute-7-0.jpg
+  level: 7
+
+- name: Crippling Offensive
+  char: brute
+  image: brute-7-1.jpg
+  level: 7
+
+- name: Frenzied Onslaught
+  char: brute
+  image: brute-8-0.jpg
+  level: 8
+
+- name: Selfish Retribution
+  char: brute
+  image: brute-8-1.jpg
+  level: 8
+
+- name: King of the Hill
+  char: brute
+  image: brute-9-0.jpg
+  level: 9
+
+- name: Face Your End
+  char: brute
+  image: brute-9-1.jpg
+  level: 9
+
+- name: Skewer
+  char: brute
+  image: brute-x-0.jpg
+  level: X
+
+- name: Balanced Measure
+  char: brute
+  image: brute-x-1.jpg
+  level: X
+
+- name: Wall of Doom
+  char: brute
+  image: brute-x-2.jpg
+  level: X
+
+# Cragheart
+- name: Opposing Strike
+  char: cragheart
+  image: cragheart-1-0.jpg
+  level: 1
+
+- name: Crushing Grasp
+  char: cragheart
+  image: cragheart-1-1.jpg
+  level: 1
+
+- name: Avalanche
+  char: cragheart
+  image: cragheart-1-2.jpg
+  level: 1
+
+- name: Rumbling Advance
+  char: cragheart
+  image: cragheart-1-3.jpg
+  level: 1
+
+- name: Massive Boulder
+  char: cragheart
+  image: cragheart-1-4.jpg
+  level: 1
+
+- name: Backup Ammunition
+  char: cragheart
+  image: cragheart-1-5.jpg
+  level: 1
+
+- name: Rock Tunnel
+  char: cragheart
+  image: cragheart-1-6.jpg
+  level: 1
+
+- name: Unstable Upheaval
+  char: cragheart
+  image: cragheart-1-7.jpg
+  level: 1
+
+- name: Crater
+  char: cragheart
+  image: cragheart-1-8.jpg
+  level: 1
+
+- name: Dirt Tornado
+  char: cragheart
+  image: cragheart-1-9.jpg
+  level: 1
+
+- name: Earthen Clod
+  char: cragheart
+  image: cragheart-1-10.jpg
+  level: 1
+
+- name: Explosive Punch
+  char: cragheart
+  image: cragheart-2-0.jpg
+  level: 2
+
+- name: Sentient Growth
+  char: cragheart
+  image: cragheart-2-1.jpg
+  level: 2
+
+- name: Clear the Way
+  char: cragheart
+  image: cragheart-3-0.jpg
+  level: 3
+
+- name: Blunt Force
+  char: cragheart
+  image: cragheart-3-1.jpg
+  level: 3
+
+- name: Rock Slide
+  char: cragheart
+  image: cragheart-4-0.jpg
+  level: 4
+
+- name: Kinetic Assault
+  char: cragheart
+  image: cragheart-4-1.jpg
+  level: 4
+
+- name: Petrify
+  char: cragheart
+  image: cragheart-5-0.jpg
+  level: 5
+
+- name: Stone Pummel
+  char: cragheart
+  image: cragheart-5-1.jpg
+  level: 5
+
+- name: Dig Pit
+  char: cragheart
+  image: cragheart-6-0.jpg
+  level: 6
+
+- name: Cataclysm
+  char: cragheart
+  image: cragheart-6-1.jpg
+  level: 6
+
+- name: Meteor
+  char: cragheart
+  image: cragheart-7-0.jpg
+  level: 7
+
+- name: Brutal Momentum
+  char: cragheart
+  image: cragheart-7-1.jpg
+  level: 7
+
+- name: Rocky End
+  char: cragheart
+  image: cragheart-8-0.jpg
+  level: 8
+
+- name: Lumbering Bash
+  char: cragheart
+  image: cragheart-8-1.jpg
+  level: 8
+
+- name: Blind Destruction
+  char: cragheart
+  image: cragheart-9-0.jpg
+  level: 9
+
+- name: Pulverize
+  char: cragheart
+  image: cragheart-9-1.jpg
+  level: 9
+
+- name: Heaving Swing
+  char: cragheart
+  image: cragheart-x-0.jpg
+  level: X
+
+- name: Forceful Storm
+  char: cragheart
+  image: cragheart-x-1.jpg
+  level: X
+
+- name: Nature's Lift
+  char: cragheart
+  image: cragheart-x-2.jpg
+  level: X
+
+# Mindthief
+- name: Empathetic Assault
+  char: mindthief
+  image: mindthief-1-0.jpg
+  level: 1
+
+- name: Submissive Affliction
+  char: mindthief
+  image: mindthief-1-1.jpg
+  level: 1
+
+- name: Into the Night
+  char: mindthief
+  image: mindthief-1-2.jpg
+  level: 1
+
+- name: Fearsome Blade
+  char: mindthief
+  image: mindthief-1-3.jpg
+  level: 1
+
+- name: Feedback Loop
+  char: mindthief
+  image: mindthief-1-4.jpg
+  level: 1
+
+- name: Gnawing Horde
+  char: mindthief
+  image: mindthief-1-5.jpg
+  level: 1
+
+- name: The Mind's Weakness
+  char: mindthief
+  image: mindthief-1-6.jpg
+  level: 1
+
+- name: Parasitic Influence
+  char: mindthief
+  image: mindthief-1-7.jpg
+  level: 1
+
+- name: Scurry
+  char: mindthief
+  image: mindthief-1-8.jpg
+  level: 1
+
+- name: Perverse Edge
+  char: mindthief
+  image: mindthief-1-9.jpg
+  level: 1
+
+- name: Wretched Creature
+  char: mindthief
+  image: mindthief-2-0.jpg
+  level: 2
+
+- name: Hostile Takeover
+  char: mindthief
+  image: mindthief-2-1.jpg
+  level: 2
+
+- name: Brain Leech
+  char: mindthief
+  image: mindthief-3-0.jpg
+  level: 3
+
+- name: Silent Scream
+  char: mindthief
+  image: mindthief-3-1.jpg
+  level: 3
+
+- name: Pilfer
+  char: mindthief
+  image: mindthief-4-0.jpg
+  level: 4
+
+- name: Cranium Overload
+  char: mindthief
+  image: mindthief-4-1.jpg
+  level: 4
+
+- name: Mass Hysteria
+  char: mindthief
+  image: mindthief-5-0.jpg
+  level: 5
+
+- name: Frozen Mind
+  char: mindthief
+  image: mindthief-5-1.jpg
+  level: 5
+
+- name: Corrupting Embrace
+  char: mindthief
+  image: mindthief-6-0.jpg
+  level: 6
+
+- name: Dark Frenzy
+  char: mindthief
+  image: mindthief-6-1.jpg
+  level: 6
+
+- name: Vicious Blood
+  char: mindthief
+  image: mindthief-7-0.jpg
+  level: 7
+
+- name: Psychic Projection
+  char: mindthief
+  image: mindthief-7-1.jpg
+  level: 7
+
+- name: Shared Nightmare
+  char: mindthief
+  image: mindthief-8-0.jpg
+  level: 8
+
+- name: Domination
+  char: mindthief
+  image: mindthief-8-1.jpg
+  level: 8
+
+- name: Many as One
+  char: mindthief
+  image: mindthief-9-0.jpg
+  level: 9
+
+- name: Phantasmal Killer
+  char: mindthief
+  image: mindthief-9-1.jpg
+  level: 9
+
+- name: Frigid Apparition
+  char: mindthief
+  image: mindthief-x-0.jpg
+  level: X
+
+- name: Withering Claw
+  char: mindthief
+  image: mindthief-x-1.jpg
+  level: X
+
+- name: Possession
+  char: mindthief
+  image: mindthief-x-2.jpg
+  level: X
+
+# Scoundrel
+- name: Special Mixture
+  char: scoundrel
+  image: scoundrel-1-0.jpg
+  level: 1
+
+- name: Quick Hands
+  char: scoundrel
+  image: scoundrel-1-1.jpg
+  level: 1
+
+- name: Single Out
+  char: scoundrel
+  image: scoundrel-1-2.jpg
+  level: 1
+
+- name: Flanking Strike
+  char: scoundrel
+  image: scoundrel-1-3.jpg
+  level: 1
+
+- name: Smoke Bomb
+  char: scoundrel
+  image: scoundrel-1-4.jpg
+  level: 1
+
+- name: Backstab
+  char: scoundrel
+  image: scoundrel-1-5.jpg
+  level: 1
+
+- name: Thief's Knack
+  char: scoundrel
+  image: scoundrel-1-6.jpg
+  level: 1
+
+- name: Venom Shiv
+  char: scoundrel
+  image: scoundrel-1-7.jpg
+  level: 1
+
+- name: Throwing Knives
+  char: scoundrel
+  image: scoundrel-1-8.jpg
+  level: 1
+
+- name: Open Wound
+  char: scoundrel
+  image: scoundrel-2-0.jpg
+  level: 2
+
+- name: Flintlock
+  char: scoundrel
+  image: scoundrel-2-1.jpg
+  level: 2
+
+- name: Hidden Daggers
+  char: scoundrel
+  image: scoundrel-3-0.jpg
+  level: 3
+
+- name: Duelist's Advance
+  char: scoundrel
+  image: scoundrel-3-1.jpg
+  level: 3
+
+- name: Flurry of Blades
+  char: scoundrel
+  image: scoundrel-4-0.jpg
+  level: 4
+
+- name: Gruesome Advantage
+  char: scoundrel
+  image: scoundrel-4-1.jpg
+  level: 4
+
+- name: Visage of the Inevitable
+  char: scoundrel
+  image: scoundrel-5-0.jpg
+  level: 5
+
+- name: Cull the Weak
+  char: scoundrel
+  image: scoundrel-5-1.jpg
+  level: 5
+
+- name: Crippling Poison
+  char: scoundrel
+  image: scoundrel-6-0.jpg
+  level: 6
+
+- name: Burning Oil
+  char: scoundrel
+  image: scoundrel-6-1.jpg
+  level: 6
+
+- name: Stick to the Shadows
+  char: scoundrel
+  image: scoundrel-7-0.jpg
+  level: 7
+
+- name: Spring the Trap
+  char: scoundrel
+  image: scoundrel-7-1.jpg
+  level: 7
+
+- name: Stiletto Storm
+  char: scoundrel
+  image: scoundrel-8-0.jpg
+  level: 8
+
+- name: Pain's End
+  char: scoundrel
+  image: scoundrel-8-1.jpg
+  level: 8
+
+- name: Long Con
+  char: scoundrel
+  image: scoundrel-9-0.jpg
+  level: 9
+
+- name: Watch It Burn
+  char: scoundrel
+  image: scoundrel-9-1.jpg
+  level: 9
+
+- name: Trickster's Reversal
+  char: scoundrel
+  image: scoundrel-x-0.jpg
+  level: X
+
+- name: Swift Bow
+  char: scoundrel
+  image: scoundrel-x-1.jpg
+  level: X
+
+- name: Sinister Opportunity
+  char: scoundrel
+  image: scoundrel-x-2.jpg
+  level: X
+
+# Spellweaver
+- name: Fire Orbs
+  char: spellweaver
+  image: spellweaver-1-0.jpg
+  level: 1
+
+- name: Impaling Eruption
+  char: spellweaver
+  image: spellweaver-1-1.jpg
+  level: 1
+
+- name: Reviving Ether
+  char: spellweaver
+  image: spellweaver-1-2.jpg
+  level: 1
+
+- name: Freezing Nova
+  char: spellweaver
+  image: spellweaver-1-3.jpg
+  level: 1
+
+- name: Mana Bolt
+  char: spellweaver
+  image: spellweaver-1-4.jpg
+  level: 1
+
+- name: Frost Armor
+  char: spellweaver
+  image: spellweaver-1-5.jpg
+  level: 1
+
+- name: Flame Strike
+  char: spellweaver
+  image: spellweaver-1-6.jpg
+  level: 1
+
+- name: Ride the Wind
+  char: spellweaver
+  image: spellweaver-1-7.jpg
+  level: 1
+
+- name: Flashing Burst
+  char: spellweaver
+  image: spellweaver-2-0.jpg
+  level: 2
+
+- name: Icy Blast
+  char: spellweaver
+  image: spellweaver-2-1.jpg
+  level: 2
+
+- name: Cold Fire
+  char: spellweaver
+  image: spellweaver-3-0.jpg
+  level: 3
+
+- name: Elemental Aid
+  char: spellweaver
+  image: spellweaver-3-1.jpg
+  level: 3
+
+- name: Spirit of Doom
+  char: spellweaver
+  image: spellweaver-4-0.jpg
+  level: 4
+
+- name: Forked Beam
+  char: spellweaver
+  image: spellweaver-4-1.jpg
+  level: 4
+
+- name: Chromatic Explosion
+  char: spellweaver
+  image: spellweaver-5-0.jpg
+  level: 5
+
+- name: Engulfed in Flames
+  char: spellweaver
+  image: spellweaver-5-1.jpg
+  level: 5
+
+- name: Living Torch
+  char: spellweaver
+  image: spellweaver-6-0.jpg
+  level: 6
+
+- name: Frozen Night
+  char: spellweaver
+  image: spellweaver-6-1.jpg
+  level: 6
+
+- name: Twin Restoration
+  char: spellweaver
+  image: spellweaver-7-0.jpg
+  level: 7
+
+- name: Stone Fists
+  char: spellweaver
+  image: spellweaver-7-1.jpg
+  level: 7
+
+- name: Zephyr Wings
+  char: spellweaver
+  image: spellweaver-8-0.jpg
+  level: 8
+
+- name: Cold Front
+  char: spellweaver
+  image: spellweaver-8-1.jpg
+  level: 8
+
+- name: Black Hole
+  char: spellweaver
+  image: spellweaver-9-0.jpg
+  level: 9
+
+- name: Inferno
+  char: spellweaver
+  image: spellweaver-9-1.jpg
+  level: 9
+
+- name: Crackling Air
+  char: spellweaver
+  image: spellweaver-x-0.jpg
+  level: X
+
+- name: Hardened Spikes
+  char: spellweaver
+  image: spellweaver-x-1.jpg
+  level: X
+
+- name: Aid from the Ether
+  char: spellweaver
+  image: spellweaver-x-2.jpg
+  level: X
+
+# Tinkerer
+- name: Proximity Mine
+  char: tinkerer
+  image: tinkerer-1-0.jpg
+  level: 1
+
+- name: Harmless Contraption
+  char: tinkerer
+  image: tinkerer-1-1.jpg
+  level: 1
+
+- name: Flamethrower
+  char: tinkerer
+  image: tinkerer-1-2.jpg
+  level: 1
+
+- name: Hook Gun
+  char: tinkerer
+  image: tinkerer-1-3.jpg
+  level: 1
+
+- name: Ink Bomb
+  char: tinkerer
+  image: tinkerer-1-4.jpg
+  level: 1
+
+- name: Net Shooter
+  char: tinkerer
+  image: tinkerer-1-5.jpg
+  level: 1
+
+- name: Stun Shot
+  char: tinkerer
+  image: tinkerer-1-6.jpg
+  level: 1
+
+- name: Reinvigorating Elixir
+  char: tinkerer
+  image: tinkerer-1-7.jpg
+  level: 1
+
+- name: Restorative Mist
+  char: tinkerer
+  image: tinkerer-1-8.jpg
+  level: 1
+
+- name: Energizing Tonic
+  char: tinkerer
+  image: tinkerer-1-9.jpg
+  level: 1
+
+- name: Enhancement Field
+  char: tinkerer
+  image: tinkerer-1-10.jpg
+  level: 1
+
+- name: Toxic Bolt
+  char: tinkerer
+  image: tinkerer-1-11.jpg
+  level: 1
+
+- name: Stamina Booster
+  char: tinkerer
+  image: tinkerer-2-0.jpg
+  level: 2
+
+- name: Disorienting Flash
+  char: tinkerer
+  image: tinkerer-2-1.jpg
+  level: 2
+
+- name: Tinkerer's Tools
+  char: tinkerer
+  image: tinkerer-3-0.jpg
+  level: 3
+
+- name: Crank Bow
+  char: tinkerer
+  image: tinkerer-3-1.jpg
+  level: 3
+
+- name: Dangerous Contraption
+  char: tinkerer
+  image: tinkerer-4-0.jpg
+  level: 4
+
+- name: Micro Bots
+  char: tinkerer
+  image: tinkerer-4-1.jpg
+  level: 4
+
+- name: Noxious Vials
+  char: tinkerer
+  image: tinkerer-5-0.jpg
+  level: 5
+
+- name: Disintegration Beam
+  char: tinkerer
+  image: tinkerer-5-1.jpg
+  level: 5
+
+- name: Gas Canister
+  char: tinkerer
+  image: tinkerer-6-0.jpg
+  level: 6
+
+- name: Auto Turret
+  char: tinkerer
+  image: tinkerer-6-1.jpg
+  level: 6
+
+- name: Murderous Contraption
+  char: tinkerer
+  image: tinkerer-7-0.jpg
+  level: 7
+
+- name: Curative Aerosol
+  char: tinkerer
+  image: tinkerer-7-1.jpg
+  level: 7
+
+- name: Jet Propulsion
+  char: tinkerer
+  image: tinkerer-8-0.jpg
+  level: 8
+
+- name: Harsh Stimulants
+  char: tinkerer
+  image: tinkerer-8-1.jpg
+  level: 8
+
+- name: Lethal Injection
+  char: tinkerer
+  image: tinkerer-9-0.jpg
+  level: 9
+
+- name: Chimeric Formula
+  char: tinkerer
+  image: tinkerer-9-1.jpg
+  level: 9
+
+- name: Reviving Shock
+  char: tinkerer
+  image: tinkerer-x-0.jpg
+  level: X
+
+- name: Volatile Concoction
+  char: tinkerer
+  image: tinkerer-x-1.jpg
+  level: X
+
+- name: Potent Potables
+  char: tinkerer
+  image: tinkerer-x-2.jpg
+  level: X
