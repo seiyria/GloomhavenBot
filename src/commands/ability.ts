@@ -16,7 +16,7 @@ const Characters = {
   'cthulhu': ['plagueherald'],
   'diviner': [],
   'eclipse': ['nightshroud'],
-  'lightning': ['berserker'],
+  'lightning': ['lightningbolts', 'berserker'],
   'manifestation-of-corruption': ['manifestation'],
   'mindthief': [],
   'music-note': ['musicnote', 'soothsinger'],
@@ -52,7 +52,9 @@ export class AbilityCommand implements ICommand {
     const { message, args } = cmdArgs;
 
     const [potentialChar, potentialLevel] = args.split(' ').map((a) => a.toLowerCase());
-    if (AllCharacterAliases[potentialChar]) {
+    const realChar = AllCharacterAliases[potentialChar];
+
+    if (realChar) {
 
       if (!potentialLevel) {
         message.channel.send(`You need to specify a level, like so: \`!ability brute 2\`.`);
@@ -60,15 +62,15 @@ export class AbilityCommand implements ICommand {
       }
 
       const cards = potentialLevel
-                  ? this.abilityService.getGloomAbilitiesByCharacterLevel(potentialChar, potentialLevel)
-                  : this.abilityService.getGloomAbilitiesByCharacter(potentialChar);
+                  ? this.abilityService.getGloomAbilitiesByCharacterLevel(realChar, potentialLevel)
+                  : this.abilityService.getGloomAbilitiesByCharacter(realChar);
 
       if (cards.length === 0) {
         message.channel.send(`Sorry! I could not find any cards for that character/level combination.`);
         return;
       }
 
-      const path = `assets/tmp/${potentialChar}-${potentialLevel || 'all'}.jpg`;
+      const path = `assets/tmp/${realChar}-${potentialLevel || 'all'}.jpg`;
 
       if (!fs.existsSync(path)) {
         const allImages = await Promise.all(cards.map((c) => Jimp.read(c.longImage)));

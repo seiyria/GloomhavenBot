@@ -879,3 +879,1921 @@
   char: tinkerer
   image: tinkerer-x-2.jpg
   level: X
+
+# cthulhu / Summoner
+- name: Forged Ferocity
+  char: circles
+  image: circles-17.jpg
+  level: 1
+
+- name: Wild Animation
+  char: circles
+  image: circles-18.jpg
+  level: 1
+
+- name: Living Night
+  char: circles
+  image: circles-19.jpg
+  level: 1
+
+- name: Unending Dominance
+  char: circles
+  image: circles-20.jpg
+  level: 1
+
+- name: Unwavering Hand
+  char: circles
+  image: circles-21.jpg
+  level: 1
+
+- name: Mighty Bond
+  char: circles
+  image: circles-22.jpg
+  level: 1
+
+- name: Bonded Might
+  char: circles
+  image: circles-23.jpg
+  level: 1
+
+- name: Biting Wind
+  char: circles
+  image: circles-24.jpg
+  level: 1
+
+- name: Black Fire
+  char: circles
+  image: circles-25.jpg
+  level: 1
+
+- name: Earthen Seed
+  char: circles
+  image: circles-1.jpg
+  level: 2
+
+- name: Grasping the Void
+  char: circles
+  image: circles-2.jpg
+  level: 2
+
+- name: Tear the Fabric
+  char: circles
+  image: circles-3.jpg
+  level: 3
+
+- name: Oozing Manifestation
+  char: circles
+  image: circles-4.jpg
+  level: 3
+
+- name: Living Mountain
+  char: circles
+  image: circles-5.jpg
+  level: 4
+
+- name: Divided Wind
+  char: circles
+  image: circles-6.jpg
+  level: 4
+
+- name: Strength In Numbers
+  char: circles
+  image: circles-7.jpg
+  level: 5
+
+- name: Conjured Aid
+  char: circles
+  image: circles-8.jpg
+  level: 5
+
+- name: Endless Spikes
+  char: circles
+  image: circles-9.jpg
+  level: 6
+
+- name: Inexorable Momentum
+  char: circles
+  image: circles-10.jpg
+  level: 6
+
+- name: Negative Energy
+  char: circles
+  image: circles-11.jpg
+  level: 7
+
+- name: Staff of Visions
+  char: circles
+  image: circles-12.jpg
+  level: 7
+
+- name: Intervening Apparatus
+  char: circles
+  image: circles-13.jpg
+  level: 8
+
+- name: Otherworldly Rage
+  char: circles
+  image: circles-14.jpg
+  level: 8
+
+- name: Interplanar Mastery
+  char: circles
+  image: circles-15.jpg
+  level: 9
+
+- name: Horned Majesty
+  char: circles
+  image: circles-16.jpg
+  level: 9
+
+- name: Ethereal Vines
+  char: circles
+  image: circles-0.jpg
+  level: X
+
+- name: Leathery Wings
+  char: circles
+  image: circles-26.jpg
+  level: X
+
+- name: Volatile Flame
+  char: circles
+  image: circles-27.jpg
+  level: X
+
+# Cthulhu / Plagueherald
+- name: Winged Congregation
+  char: cthulhu
+  image: cthulhu-0.jpg
+  level: 1
+
+- name: Creeping Curse
+  char: cthulhu
+  image: cthulhu-1.jpg
+  level: 1
+
+- name: Gathering Doom
+  char: cthulhu
+  image: cthulhu-2.jpg
+  level: 1
+
+- name: Paralyzing Bite
+  char: cthulhu
+  image: cthulhu-3.jpg
+  level: 1
+
+- name: Foul Wind
+  char: cthulhu
+  image: cthulhu-4.jpg
+  level: 1
+
+- name: Scattered Terror
+  char: cthulhu
+  image: cthulhu-5.jpg
+  level: 1
+
+- name: Vile Pestilence
+  char: cthulhu
+  image: cthulhu-25.jpg
+  level: 1
+
+- name: Grasping Vermin
+  char: cthulhu
+  image: cthulhu-26.jpg
+  level: 1
+
+- name: Wretched Swarm
+  char: cthulhu
+  image: cthulhu-27.jpg
+  level: 1
+
+- name: Spread the Plague
+  char: cthulhu
+  image: cthulhu-28.jpg
+  level: 1
+
+- name: Biting Gnats
+  char: cthulhu
+  image: cthulhu-29.jpg
+  level: 1
+
+- name: Under the Skin
+  char: cthulhu
+  image: cthulhu-9.jpg
+  level: 2
+
+- name: Rot Maggots
+  char: cthulhu
+  image: cthulhu-10.jpg
+  level: 2
+
+- name: Succumb to the Gift
+  char: cthulhu
+  image: cthulhu-11.jpg
+  level: 3
+
+- name: Fetid Flurry
+  char: cthulhu
+  image: cthulhu-12.jpg
+  level: 3
+
+- name: Storm of Wings
+  char: cthulhu
+  image: cthulhu-13.jpg
+  level: 4
+
+- name: Nightmarish Affliction
+  char: cthulhu
+  image: cthulhu-14.jpg
+  level: 4
+
+- name: Accelerated End
+  char: cthulhu
+  image: cthulhu-15.jpg
+  level: 5
+
+- name: Willing Sacrifice
+  char: cthulhu
+  image: cthulhu-16.jpg
+  level: 5
+
+- name: Stinging Cloud
+  char: cthulhu
+  image: cthulhu-17.jpg
+  level: 6
+
+- name: Black Tides
+  char: cthulhu
+  image: cthulhu-18.jpg
+  level: 6
+
+- name: Airborne Toxin
+  char: cthulhu
+  image: cthulhu-19.jpg
+  level: 7
+
+- name: Baneful Hex
+  char: cthulhu
+  image: cthulhu-20.jpg
+  level: 7
+
+- name: Spreading Scourge
+  char: cthulhu
+  image: cthulhu-21.jpg
+  level: 8
+
+- name: Grim Bargain
+  char: cthulhu
+  image: cthulhu-22.jpg
+  level: 8
+
+- name: Mass Extinction
+  char: cthulhu
+  image: cthulhu-23.jpg
+  level: 9
+
+- name: Convert the Flock
+  char: cthulhu
+  image: cthulhu-24.jpg
+  level: 9
+
+- name: Epidemic
+  char: cthulhu
+  image: cthulhu-6.jpg
+  level: X
+
+- name: Virulent Strain
+  char: cthulhu
+  image: cthulhu-7.jpg
+  level: X
+
+- name: Blistering Vortex
+  char: cthulhu
+  image: cthulhu-8.jpg
+  level: X
+
+# Diviner
+- name: Peer Into Battle
+  char: diviner
+  image: diviner-0.jpg
+  level: 1
+
+- name: Anticipate Intricacies
+  char: diviner
+  image: diviner-1.jpg
+  level: 1
+
+- name: Protective Aura
+  char: diviner
+  image: diviner-2.jpg
+  level: 1
+
+- name: Clairvoyance
+  char: diviner
+  image: diviner-3.jpg
+  level: 1
+
+- name: Otherworldly Journey
+  char: diviner
+  image: diviner-4.jpg
+  level: 1
+
+- name: Ray of Light
+  char: diviner
+  image: diviner-5.jpg
+  level: 1
+
+- name: Dimensional Transfer
+  char: diviner
+  image: diviner-6.jpg
+  level: 1
+
+- name: Void Snare
+  char: diviner
+  image: diviner-7.jpg
+  level: 1
+
+- name: Cursed Ground
+  char: diviner
+  image: diviner-8.jpg
+  level: 1
+
+- name: Revitalizing Fount
+  char: diviner
+  image: diviner-12.jpg
+  level: 2
+
+- name: Gift of the Void
+  char: diviner
+  image: diviner-13.jpg
+  level: 2
+
+- name: Envision the Course
+  char: diviner
+  image: diviner-14.jpg
+  level: 3
+
+- name: Call of the Aether
+  char: diviner
+  image: diviner-15.jpg
+  level: 3
+
+- name: Preordain the Path
+  char: diviner
+  image: diviner-16.jpg
+  level: 4
+
+- name: Cleansing Rite
+  char: diviner
+  image: diviner-17.jpg
+  level: 4
+
+- name: Seal Their Fate
+  char: diviner
+  image: diviner-18.jpg
+  level: 5
+
+- name: Dimensional Divide
+  char: diviner
+  image: diviner-19.jpg
+  level: 5
+
+- name: Enfeebling Hex
+  char: diviner
+  image: diviner-20.jpg
+  level: 6
+
+- name: Careful Attunement
+  char: diviner
+  image: diviner-21.jpg
+  level: 6
+
+- name: Curative Flux
+  char: diviner
+  image: diviner-22.jpg
+  level: 7
+
+- name: Ethereal Vortex
+  char: diviner
+  image: diviner-23.jpg
+  level: 7
+
+- name: Deep Contemplation
+  char: diviner
+  image: diviner-24.jpg
+  level: 8
+
+- name: Anguish and Salvation
+  char: diviner
+  image: diviner-25.jpg
+  level: 8
+
+- name: Hand of Destiny
+  char: diviner
+  image: diviner-26.jpg
+  level: 9
+
+- name: Planar Fissure
+  char: diviner
+  image: diviner-27.jpg
+  level: 9
+
+- name: Bad Omen
+  char: diviner
+  image: diviner-9.jpg
+  level: X
+
+- name: Inspiration From Beyond
+  char: diviner
+  image: diviner-10.jpg
+  level: X
+
+- name: Duality Shards
+  char: diviner
+  image: diviner-11.jpg
+  level: X
+
+# Eclipse / Nightshroud
+- name: Black Knives
+  char: eclipse
+  image: eclipse-18.jpg
+  level: 1
+
+- name: Cloak of Shade
+  char: eclipse
+  image: eclipse-19.jpg
+  level: 1
+
+- name: Empowering Void
+  char: eclipse
+  image: eclipse-20.jpg
+  level: 1
+
+- name: Doomed Breeze
+  char: eclipse
+  image: eclipse-21.jpg
+  level: 1
+
+- name: Enervating Wound
+  char: eclipse
+  image: eclipse-22.jpg
+  level: 1
+
+- name: Spirit of the Night
+  char: eclipse
+  image: eclipse-23.jpg
+  level: 1
+
+- name: Dancing Shadows
+  char: eclipse
+  image: eclipse-24.jpg
+  level: 1
+
+- name: Silent Force
+  char: eclipse
+  image: eclipse-25.jpg
+  level: 1
+
+- name: Smoke Step
+  char: eclipse
+  image: eclipse-26.jpg
+  level: 1
+
+- name: Prepare For the Kill
+  char: eclipse
+  image: eclipse-2.jpg
+  level: 2
+
+- name: Soulfire
+  char: eclipse
+  image: eclipse-3.jpg
+  level: 2
+
+- name: Terror Blade
+  char: eclipse
+  image: eclipse-4.jpg
+  level: 3
+
+- name: Armor of the Night
+  char: eclipse
+  image: eclipse-5.jpg
+  level: 3
+
+- name: Nightfall
+  char: eclipse
+  image: eclipse-6.jpg
+  level: 4
+
+- name: Grim Sustenance
+  char: eclipse
+  image: eclipse-7.jpg
+  level: 4
+
+- name: Claws of the Night
+  char: eclipse
+  image: eclipse-8.jpg
+  level: 5
+
+- name: Black Arrow
+  char: eclipse
+  image: eclipse-9.jpg
+  level: 5
+
+- name: Unseen Dread
+  char: eclipse
+  image: eclipse-10.jpg
+  level: 6
+
+- name: Swallowed By Fear
+  char: eclipse
+  image: eclipse-11.jpg
+  level: 6
+
+- name: Eyes of the Night
+  char: eclipse
+  image: eclipse-12.jpg
+  level: 7
+
+- name: Quiet Frenzy
+  char: eclipse
+  image: eclipse-13.jpg
+  level: 7
+
+- name: Gloom Darts
+  char: eclipse
+  image: eclipse-14.jpg
+  level: 8
+
+- name: Lurking Ruin
+  char: eclipse
+  image: eclipse-15.jpg
+  level: 8
+
+- name: Angel of Death
+  char: eclipse
+  image: eclipse-16.jpg
+  level: 9
+
+- name: Voice of the Night
+  char: eclipse
+  image: eclipse-17.jpg
+  level: 9
+
+- name: Concealed Dominance
+  char: eclipse
+  image: eclipse-0.jpg
+  level: X
+
+- name: Dark Cloud
+  char: eclipse
+  image: eclipse-1.jpg
+  level: X
+
+- name: Wings of the Night
+  char: eclipse
+  image: eclipse-27.jpg
+  level: X
+
+# Lightning / Berserker
+- name: Resolute Stand
+  char: lightning
+  image: lightning-17.jpg
+  level: 1
+
+- name: Glowing Rage
+  char: lightning
+  image: lightning-18.jpg
+  level: 1
+
+- name: Strength of Agony
+  char: lightning
+  image: lightning-19.jpg
+  level: 1
+
+- name: Defiance of Death
+  char: lightning
+  image: lightning-20.jpg
+  level: 1
+
+- name: From the Brink
+  char: lightning
+  image: lightning-21.jpg
+  level: 1
+
+- name: Blood Pact
+  char: lightning
+  image: lightning-22.jpg
+  level: 1
+
+- name: Cauterize
+  char: lightning
+  image: lightning-23.jpg
+  level: 1
+
+- name: Dazing Wound
+  char: lightning
+  image: lightning-24.jpg
+  level: 1
+
+- name: Furious Aid
+  char: lightning
+  image: lightning-25.jpg
+  level: 1
+
+- name: Bounce Back
+  char: lightning
+  image: lightning-26.jpg
+  level: 1
+
+- name: Reckless Offensive
+  char: lightning
+  image: lightning-1.jpg
+  level: 2
+
+- name: Break the Chains
+  char: lightning
+  image: lightning-2.jpg
+  level: 2
+
+- name: Spiked Armor
+  char: lightning
+  image: lightning-3.jpg
+  level: 3
+
+- name: Fatal Fury
+  char: lightning
+  image: lightning-4.jpg
+  level: 3
+
+- name: Flurry of Axes
+  char: lightning
+  image: lightning-5.jpg
+  level: 4
+
+- name: Shiny Distraction
+  char: lightning
+  image: lightning-6.jpg
+  level: 4
+
+- name: Seeing Red
+  char: lightning
+  image: lightning-7.jpg
+  level: 5
+
+- name: Final Fight
+  char: lightning
+  image: lightning-8.jpg
+  level: 5
+
+- name: Devil Horns
+  char: lightning
+  image: lightning-9.jpg
+  level: 6
+
+- name: Unstoppable Destruction
+  char: lightning
+  image: lightning-10.jpg
+  level: 6
+
+- name: Burning Hatred
+  char: lightning
+  image: lightning-11.jpg
+  level: 7
+
+- name: Careless Charge
+  char: lightning
+  image: lightning-12.jpg
+  level: 7
+
+- name: Bone Breaker
+  char: lightning
+  image: lightning-13.jpg
+  level: 8
+
+- name: Vengeful Barrage
+  char: lightning
+  image: lightning-14.jpg
+  level: 8
+
+- name: Immortality
+  char: lightning
+  image: lightning-15.jpg
+  level: 9
+
+- name: The Maw of Madness
+  char: lightning
+  image: lightning-16.jpg
+  level: 9
+
+- name: Concealed Dominance
+  char: lightning
+  image: lightning-0.jpg
+  level: X
+
+- name: Unbridled Power
+  char: lightning
+  image: lightning-27.jpg
+  level: X
+
+- name: Glass Hammer
+  char: lightning
+  image: lightning-28.jpg
+  level: X
+
+# Music Note / Soothsinger
+- name: Power Ballad
+  char: music-note
+  image: music-note-15.jpg
+  level: 1
+
+- name: Defensive Ditty
+  char: music-note
+  image: music-note-16.jpg
+  level: 1
+
+- name: Song of Speed
+  char: music-note
+  image: music-note-17.jpg
+  level: 1
+
+- name: Tuning the Outcome
+  char: music-note
+  image: music-note-18.jpg
+  level: 1
+
+- name: Call to Action
+  char: music-note
+  image: music-note-19.jpg
+  level: 1
+
+- name: Warding Dagger
+  char: music-note
+  image: music-note-20.jpg
+  level: 1
+
+- name: Throw Voice
+  char: music-note
+  image: music-note-21.jpg
+  level: 1
+
+- name: Singing Arrow
+  char: music-note
+  image: music-note-22.jpg
+  level: 1
+
+- name: Marching Beat
+  char: music-note
+  image: music-note-23.jpg
+  level: 1
+
+- name: Soothing Lullaby
+  char: music-note
+  image: music-note-27.jpg
+  level: 2
+
+- name: Change Tempo
+  char: music-note
+  image: music-note-0.jpg
+  level: 2
+
+- name: Echoing Aria
+  char: music-note
+  image: music-note-1.jpg
+  level: 3
+
+- name: Crippling Chorus
+  char: music-note
+  image: music-note-2.jpg
+  level: 3
+
+- name: Disorienting Dirge
+  char: music-note
+  image: music-note-3.jpg
+  level: 4
+
+- name: Inspiring Anthem
+  char: music-note
+  image: music-note-4.jpg
+  level: 4
+
+- name: Melody and Harmony
+  char: music-note
+  image: music-note-5.jpg
+  level: 5
+
+- name: Mobilizing Measure
+  char: music-note
+  image: music-note-6.jpg
+  level: 5
+
+- name: Pull the Strings
+  char: music-note
+  image: music-note-7.jpg
+  level: 6
+
+- name: Provoke Terror
+  char: music-note
+  image: music-note-8.jpg
+  level: 6
+
+- name: Nightmare Serenade
+  char: music-note
+  image: music-note-9.jpg
+  level: 7
+
+- name: Booming Proclamation
+  char: music-note
+  image: music-note-10.jpg
+  level: 7
+
+- name: Tranquil Trill
+  char: music-note
+  image: music-note-11.jpg
+  level: 8
+
+- name: Commanding Presence
+  char: music-note
+  image: music-note-12.jpg
+  level: 8
+
+- name: Captivating Performance
+  char: music-note
+  image: music-note-13.jpg
+  level: 9
+
+- name: Shadow Puppets
+  char: music-note
+  image: music-note-14.jpg
+  level: 9
+
+- name: Wistful Wounding
+  char: music-note
+  image: music-note-24.jpg
+  level: X
+
+- name: Unending Chant
+  char: music-note
+  image: music-note-25.jpg
+  level: X
+
+- name: Nimble Knife
+  char: music-note
+  image: music-note-26.jpg
+  level: X
+
+# Saw / Sawbones
+- name: Battlefield Medicine
+  char: saw
+  image: saw-0.jpg
+  level: 1
+
+- name: Triage
+  char: saw
+  image: saw-1.jpg
+  level: 1
+
+- name: Mobile Response
+  char: saw
+  image: saw-2.jpg
+  level: 1
+
+- name: First Aid
+  char: saw
+  image: saw-33.jpg
+  level: 1
+
+- name: Hand of the Surgeon
+  char: saw
+  image: saw-34.jpg
+  level: 1
+
+- name: Hold Back the Pain
+  char: saw
+  image: saw-35.jpg
+  level: 1
+
+- name: Booster Shot
+  char: saw
+  image: saw-36.jpg
+  level: 1
+
+- name: Bloody Saw
+  char: saw
+  image: saw-37.jpg
+  level: 1
+
+- name: Curative Mixture
+  char: saw
+  image: saw-38.jpg
+  level: 1
+
+- name: Syringe
+  char: saw
+  image: saw-39.jpg
+  level: 1
+
+- name: Hamstring
+  char: saw
+  image: saw-17.jpg
+  level: 2
+
+- name: Precaution
+  char: saw
+  image: saw-18.jpg
+  level: 2
+
+- name: Regenerative Tissue
+  char: saw
+  image: saw-19.jpg
+  level: 3
+
+- name: Vital Strike
+  char: saw
+  image: saw-20.jpg
+  level: 3
+
+- name: Blood Transfusion
+  char: saw
+  image: saw-21.jpg
+  level: 4
+
+- name: Do No Harm
+  char: saw
+  image: saw-22.jpg
+  level: 4
+
+- name: Research the Cure
+  char: saw
+  image: saw-23.jpg
+  level: 5
+
+- name: Amputate
+  char: saw
+  image: saw-24.jpg
+  level: 5
+
+- name: Euthanize
+  char: saw
+  image: saw-25.jpg
+  level: 6
+
+- name: Prescription
+  char: saw
+  image: saw-26.jpg
+  level: 6
+
+- name: Master Physician
+  char: saw
+  image: saw-27.jpg
+  level: 7
+
+- name: Surgeon's Satchel
+  char: saw
+  image: saw-28.jpg
+  level: 7
+
+- name: Bedside Manner
+  char: saw
+  image: saw-29.jpg
+  level: 8
+
+- name: Gentleman's Anger
+  char: saw
+  image: saw-30.jpg
+  level: 8
+
+- name: Prep For Surgery
+  char: saw
+  image: saw-31.jpg
+  level: 9
+
+- name: Grisly Trauma
+  char: saw
+  image: saw-32.jpg
+  level: 9
+
+- name: Prevention is Key
+  char: saw
+  image: saw-14.jpg
+  level: X
+
+- name: Teamwork
+  char: saw
+  image: saw-15.jpg
+  level: X
+
+- name: Vaccine
+  char: saw
+  image: saw-16.jpg
+  level: X
+
+- name: Medical Pack
+  char: saw
+  image: saw-3.jpg
+  level: M
+
+- name: Large Medical Pack
+  char: saw
+  image: saw-10.jpg
+  level: M
+
+# Spike Head / Doomstalker
+- name: Vital Charge
+  char: spike-head
+  image: spike-head-0.jpg
+  level: 1
+
+- name: Race to the Grave
+  char: spike-head
+  image: spike-head-1.jpg
+  level: 1
+
+- name: Multi-Pronged Assault
+  char: spike-head
+  image: spike-head-2.jpg
+  level: 1
+
+- name: Detonation
+  char: spike-head
+  image: spike-head-3.jpg
+  level: 1
+
+- name: Frightening Curse
+  char: spike-head
+  image: spike-head-4.jpg
+  level: 1
+
+- name: Foot Snare
+  char: spike-head
+  image: spike-head-5.jpg
+  level: 1
+
+- name: Solid Bow
+  char: spike-head
+  image: spike-head-6.jpg
+  level: 1
+
+- name: A Moment's Peace
+  char: spike-head
+  image: spike-head-7.jpg
+  level: 1
+
+- name: Swift Trickery
+  char: spike-head
+  image: spike-head-8.jpg
+  level: 1
+
+- name: Rain of Arrows
+  char: spike-head
+  image: spike-head-28.jpg
+  level: 1
+
+- name: Crippling Noose
+  char: spike-head
+  image: spike-head-29.jpg
+  level: 1
+
+- name: Felling Swoop
+  char: spike-head
+  image: spike-head-30.jpg
+  level: 1
+
+- name: Expose
+  char: spike-head
+  image: spike-head-12.jpg
+  level: 2
+
+- name: Relentless Offensive
+  char: spike-head
+  image: spike-head-13.jpg
+  level: 2
+
+- name: Darkened Skies
+  char: spike-head
+  image: spike-head-14.jpg
+  level: 3
+
+- name: Press the Attack
+  char: spike-head
+  image: spike-head-15.jpg
+  level: 3
+
+- name: Singular Focus
+  char: spike-head
+  image: spike-head-16.jpg
+  level: 4
+
+- name: Flight of Flame
+  char: spike-head
+  image: spike-head-17.jpg
+  level: 4
+
+- name: Inescapable Fate
+  char: spike-head
+  image: spike-head-18.jpg
+  level: 5
+
+- name: Wild Command
+  char: spike-head
+  image: spike-head-19.jpg
+  level: 5
+
+- name: Nature's Hunger
+  char: spike-head
+  image: spike-head-20.jpg
+  level: 6
+
+- name: Camouflage
+  char: spike-head
+  image: spike-head-21.jpg
+  level: 6
+
+- name: Impending End
+  char: spike-head
+  image: spike-head-22.jpg
+  level: 7
+
+- name: Crashing Wave
+  char: spike-head
+  image: spike-head-23.jpg
+  level: 7
+
+- name: Rising Momentum
+  char: spike-head
+  image: spike-head-24.jpg
+  level: 8
+
+- name: Feral Instincts
+  char: spike-head
+  image: spike-head-25.jpg
+  level: 8
+
+- name: Predator and Prey
+  char: spike-head
+  image: spike-head-26.jpg
+  level: 9
+
+- name: Lead to Slaughter
+  char: spike-head
+  image: spike-head-27.jpg
+  level: 9
+
+- name: Sap Life
+  char: spike-head
+  image: spike-head-9.jpg
+  level: X
+
+- name: The Hunt Begins
+  char: spike-head
+  image: spike-head-10.jpg
+  level: X
+
+- name: Fresh Kill
+  char: spike-head
+  image: spike-head-11.jpg
+  level: X
+
+# Sun / Sunkeeper
+- name: Holy Strike
+  char: sun
+  image: sun-0.jpg
+  level: 1
+
+- name: Hammer Blow
+  char: sun
+  image: sun-1.jpg
+  level: 1
+
+- name: Defensive Stance
+  char: sun
+  image: sun-2.jpg
+  level: 1
+
+- name: Lay On Hands
+  char: sun
+  image: sun-3.jpg
+  level: 1
+
+- name: Purifying Aura
+  char: sun
+  image: sun-23.jpg
+  level: 1
+
+- name: Cautious Advance
+  char: sun
+  image: sun-24.jpg
+  level: 1
+
+- name: Brilliant Prayer
+  char: sun
+  image: sun-25.jpg
+  level: 1
+
+- name: Empowering Command
+  char: sun
+  image: sun-26.jpg
+  level: 1
+
+- name: Protective Blessing
+  char: sun
+  image: sun-27.jpg
+  level: 1
+
+- name: Dazzling Charge
+  char: sun
+  image: sun-28.jpg
+  level: 1
+
+- name: Tactical Order
+  char: sun
+  image: sun-29.jpg
+  level: 1
+
+- name: Practical Plans
+  char: sun
+  image: sun-7.jpg
+  level: 2
+
+- name: Unwavering Mandate
+  char: sun
+  image: sun-8.jpg
+  level: 2
+
+- name: Burning Flash
+  char: sun
+  image: sun-9.jpg
+  level: 3
+
+- name: Mobilizing Axiom
+  char: sun
+  image: sun-10.jpg
+  level: 3
+
+- name: Righteous Strength
+  char: sun
+  image: sun-11.jpg
+  level: 4
+
+- name: Engulfing Radiance
+  char: sun
+  image: sun-12.jpg
+  level: 4
+
+- name: Path of Glory
+  char: sun
+  image: sun-13.jpg
+  level: 5
+
+- name: Scales of Justice
+  char: sun
+  image: sun-14.jpg
+  level: 5
+
+- name: Supportive Chant
+  char: sun
+  image: sun-15.jpg
+  level: 6
+
+- name: Illuminate the Target
+  char: sun
+  image: sun-16.jpg
+  level: 6
+
+- name: Weapon of Purity
+  char: sun
+  image: sun-17.jpg
+  level: 7
+
+- name: Bright Aegis
+  char: sun
+  image: sun-18.jpg
+  level: 7
+
+- name: Cleansing Force
+  char: sun
+  image: sun-19.jpg
+  level: 8
+
+- name: Inspiring Sanctity
+  char: sun
+  image: sun-20.jpg
+  level: 8
+
+- name: Angelic Ascension
+  char: sun
+  image: sun-21.jpg
+  level: 9
+
+- name: Divine Intervention
+  char: sun
+  image: sun-22.jpg
+  level: 9
+
+- name: Daybreak
+  char: sun
+  image: sun-4.jpg
+  level: X
+
+- name: Beacon of Light
+  char: sun
+  image: sun-5.jpg
+  level: X
+
+- name: Glorious Bolt
+  char: sun
+  image: sun-6.jpg
+  level: X
+
+# Three Spears / Quartermaster
+- name: Restock
+  char: three-spears
+  image: three-spears-18.jpg
+  level: 1
+
+- name: Oversized Pack
+  char: three-spears
+  image: three-spears-19.jpg
+  level: 1
+
+- name: Sharpening Kit
+  char: three-spears
+  image: three-spears-20.jpg
+  level: 1
+
+- name: Proficiency
+  char: three-spears
+  image: three-spears-21.jpg
+  level: 1
+
+- name: Iron Bulwark
+  char: three-spears
+  image: three-spears-22.jpg
+  level: 1
+
+- name: Hastened Step
+  char: three-spears
+  image: three-spears-23.jpg
+  level: 1
+
+- name: Cleaving Axe
+  char: three-spears
+  image: three-spears-24.jpg
+  level: 1
+
+- name: Impaling Spear
+  char: three-spears
+  image: three-spears-25.jpg
+  level: 1
+
+- name: Crippling Bow
+  char: three-spears
+  image: three-spears-26.jpg
+  level: 1
+
+- name: Dazzling Charge
+  char: three-spears
+  image: three-spears-28.jpg
+  level: 1
+
+- name: Tactical Order
+  char: three-spears
+  image: three-spears-29.jpg
+  level: 1
+
+- name: Reforge
+  char: three-spears
+  image: three-spears-2.jpg
+  level: 2
+
+- name: Bladed Boomerang
+  char: three-spears
+  image: three-spears-3.jpg
+  level: 2
+
+- name: Continual Supply
+  char: three-spears
+  image: three-spears-4.jpg
+  level: 3
+
+- name: Scroll of Lightning
+  char: three-spears
+  image: three-spears-5.jpg
+  level: 3
+
+- name: Side Pouch
+  char: three-spears
+  image: three-spears-6.jpg
+  level: 4
+
+- name: Giant Club
+  char: three-spears
+  image: three-spears-7.jpg
+  level: 4
+
+- name: Reinforced Steel
+  char: three-spears
+  image: three-spears-8.jpg
+  level: 5
+
+- name: Scroll of Judgment
+  char: three-spears
+  image: three-spears-9.jpg
+  level: 5
+
+- name: Catastrophic Bomb
+  char: three-spears
+  image: three-spears-10.jpg
+  level: 6
+
+- name: Quiver of Arrows
+  char: three-spears
+  image: three-spears-11.jpg
+  level: 6
+
+- name: Scroll of Blizzards
+  char: three-spears
+  image: three-spears-12.jpg
+  level: 7
+
+- name: Refreshment
+  char: three-spears
+  image: three-spears-13.jpg
+  level: 7
+
+- name: Portable Ballista
+  char: three-spears
+  image: three-spears-14.jpg
+  level: 8
+
+- name: Fortified Position
+  char: three-spears
+  image: three-spears-15.jpg
+  level: 8
+
+- name: Scroll of Annihilation
+  char: three-spears
+  image: three-spears-16.jpg
+  level: 9
+
+- name: Bag of Holding
+  char: three-spears
+  image: three-spears-17.jpg
+  level: 9
+
+- name: Scroll of Recall
+  char: three-spears
+  image: three-spears-0.jpg
+  level: X
+
+- name: Reserved Energy
+  char: three-spears
+  image: three-spears-1.jpg
+  level: X
+
+- name: Crushing Hammer
+  char: three-spears
+  image: three-spears-27.jpg
+  level: X
+
+# Three Swords / Bladeswarm
+- name: Call of the Grave
+  char: three-swords
+  image: three-swords-3.jpg
+  level: 1
+
+- name: Corrupting Parasites
+  char: three-swords
+  image: three-swords-4.jpg
+  level: 1
+
+- name: Death March
+  char: three-swords
+  image: three-swords-5.jpg
+  level: 1
+
+- name: Deflecting Blades
+  char: three-swords
+  image: three-swords-6.jpg
+  level: 1
+
+- name: Engulfing Stingers
+  char: three-swords
+  image: three-swords-7.jpg
+  level: 1
+
+- name: Hive Mind
+  char: three-swords
+  image: three-swords-11.jpg
+  level: 1
+
+- name: Omniscient Assault
+  char: three-swords
+  image: three-swords-15.jpg
+  level: 1
+
+- name: Scattered Defense
+  char: three-swords
+  image: three-swords-19.jpg
+  level: 1
+
+- name: Swarming Minions
+  char: three-swords
+  image: three-swords-22.jpg
+  level: 1
+
+- name: The Storm's Edge
+  char: three-swords
+  image: three-swords-24.jpg
+  level: 1
+
+- name: Venomous Barbs
+  char: three-swords
+  image: three-swords-29.jpg
+  level: 1
+
+- name: Infest
+  char: three-swords
+  image: three-swords-13.jpg
+  level: 2
+
+- name: Vampiric Tempest
+  char: three-swords
+  image: three-swords-28.jpg
+  level: 2
+
+- name: Putrid Grubs
+  char: three-swords
+  image: three-swords-4.jpg
+  level: 3
+
+- name: Sand Scythe
+  char: three-swords
+  image: three-swords-17.jpg
+  level: 3
+
+- name: Incubation
+  char: three-swords
+  image: three-swords-18.jpg
+  level: 4
+
+- name: Sword of Tenacity
+  char: three-swords
+  image: three-swords-23.jpg
+  level: 4
+
+- name: Bioluminescence
+  char: three-swords
+  image: three-swords-0.jpg
+  level: 5
+
+- name: Bone Daggers
+  char: three-swords
+  image: three-swords-1.jpg
+  level: 5
+
+- name: Erosion
+  char: three-swords
+  image: three-swords-8.jpg
+  level: 6
+
+- name: Prismatic Cyclone
+  char: three-swords
+  image: three-swords-16.jpg
+  level: 6
+
+- name: Solitary Horde
+  char: three-swords
+  image: three-swords-20.jpg
+  level: 7
+
+- name: Sunstroke
+  char: three-swords
+  image: three-swords-21.jpg
+  level: 7
+
+- name: Blood Drain
+  char: three-swords
+  image: three-swords-1.jpg
+  level: 8
+
+- name: Focused Scourge
+  char: three-swords
+  image: three-swords-9.jpg
+  level: 8
+
+- name: Oasis
+  char: three-swords
+  image: three-swords-14.jpg
+  level: 9
+
+- name: Wasteland
+  char: three-swords
+  image: three-swords-30.jpg
+  level: 9
+
+- name: Grasping Advance
+  char: three-swords
+  image: three-swords-10.jpg
+  level: X
+
+- name: Tomb of the Immortal
+  char: three-swords
+  image: three-swords-25.jpg
+  level: X
+
+- name: Unstoppable Army
+  char: three-swords
+  image: three-swords-26.jpg
+  level: X
+
+# Triangles / Elementalist
+- name: Raw Enhancement
+  char: triangles
+  image: triangles-19.jpg
+  level: 1
+
+- name: Pure Augmentation
+  char: triangles
+  image: triangles-20.jpg
+  level: 1
+
+- name: Formless Power
+  char: triangles
+  image: triangles-21.jpg
+  level: 1
+
+- name: Shaping the Ether
+  char: triangles
+  image: triangles-22.jpg
+  level: 1
+
+- name: Stoking Hail
+  char: triangles
+  image: triangles-23.jpg
+  level: 1
+
+- name: Tremulant Cyclone
+  char: triangles
+  image: triangles-24.jpg
+  level: 1
+
+- name: Infernal Vortex
+  char: triangles
+  image: triangles-25.jpg
+  level: 1
+
+- name: Lava Eruption
+  char: triangles
+  image: triangles-26.jpg
+  level: 1
+
+- name: Ice Spikes
+  char: triangles
+  image: triangles-27.jpg
+  level: 1
+
+- name: Frigid Torrent
+  char: triangles
+  image: triangles-28.jpg
+  level: 1
+
+- name: Boiling Arc
+  char: triangles
+  image: triangles-3.jpg
+  level: 2
+
+- name: Crystallizing Blast
+  char: triangles
+  image: triangles-4.jpg
+  level: 2
+
+- name: Burial
+  char: triangles
+  image: triangles-5.jpg
+  level: 3
+
+- name: Chain Lightning
+  char: triangles
+  image: triangles-6.jpg
+  level: 3
+
+- name: Primal Duality
+  char: triangles
+  image: triangles-7.jpg
+  level: 4
+
+- name: Gravel Vortex
+  char: triangles
+  image: triangles-8.jpg
+  level: 4
+
+- name: Obsidian Shards
+  char: triangles
+  image: triangles-9.jpg
+  level: 5
+
+- name: Winter's Edge
+  char: triangles
+  image: triangles-10.jpg
+  level: 5
+
+- name: Eye of the Hurricane
+  char: triangles
+  image: triangles-11.jpg
+  level: 6
+
+- name: Simalcrum
+  char: triangles
+  image: triangles-12.jpg
+  level: 6
+
+- name: Vengeance
+  char: triangles
+  image: triangles-13.jpg
+  level: 7
+
+- name: Pragmatic Reinforcement
+  char: triangles
+  image: triangles-14.jpg
+  level: 7
+
+- name: Violent Consumption
+  char: triangles
+  image: triangles-15.jpg
+  level: 8
+
+- name: Elemental Aegis
+  char: triangles
+  image: triangles-16.jpg
+  level: 8
+
+- name: Ethereal Manifestation
+  char: triangles
+  image: triangles-17.jpg
+  level: 9
+
+- name: Eternal Equilibrium
+  char: triangles
+  image: triangles-18.jpg
+  level: 9
+
+- name: Malleable Evocation
+  char: triangles
+  image: triangles-0.jpg
+  level: X
+
+- name: Brilliant Flash
+  char: triangles
+  image: triangles-1.jpg
+  level: X
+
+- name: Encompassing Shadow
+  char: triangles
+  image: triangles-2.jpg
+  level: X
+
+# Two Minis / Beast Tyrant
+- name: Relentless Ally
+  char: two-minis
+  image: two-minis-0.jpg
+  level: 1
+
+- name: Concentrated Rage
+  char: two-minis
+  image: two-minis-1.jpg
+  level: 1
+
+- name: Disappearing Wounds
+  char: two-minis
+  image: two-minis-2.jpg
+  level: 1
+
+- name: Patch Fur
+  char: two-minis
+  image: two-minis-3.jpg
+  level: 1
+
+- name: Maul
+  char: two-minis
+  image: two-minis-4.jpg
+  level: 1
+
+- name: Forceful Swipe
+  char: two-minis
+  image: two-minis-5.jpg
+  level: 1
+
+- name: Howling Bolts
+  char: two-minis
+  image: two-minis-6.jpg
+  level: 1
+
+- name: Disorienting Roar
+  char: two-minis
+  image: two-minis-26.jpg
+  level: 1
+
+- name: Spirit Swap
+  char: two-minis
+  image: two-minis-27.jpg
+  level: 1
+
+- name: Venomous Ally
+  char: two-minis
+  image: two-minis-28.jpg
+  level: 1
+
+- name: Energizing Strike
+  char: two-minis
+  image: two-minis-10.jpg
+  level: 2
+
+- name: Earthen Spikes
+  char: two-minis
+  image: two-minis-11.jpg
+  level: 2
+
+- name: Vicious Ally
+  char: two-minis
+  image: two-minis-12.jpg
+  level: 3
+
+- name: Unstoppable Beast
+  char: two-minis
+  image: two-minis-13.jpg
+  level: 3
+
+- name: Ancient Ward
+  char: two-minis
+  image: two-minis-14.jpg
+  level: 4
+
+- name: Punch Through
+  char: two-minis
+  image: two-minis-15.jpg
+  level: 4
+
+- name: Rampage
+  char: two-minis
+  image: two-minis-16.jpg
+  level: 5
+
+- name: Stone Sigil
+  char: two-minis
+  image: two-minis-17.jpg
+  level: 5
+
+- name: Primal Blessing
+  char: two-minis
+  image: two-minis-18.jpg
+  level: 6
+
+- name: Blood Hunger
+  char: two-minis
+  image: two-minis-19.jpg
+  level: 6
+
+- name: Storm Sigil
+  char: two-minis
+  image: two-minis-20.jpg
+  level: 7
+
+- name: Tyrannical Force
+  char: two-minis
+  image: two-minis-21.jpg
+  level: 7
+
+- name: Lash Out
+  char: two-minis
+  image: two-minis-22.jpg
+  level: 8
+
+- name: Natural Remedy
+  char: two-minis
+  image: two-minis-23.jpg
+  level: 8
+
+- name: Jaws of Death
+  char: two-minis
+  image: two-minis-24.jpg
+  level: 9
+
+- name: Tribal Sigil
+  char: two-minis
+  image: two-minis-25.jpg
+  level: 9
+
+- name: Soaring Ally
+  char: two-minis
+  image: two-minis-7.jpg
+  level: X
+
+- name: Focused Aggresion
+  char: two-minis
+  image: two-minis-8.jpg
+  level: X
+
+- name: Borrowed Essence
+  char: two-minis
+  image: two-minis-9.jpg
+  level: X
