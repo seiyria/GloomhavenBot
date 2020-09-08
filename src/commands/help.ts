@@ -23,7 +23,10 @@ export class HelpCommand implements ICommand {
 ${this.helpService.allHelp.map(({ aliases, help }) => {
   return `__${aliases.map((x) => `\`${this.envService.commandPrefix}${x}\``).join(', ')}__\n${help}\n`;
 })
-.join('\n')}`
+.join('\n')}
+
+_For bot info, reach out to Seiyria#3457_
+`
     );
 
     if (message.channel.type !== 'dm') {
