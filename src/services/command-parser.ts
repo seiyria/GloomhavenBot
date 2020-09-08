@@ -1,15 +1,18 @@
 
 import * as Discord from 'discord.js';
-import { AutoWired, Singleton } from 'typescript-ioc';
+import { AutoWired, Inject, Singleton } from 'typescript-ioc';
 
 import { ICommandResult, ICommand } from '../interfaces';
 import { BaseService } from '../base/BaseService';
 
 import * as Commands from '../commands';
+import { HelpService } from './help';
 
 @Singleton
 @AutoWired
 export class CommandParser extends BaseService {
+
+  @Inject private helpService: HelpService;
 
   private executableCommands: { [key: string]: ICommand } = {};
 
@@ -50,12 +53,16 @@ export class CommandParser extends BaseService {
     const cmdInst = this.executableCommands[cmd];
     if (!cmdInst) { return; }
 
-    return cmdInst.execute({
-      debug: false,
-      args,
-      message,
-      user: message.author
-    });
+    try {
+      return await cmdInst.execute({
+        debug: false,
+        args,
+        message,
+        user: message.author
+      });
+    } catch (e) {
+      message.reply(`Oops, an error happened! ${e.message}`);
+    }
   }
 
   private loadCommands(commands) {
@@ -67,6 +74,10 @@ export class CommandParser extends BaseService {
   }
 
   private registerCommand(cmdInst: ICommand) {
+    if (cmdInst.help && cmdInst.aliases) {
+      this.helpService.addHelp({ command: cmdInst.constructor.name, aliases: cmdInst.aliases, help: cmdInst.help });
+    }
+
     if (cmdInst.aliases) {
       cmdInst.aliases.forEach((alias) => {
         if (this.executableCommands[alias]) {
@@ -75,7 +86,7 @@ export class CommandParser extends BaseService {
           );
         }
 
-        if (!cmdInst.execute) { throw new Error(`Command "${alias}" does not have an execute function.`); } 
+        if (!cmdInst.execute) { throw new Error(`Command "${alias}" does not have an execute function.`); }
         this.executableCommands[alias] = cmdInst;
       });
     }

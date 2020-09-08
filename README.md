@@ -1,7 +1,7 @@
 
-# Discord Bot Example
+# Gloomhaven Bot
 
-A sample bot framework for Discord using DI & typeorm.
+A discord bot for Gloomhaven-related lookups.
 
 ## Developing
 

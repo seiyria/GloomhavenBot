@@ -13,7 +13,7 @@ export class PresenceService extends BaseService {
     super.init(client);
 
     if (this.envService.ignorePresence) { return; }
-    this.setPresence('your custom status here, nerd');
+    this.setPresence('with Gloomhaven; !ghelp');
   }
 
   public setPresence(presence: string) {

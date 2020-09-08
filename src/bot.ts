@@ -8,13 +8,24 @@ import { LoggerService } from './services/logger';
 import { CommandParser } from './services/command-parser';
 import { PresenceService } from './services/presence';
 import { EnvService } from './services/env';
-import { BlankService } from './services/blank';
+import { EmojiService } from './services/emoji';
+import { ItemService } from './services/item';
+import { HelpService } from './services/help';
+import { TextParserService } from './services/text-parser';
+import { PersonalGoalService } from './services/personalgoal';
 
 export class Bot {
   @Inject private logger: LoggerService;
+
+  @Inject private helpService: HelpService;
   @Inject private envService: EnvService;
+  @Inject private emojiService: EmojiService;
+  @Inject private textParserService: TextParserService;
   @Inject private presenceService: PresenceService;
-  @Inject private blankService: BlankService;
+
+  @Inject private itemService: ItemService;
+  @Inject private pgoalService: PersonalGoalService;
+
   @Inject private commandParser: CommandParser;
 
   public async init() {
@@ -28,10 +39,18 @@ export class Bot {
     client.on('ready', () => {
       this.logger.log('Initialized bot!');
 
-      this.envService.init(client);
-      this.presenceService.init(client);
-      this.blankService.init(client);
-      this.commandParser.init(client);
+      [
+        this.helpService,
+        this.envService,
+        this.emojiService,
+        this.textParserService,
+        this.presenceService,
+
+        this.itemService,
+        this.pgoalService,
+
+        this.commandParser
+      ].forEach((s) => s.init(client));
     });
 
     client.on('message', async (msg) => {

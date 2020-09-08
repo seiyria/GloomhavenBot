@@ -1,7 +1,7 @@
 {
-  "name": "discordbotexample",
+  "name": "gloomhavenbot",
   "version": "1.0.0",
-  "description": "A sample bot framework for discord using DI & typeorm.",
+  "description": "A bot for Gloomhaven discords.",
   "main": "index.js",
   "engines": {
     "node": "10.11.0"
@@ -15,19 +15,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seiyria/DiscordBotExample.git"
+    "url": "git+https://github.com/seiyria/gloomhavenbot.git"
   },
   "author": "Kyle Kemp <kyle@seiyria.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/seiyria/DiscordBotExample/issues"
+    "url": "https://github.com/seiyria/gloomhavenbot/issues"
   },
-  "homepage": "https://github.com/seiyria/DiscordBotExample#readme",
+  "homepage": "https://github.com/seiyria/gloomhavenbot#readme",
   "dependencies": {
     "discord.js": "^11.5.1",
     "dotenv": "^8.0.0",
+    "fuzzyset-obj": "^1.0.0",
     "typeorm": "^0.2.18",
-    "typescript-ioc": "^1.2.5"
+    "typescript-ioc": "^1.2.5",
+    "yamljs": "^0.3.0"
   },
   "devDependencies": {
     "ava": "^2.1.0",

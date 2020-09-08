@@ -1,0 +1,821 @@
+
+- name: Boots of Striding
+  num: 1
+  image: item-001.jpg
+  source: Prosperity 1
+  
+- name: Winged Shoes
+  num: 2
+  image: item-002.jpg
+  source: Prosperity 1
+  
+- name: Hide Armor
+  num: 3
+  image: item-003.jpg
+  source: Prosperity 1
+  
+- name: Leather Armor
+  num: 4
+  image: item-004.jpg
+  source: Prosperity 1
+  
+- name: Cloak of Invisibility
+  num: 5
+  image: item-005.jpg
+  source: Prosperity 1
+  
+- name: Eagle-Eye Goggles
+  num: 6
+  image: item-006.jpg
+  source: Prosperity 1
+  
+- name: Iron Helmet
+  num: 7
+  image: item-007.jpg
+  source: Prosperity 1
+  
+- name: Heater Shield
+  num: 8
+  image: item-008.jpg
+  source: Prosperity 1
+  
+- name: Piercing Bow
+  num: 9
+  image: item-009.jpg
+  source: Prosperity 1
+  
+- name: War Hammer
+  num: 10
+  image: item-010.jpg
+  source: Prosperity 1
+  
+- name: Poison Dagger
+  num: 11
+  image: item-011.jpg
+  source: Prosperity 1
+  
+- name: Minor Healing Potion
+  num: 12
+  image: item-012.jpg
+  source: Prosperity 1
+  
+- name: Minor Stamina Potion
+  num: 13
+  image: item-013.jpg
+  source: Prosperity 1
+  
+- name: Minor Power Potion
+  num: 14
+  image: item-014.jpg
+  source: Prosperity 1
+  
+- name: Boots of Speed
+  num: 15
+  image: item-015.jpg
+  source: Prosperity 2
+  
+- name: Cloak of Pockets
+  num: 16
+  image: item-016.jpg
+  source: Prosperity 2
+  
+- name: Empowering Talisman
+  num: 17
+  image: item-017.jpg
+  source: Prosperity 2
+  
+- name: Battle-Axe
+  num: 18
+  image: item-018.jpg
+  source: Prosperity 2
+  
+- name: Weighted Net
+  num: 19
+  image: item-019.jpg
+  source: Prosperity 2
+  
+- name: Minor Mana Potion
+  num: 20
+  image: item-020.jpg
+  source: Prosperity 2
+  
+- name: Stun Powder
+  num: 21
+  image: item-021.jpg
+  source: Prosperity 2
+  
+- name: Heavy Greaves
+  num: 22
+  image: item-022.jpg
+  source: Prosperity 3
+  
+- name: Chainmail
+  num: 23
+  image: item-023.jpg
+  source: Prosperity 3
+  
+- name: Amulet of Life
+  num: 24
+  image: item-024.jpg
+  source: Prosperity 3
+  
+- name: Jagged Sword
+  num: 25
+  image: item-025.jpg
+  source: Prosperity 3
+  
+- name: Long Spear
+  num: 26
+  image: item-026.jpg
+  source: Prosperity 3
+  
+- name: Major Healing Potion
+  num: 27
+  image: item-027.jpg
+  source: Prosperity 3
+  
+- name: Moon Earring
+  num: 28
+  image: item-028.jpg
+  source: Prosperity 3
+  
+- name: Comfortable Shoes
+  num: 29
+  image: item-029.jpg
+  source: Prosperity 4
+  
+- name: Studded Leather
+  num: 30
+  image: item-030.jpg
+  source: Prosperity 4
+  
+- name: Hawk Helm
+  num: 31
+  image: item-031.jpg
+  source: Prosperity 4
+  
+- name: Tower Shield
+  num: 32
+  image: item-032.jpg
+  source: Prosperity 4
+  
+- name: Volatile Bomb
+  num: 33
+  image: item-033.jpg
+  source: Prosperity 4
+  
+- name: Major Stamina Potion
+  num: 34
+  image: item-034.jpg
+  source: Prosperity 4
+  
+- name: Falcon Figurine
+  num: 35
+  image: item-035.jpg
+  source: Prosperity 4 / Scenario \#98 (Treasure \#79)
+  
+- name: Boots of Dashing
+  num: 36
+  image: item-036.jpg
+  source: Prosperity 5
+  
+- name: Robes of Evocation
+  num: 37
+  image: item-037.jpg
+  source: Prosperity 5
+  
+- name: Heavy Basinet
+  num: 38
+  image: item-038.jpg
+  source: Prosperity 5
+  
+- name: Hooked Chain
+  num: 39
+  image: item-039.jpg
+  source: Prosperity 5
+  
+- name: Versatile Dagger
+  num: 40
+  image: item-040.jpg
+  source: Prosperity 5
+  
+- name: Major Power Potion
+  num: 41
+  image: item-041.jpg
+  source: Prosperity 5 / Scenario \#105 (Treasure \#83)
+  
+- name: Ring of Haste
+  num: 42
+  image: item-042.jpg
+  source: Prosperity 5
+  
+- name: Boots of Quickness
+  num: 43
+  image: item-043.jpg
+  source: Prosperity 6
+  
+- name: Splintmail
+  num: 44
+  image: item-044.jpg
+  source: Prosperity 6
+  
+- name: Pendant of Dark Pacts
+  num: 45
+  image: item-045.jpg
+  source: Prosperity 6
+  
+- name: Spiked Shield
+  num: 46
+  image: item-046.jpg
+  source: Prosperity 6
+  
+- name: Reaping Scythe
+  num: 47
+  image: item-047.jpg
+  source: Prosperity 6
+  
+- name: Major Mana Potion
+  num: 48
+  image: item-048.jpg
+  source: Prosperity 6 / Reward from Scenario \#104
+  
+- name: Sun Earring
+  num: 49
+  image: item-049.jpg
+  source: Prosperity 6
+  
+- name: Steel Sabatons
+  num: 50
+  image: item-050.jpg
+  source: Prosperity 7
+  
+- name: Shadow Armor
+  num: 51
+  image: item-051.jpg
+  source: Prosperity 7
+  
+- name: Protective Charm
+  num: 52
+  image: item-052.jpg
+  source: Prosperity 7 / Reward from Scenario \#109
+  
+- name: Black Knife
+  num: 53
+  image: item-053.jpg
+  source: Prosperity 7
+  
+- name: Staff of Eminence
+  num: 54
+  image: item-054.jpg
+  source: Prosperity 7
+  
+- name: Super Healing Potion
+  num: 55
+  image: item-055.jpg
+  source: Prosperity 7
+  
+- name: Ring of Brutality
+  num: 56
+  image: item-056.jpg
+  source: Prosperity 7
+  
+- name: Serene Sandals
+  num: 57
+  image: item-057.jpg
+  source: Prosperity 8
+  
+- name: Cloak of Phasing
+  num: 58
+  image: item-058.jpg
+  source: Prosperity 8
+  
+- name: Telescopic Lens
+  num: 59
+  image: item-059.jpg
+  source: Prosperity 8 / Option from Scenario 100
+  
+- name: Unstable Explosives
+  num: 60
+  image: item-060.jpg
+  source: Prosperity 8
+  
+- name: Wall Shield
+  num: 61
+  image: item-061.jpg
+  source: Prosperity 8
+  
+- name: Doom Powder
+  num: 62
+  image: item-062.jpg
+  source: Prosperity 8
+  
+- name: Lucky Eye
+  num: 63
+  image: item-063.jpg
+  source: Prosperity 8
+  
+- name: Boots of Sprinting
+  num: 64
+  image: item-064.jpg
+  source: Prosperity 9
+  
+- name: Platemail
+  num: 65
+  image: item-065.jpg
+  source: Prosperity 9
+  
+- name: Mask of Terror
+  num: 66
+  image: item-066.jpg
+  source: Prosperity 9 / Scenario \#110 (Treasure \#84)
+  
+- name: Balanced Blade
+  num: 67
+  image: item-067.jpg
+  source: Prosperity 9
+  
+- name: Halberd
+  num: 68
+  image: item-068.jpg
+  source: Prosperity 9 / Scenario \#92 (Treasure \#92)
+  
+- name: Star Earring
+  num: 69
+  image: item-069.jpg
+  source: Prosperity 9
+  
+- name: Second Chance Ring
+  num: 70
+  image: item-070.jpg
+  source: Prosperity 9 / Scenario \#89 (Treasure \#89)
+  
+- name: Boots of Levitation
+  num: 71
+  image: item-071.jpg
+  source: Random Item
+  
+- name: Shoes of Happiness
+  num: 72
+  image: item-072.jpg
+  source: Random Item
+  
+- name: Blinking Cape
+  num: 73
+  image: item-073.jpg
+  source: Random Item
+  
+- name: Swordedge Armor
+  num: 74
+  image: item-074.jpg
+  source: Random Item
+  
+- name: Circlet of Elements
+  num: 75
+  image: item-075.jpg
+  source: Random Item
+  
+- name: Chain Hood
+  num: 76
+  image: item-076.jpg
+  source: Random Item
+  
+- name: Frigid Blade
+  num: 77
+  image: item-077.jpg
+  source: Random Item
+  
+- name: Storm Blade
+  num: 78
+  image: item-078.jpg
+  source: Random Item
+  
+- name: Inferno Blade
+  num: 79
+  image: item-079.jpg
+  source: Random Item
+  
+- name: Tremor Blade
+  num: 80
+  image: item-080.jpg
+  source: Random Item
+  
+- name: Brilliant Blade
+  num: 81
+  image: item-081.jpg
+  source: Random Item
+  
+- name: Night Blade
+  num: 82
+  image: item-082.jpg
+  source: Random Item
+  
+- name: Wand of Frost
+  num: 83
+  image: item-083.jpg
+  source: Random Item
+  
+- name: Wand of Storms
+  num: 84
+  image: item-084.jpg
+  source: Random Item
+  
+- name: Wand of Infernos
+  num: 85
+  image: item-085.jpg
+  source: Random Item
+  
+- name: Wand of Tremors
+  num: 86
+  image: item-086.jpg
+  source: Random Item
+  
+- name: Wand of Brilliance
+  num: 87
+  image: item-087.jpg
+  source: Random Item
+  
+- name: Wand of Darkness
+  num: 88
+  image: item-088.jpg
+  source: Random Item
+  
+- name: Minor Cure Potion
+  num: 89
+  image: item-089.jpg
+  source: Random Item
+  
+- name: Major Cure Potion
+  num: 90
+  image: item-090.jpg
+  source: Random Item / Scenario \#102 (Treasure \#77)
+  
+- name: Steel Ring
+  num: 91
+  image: item-091.jpg
+  source: Random Item
+  
+- name: Dampening Ring
+  num: 92
+  image: item-092.jpg
+  source: Random Item
+  
+- name: Scroll of Power
+  num: 93
+  image: item-093.jpg
+  source: Random Item
+  
+- name: Scroll of Healing
+  num: 94
+  image: item-094.jpg
+  source: Random Item
+  
+- name: Scroll of Stamina
+  num: 95
+  image: item-095.jpg
+  source: Random Item
+  
+- name: Rocket Boots
+  num: 96
+  image: item-096.jpg
+  source: Scenario \#66 (Treasure \#36)
+  
+- name: Endurance Footwraps
+  num: 97
+  image: item-097.jpg
+  source: Scenario \#38 (Treasure \#29)
+  
+- name: Drakescale Boots
+  num: 98
+  image: item-098.jpg
+  source: Scenario \#43 (Treasure \#35)
+  
+- name: Magma Waders
+  num: 99
+  image: item-099.jpg
+  source: Scenario \#63 (Treasure \#12)
+  
+- name: Robes of Summoning
+  num: 100
+  image: item-100.jpg
+  source: Scenario \#31 (Treasure \#69)
+  
+- name: Second Skin
+  num: 101
+  image: item-101.jpg
+  source: Scenario \#06 (Treasure \#50)
+  
+- name: Sacrificial Robes
+  num: 102
+  image: item-102.jpg
+  source: City Event 40
+  
+- name: Drakescale Armor
+  num: 103
+  image: item-103.jpg
+  source: Scenario \#34 (Treasure \#23)
+  
+- name: Steam Armor
+  num: 104
+  image: item-104.jpg
+  source: Scenario \#40 (Treasure \#47)
+  
+- name: Flea-Bitten Shawl
+  num: 105
+  image: item-105.jpg
+  source: City Event 30
+  
+- name: Necklace of Teeth
+  num: 106
+  image: item-106.jpg
+  source: Road Event 05
+  
+- name: Horned Helm
+  num: 107
+  image: item-107.jpg
+  source: Scenario \#03 (Treasure \#65)
+  
+- name: Drakescale Helm
+  num: 108
+  image: item-108.jpg
+  source: Scenario \#25 (Treasure \#58)
+  
+- name: Thief's Hood
+  num: 109
+  image: item-109.jpg
+  source: City Event 62
+  
+- name: Helm of the Mountain
+  num: 110
+  image: item-110.jpg
+  source: Scenario \#82 (Treasure \#62)
+  
+- name: Wave Crest
+  num: 111
+  image: item-111.jpg
+  source: Scenario \#64 (Treasure \#09)
+  
+- name: Ancient Drill
+  num: 112
+  image: item-112.jpg
+  source: Reward From Scenario \#65 / Option from Scenario 100
+  
+- name: Skullbane Axe
+  num: 113
+  image: item-113.jpg
+  source: Reward From Scenario \#11 / Reward From Scenario \#12
+  
+- name: Staff of Xorn
+  num: 114
+  image: item-114.jpg
+  source: Reward from Scenario \#53
+  
+- name: Mountain Hammer
+  num: 115
+  image: item-115.jpg
+  source: Scenario \#82 (Treasure \#62)
+  
+- name: Fueled Falchion
+  num: 116
+  image: item-116.jpg
+  source: Scenario \#23 (Treasure \#72)
+  
+- name: Bloody Axe
+  num: 117
+  image: item-117.jpg
+  source: City Event 53 / Road Event 53
+  
+- name: Staff of Elements
+  num: 118
+  image: item-118.jpg
+  source: City Event 57
+  
+- name: Skull of Hatred
+  num: 119
+  image: item-119.jpg
+  source: Reward From Scenario \#95
+  
+- name: Staff of Summoning
+  num: 120
+  image: item-120.jpg
+  source: Reward From Scenario \#88
+  
+- name: Orb of Dawn
+  num: 121
+  image: item-121.jpg
+  source: Reward From Scenario \#85
+  
+- name: Orb of Twilight
+  num: 122
+  image: item-122.jpg
+  source: Scenario \#89 (Treasure \#27)
+  
+- name: Ring of Skulls
+  num: 123
+  image: item-123.jpg
+  source: Scenario \#04 (Treasure \#38)
+  
+- name: Doomed Compass
+  num: 124
+  image: item-124.jpg
+  source: Scenario \#93 (Treasure \#54)
+  
+- name: Curious Gear
+  num: 125
+  image: item-125.jpg
+  source: City Event 03 / Option from Scenario 100
+  
+- name: Remote Spider
+  num: 126
+  image: item-126.jpg
+  source: City Event 43 / Option from Scenario 100
+  
+- name: Giant Remote Spider
+  num: 127
+  image: item-127.jpg
+  source: City Event 61
+  
+- name: Black Censer
+  num: 128
+  image: item-128.jpg
+  source: Reward From Scenario \#90
+  
+- name: Black Card
+  num: 129
+  image: item-129.jpg
+  source: Road Event 51
+  
+- name: Helix Ring
+  num: 130
+  image: item-130.jpg
+  source: Scenario \#81 (Treasure \#68)
+  
+- name: Heart of the Betrayer
+  num: 131
+  image: item-131.jpg
+  source: Scenario \#79 (Treasure \#52)
+  
+- name: Power Core
+  num: 132
+  image: item-132.jpg
+  source: Scenario \#67
+  
+- name: Resonant Crystal
+  num: 133
+  image: item-133.jpg
+  source: Scenario \#84
+  
+- name: Imposing Blade
+  num: 134
+  image: item-134.jpg
+  source: Reward from Solo Scenario \#01 — <emoji>:charbrute
+  
+- name: Focusing Ray
+  num: 135
+  image: item-135.jpg
+  source: Reward from Solo Scenario \#02 — <emoji>:tinkerer
+  
+- name: Volatile Elixir
+  num: 136
+  image: item-136.jpg
+  source: Reward from Solo Scenario \#03 — <emoji>:charspellweaver
+  
+- name: Silent Stiletto
+  num: 137
+  image: item-137.jpg
+  source: Reward from Solo Scenario \#04 — <emoji>:charscoundrel
+  
+- name: Stone Charm
+  num: 138
+  image: item-138.jpg
+  source: Reward from Solo Scenario \#05 — <emoji>:charcragheart
+  
+- name: Psychic Knife
+  num: 139
+  image: item-139.jpg
+  source: Reward from Solo Scenario \#06 — <emoji>:charmindthief
+  
+- name: Sun Shield
+  num: 140
+  image: item-140.jpg
+  source: Reward from Solo Scenario \#07 — <emoji>:charsun
+  
+- name: Utility Belt
+  num: 141
+  image: item-141.jpg
+  source: Reward from Solo Scenario \#09 — <emoji>:charthreespears
+  
+- name: Phasing Idol
+  num: 142
+  image: item-142.jpg
+  source: Reward from Solo Scenario \#10 — <emoji>:charcircles
+  
+- name: Smoke Elixir
+  num: 143
+  image: item-143.jpg
+  source: Reward from Solo Scenario \#11 — <emoji>:chareclipse
+  
+- name: Pendant of the Plague
+  num: 144
+  image: item-144.jpg
+  source: Reward from Solo Scenario \#12 — <emoji>:charcthulhu
+  
+- name: Mask of Death
+  num: 145
+  image: item-145.jpg
+  source: Reward from Solo Scenario \#08 — <emoji>:charlightning
+  
+- name: Master's Lute
+  num: 146
+  image: item-146.jpg
+  source: Reward from Solo Scenario \#13 — <emoji>:charmusicnote
+  
+- name: Cloak of the Hunter
+  num: 147
+  image: item-147.jpg
+  source: Reward from Solo Scenario \#14 — <emoji>:charspikehead
+  
+- name: Doctor's Coat
+  num: 148
+  image: item-148.jpg
+  source: Reward from Solo Scenario \#15 — <emoji>:charsaw
+  
+- name: Elemental Boots
+  num: 149
+  image: item-149.jpg
+  source: Reward from Solo Scenario \#16 — <emoji>:chartriangles
+  
+- name: Staff of Command
+  num: 150
+  image: item-150.jpg
+  source: Reward from Solo Scenario \#17 — <emoji>:chartwominis
+  
+- name: Sword of the Sands
+  num: 151
+  image: item-151.jpg
+  source: Reward from Solo Scenario \#18 — <emoji>:charthreeswords
+  
+- name: Ring of Duality
+  num: 152
+  image: item-152.jpg
+  source: Reward from Scenario \#???
+  
+- name: Minor Antidote
+  num: 153
+  image: item-153.jpg
+  source: Reward From Scenario \#99
+  
+- name: Major Antidote
+  num: 154
+  image: item-154.jpg
+  source: Reward from Scenario \#105
+  
+- name: Curseward Armor
+  num: 155
+  image: item-155.jpg
+  source: Reward from Scenario \#108
+  
+- name: Elemental Claymore
+  num: 156
+  image: item-156.jpg
+  source: Unknown
+  
+- name: Ancient Bow
+  num: 157
+  image: item-157.jpg
+  source: Scenario \#78 (Treasure \#78)
+  
+- name: Rejuvenation Greaves
+  num: 158
+  image: item-158.jpg
+  source: Scenario \#111 (Treasure \#82)
+  
+- name: Scroll of Haste
+  num: 159
+  image: item-159.jpg
+  source: Scenario \#103 (Treasure \#81)
+  
+- name: Cutpurse Dagger
+  num: 160
+  image: item-160.jpg
+  source: ???
+  
+- name: Throwing Axe
+  num: 161
+  image: item-161.jpg
+  source: Reward from Scenario \#108
+  
+- name: Rift Device
+  num: 162
+  image: item-162.jpg
+  source: Reward from Scenario \#???
+  
+- name: Crystal Tiara
+  num: 163
+  image: item-163.jpg
+  source: Reward from Scenario \#110
+  
+- name: Basin of Prophecy
+  num: 164
+  image: item-164.jpg
+  source: Reward from  Scenario \#18 — <emoji>:chardiviner
+  
