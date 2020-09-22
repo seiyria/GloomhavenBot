@@ -10,26 +10,26 @@ import { PresenceService } from '../services/presence';
 import { AbilityService } from '../services/ability';
 
 const Characters = {
-  'brute': [],
-  'circles': ['summoner'],
-  'cragheart': [],
-  'cthulhu': ['plagueherald'],
-  'diviner': [],
-  'eclipse': ['nightshroud'],
-  'lightning': ['lightningbolts', 'lightningbolt', 'lightning-bolt', 'berserker'],
+  'brute':        ['1'],
+  'circles':      ['9', 'summoner'],
+  'cragheart':    ['5'],
+  'cthulhu':      ['11', 'plagueherald'],
+  'diviner':      ['18'],
+  'eclipse':      ['10', 'nightshroud'],
+  'lightning':    ['12', 'lightningbolts', 'lightningbolt', 'lightning-bolt', 'berserker'],
+  'mindthief':    ['6'],
+  'music-note':   ['13', 'musicnote', 'soothsinger', 'music', 'bard'],
+  'saw':          ['15', 'sawbones'],
+  'scoundrel':    ['4'],
+  'spellweaver':  ['3'],
+  'spike-head':   ['14', 'spikehead', 'doomstalker', 'angryface', 'angry-face'],
+  'sun':          ['7', 'sunkeeper'],
+  'three-spears': ['8', 'threespears', 'quartermaster', 'spears'],
+  'three-swords': ['x', 'threeswords', 'bladeswarm'],
+  'tinkerer':     ['2'],
+  'triangles':    ['16', 'elementalist', 'triforce'],
+  'two-minis':    ['17', 'twominis', 'beasttyrant', 'tyrant', 'phoenix'],
   'manifestation-of-corruption': ['manifestation'],
-  'mindthief': [],
-  'music-note': ['musicnote', 'soothsinger', 'music', 'bard'],
-  'saw': ['sawbones'],
-  'scoundrel': [],
-  'spellweaver': [],
-  'spike-head': ['spikehead', 'doomstalker', 'angryface', 'angry-face'],
-  'sun': ['sunkeeper'],
-  'three-spears': ['threespears', 'quartermaster', 'spears'],
-  'three-swords': ['threeswords', 'bladeswarm'],
-  'tinkerer': [],
-  'triangles': ['elementalist', 'triforce'],
-  'two-minis': ['twominis', 'beasttyrant', 'tyrant', 'phoenix']
 };
 
 const AllCharacterAliases = Object.keys(Characters).reduce((prev, cur) => {
@@ -41,7 +41,7 @@ const AllCharacterAliases = Object.keys(Characters).reduce((prev, cur) => {
 
 export class AbilityCommand implements ICommand {
 
-  help = `Display a character ability! Do \`!ability eye for an eye\` to see one, \`!ability brute\` to see all Brute abilities, and \`!ability brute x\` to see all Brute Level X abilities.`;
+  help = `Display a character ability! Do \`!ability eye for an eye\` to see one and \`!ability brute x\` to see all Brute Level X abilities.`;
 
   aliases = ['ability', 'abilityg', 'abilityf', 'abilityj'];
 
