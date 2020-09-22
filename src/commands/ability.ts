@@ -16,20 +16,20 @@ const Characters = {
   'cthulhu': ['plagueherald'],
   'diviner': [],
   'eclipse': ['nightshroud'],
-  'lightning': ['lightningbolts', 'berserker'],
+  'lightning': ['lightningbolts', 'lightningbolt', 'lightning-bolt', 'berserker'],
   'manifestation-of-corruption': ['manifestation'],
   'mindthief': [],
-  'music-note': ['musicnote', 'soothsinger'],
+  'music-note': ['musicnote', 'soothsinger', 'music', 'bard'],
   'saw': ['sawbones'],
   'scoundrel': [],
   'spellweaver': [],
-  'spike-head': ['spikehead', 'doomstalker'],
+  'spike-head': ['spikehead', 'doomstalker', 'angryface', 'angry-face'],
   'sun': ['sunkeeper'],
-  'three-spears': ['threespears', 'quartermaster'],
+  'three-spears': ['threespears', 'quartermaster', 'spears'],
   'three-swords': ['threeswords', 'bladeswarm'],
   'tinkerer': [],
-  'triangles': ['elementalist'],
-  'two-minis': ['twominis', 'beasttyrant', 'tyrant']
+  'triangles': ['elementalist', 'triforce'],
+  'two-minis': ['twominis', 'beasttyrant', 'tyrant', 'phoenix']
 };
 
 const AllCharacterAliases = Object.keys(Characters).reduce((prev, cur) => {
