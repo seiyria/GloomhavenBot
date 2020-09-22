@@ -74,14 +74,25 @@ export class AbilityCommand implements ICommand {
 
       if (!fs.existsSync(path)) {
         const allImages = await Promise.all(cards.map((c) => Jimp.read(c.longImage)));
-        const sumWidth = allImages.reduce((prev, cur) => prev + cur.getWidth(), 0);
-        let runningWidth = 0;
+        const cardWidth = allImages[0].getWidth();
+        const cardHeight = allImages[0].getHeight();
 
-        const baseImage = new Jimp(sumWidth, allImages[0].getHeight());
+        const rows = Math.ceil(allImages.length / 4);
+        const cols = allImages.length > 4 ? 4 : 1;
 
-        const sumImage = allImages.reduce((prev, cur) => {
-          const newImg = prev.blit(cur, runningWidth, 0);
-          runningWidth += cur.getWidth();
+        let currentCol = 0;
+        let currentRow = 0;
+
+        const baseImage = new Jimp(cardWidth * cols, cardHeight * rows);
+
+        const sumImage = allImages.reduce((prev, cur, idx) => {
+          const newImg = prev.blit(cur, currentCol * cardWidth, currentRow * cardHeight);
+          currentCol++;
+
+          if (currentCol === 4) {
+            currentRow++;
+            currentCol = 0;
+          }
 
           return newImg;
         }, baseImage);
