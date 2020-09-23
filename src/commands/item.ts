@@ -11,7 +11,7 @@ export class ItemCommand implements ICommand {
 
   help = `Display an item! Do \`!item #001\` or \`!item boots of striding\` to search for the Boots of Striding item. **WARNING**: Embedded images can\'t be spoiler-hidden at this time.`;
 
-  aliases = ['item', 'itemg', 'itemf', 'itemj'];
+  aliases = ['i', 'item', 'itemg', 'itemf', 'itemj'];
 
   @Inject private itemService: ItemService;
   @Inject private presenceService: PresenceService;

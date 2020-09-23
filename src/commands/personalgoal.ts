@@ -9,7 +9,7 @@ export class PersonalGoalCommand implements ICommand {
 
   help = `Display a personal goal! Do \`!pgoal Zealot of the Blood God\``;
 
-  aliases = ['pgoal', 'pgoalg', 'pgoalf'];
+  aliases = ['pg', 'pgoal', 'pgoalg', 'pgoalf'];
 
   @Inject private pgoalService: PersonalGoalService;
   @Inject private presenceService: PresenceService;
