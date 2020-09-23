@@ -41,7 +41,7 @@ const AllCharacterAliases = Object.keys(Characters).reduce((prev, cur) => {
 
 export class AbilityCommand implements ICommand {
 
-  help = `Display a character ability! Do \`!ability eye for an eye\` to see one and \`!ability brute x\` to see all Brute Level X abilities.`;
+  help = `Display a character ability! Do \`!ability eye for an eye\` to see Eye for an Eye, \`!ability brute all\` to see all Brute skills and \`!ability brute x\` to see all Brute Level X abilities.`;
 
   aliases = ['ability', 'abilityg', 'abilityf', 'abilityj'];
 
@@ -61,7 +61,7 @@ export class AbilityCommand implements ICommand {
         return;
       }
 
-      const cards = potentialLevel
+      const cards = potentialLevel !== 'all'
                   ? this.abilityService.getGloomAbilitiesByCharacterLevel(realChar, potentialLevel)
                   : this.abilityService.getGloomAbilitiesByCharacter(realChar);
 
@@ -78,8 +78,10 @@ export class AbilityCommand implements ICommand {
         const cardWidth = allImages[0].getWidth();
         const cardHeight = allImages[0].getHeight();
 
-        const rows = Math.ceil(allImages.length / 4);
-        const cols = allImages.length > 4 ? 4 : allImages.length;
+        const divisor = potentialLevel === 'all' ? 6 : 4;
+
+        const rows = Math.ceil(allImages.length / divisor);
+        const cols = allImages.length > divisor ? divisor : allImages.length;
 
         let currentCol = 0;
         let currentRow = 0;
@@ -90,7 +92,7 @@ export class AbilityCommand implements ICommand {
           const newImg = prev.blit(cur, currentCol * cardWidth, currentRow * cardHeight);
           currentCol++;
 
-          if (currentCol === 4) {
+          if (currentCol === divisor) {
             currentRow++;
             currentCol = 0;
           }
@@ -98,7 +100,7 @@ export class AbilityCommand implements ICommand {
           return newImg;
         }, baseImage);
 
-        await sumImage.quality(50).writeAsync(path);
+        await sumImage.quality(potentialLevel === 'all' ? 30 : 50).writeAsync(path);
       }
 
       const attachFile = [
