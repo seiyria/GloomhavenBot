@@ -70,7 +70,8 @@ export class AbilityCommand implements ICommand {
         return;
       }
 
-      const path = `assets/tmp/${realChar}-${potentialLevel || 'all'}.jpg`;
+      const fileName = `${realChar}-${potentialLevel || 'all'}.jpg`;
+      const path = `assets/tmp/${fileName}`;
 
       if (!fs.existsSync(path)) {
         const allImages = await Promise.all(cards.map((c) => Jimp.read(c.longImage)));
@@ -97,7 +98,7 @@ export class AbilityCommand implements ICommand {
           return newImg;
         }, baseImage);
 
-        await sumImage.writeAsync(path);
+        await sumImage.quality(50).writeAsync(path);
       }
 
       const attachFile = [
