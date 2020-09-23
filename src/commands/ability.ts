@@ -78,7 +78,7 @@ export class AbilityCommand implements ICommand {
         const cardHeight = allImages[0].getHeight();
 
         const rows = Math.ceil(allImages.length / 4);
-        const cols = allImages.length > 4 ? 4 : 1;
+        const cols = allImages.length > 4 ? 4 : allImages.length;
 
         let currentCol = 0;
         let currentRow = 0;
