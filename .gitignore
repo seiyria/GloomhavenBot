@@ -15,3 +15,4 @@ temp/*
 *.sh
 
 assets/tmp
+.vscode

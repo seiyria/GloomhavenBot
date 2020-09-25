@@ -2250,16 +2250,6 @@
   image: three-spears-26.jpg
   level: 1
 
-- name: Dazzling Charge
-  char: three-spears
-  image: three-spears-28.jpg
-  level: 1
-
-- name: Tactical Order
-  char: three-spears
-  image: three-spears-29.jpg
-  level: 1
-
 - name: Reforge
   char: three-spears
   image: three-spears-2.jpg
