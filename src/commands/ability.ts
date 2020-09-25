@@ -54,7 +54,9 @@ export class AbilityCommand implements ICommand {
     const [potentialChar, potentialLevel] = args.split(' ').map((a) => a.toLowerCase());
     const realChar = AllCharacterAliases[potentialChar];
 
-    if (realChar) {
+    const validLevels = ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'x', 'm', 'all', 'a', 'b'];
+
+    if (realChar && potentialLevel && validLevels.includes(potentialLevel)) {
 
       if (!potentialLevel) {
         message.channel.send(`You need to specify a level, like so: \`!ability brute 2\`.`);
