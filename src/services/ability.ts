@@ -1,5 +1,6 @@
 import { AutoWired, Singleton } from 'typescript-ioc';
 import * as YAML from 'yamljs';
+import { uniqBy } from 'lodash';
 import { FuzzySetContainer } from 'fuzzyset-obj';
 
 import { BaseService } from '../base/BaseService';
@@ -34,7 +35,7 @@ export class AbilityService extends BaseService {
   }
 
   public getGloomAbilitiesByCharacter(char: string): IAbility[] {
-    return this.gloomCards.filter((c) => c.char === char);
+    return uniqBy(this.gloomCards.filter((c) => c.char === char), (x) => x.name);
   }
 
   public getGloomAbilitiesByCharacterLevel(char: string, level: string): IAbility[] {
