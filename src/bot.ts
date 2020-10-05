@@ -15,6 +15,8 @@ import { TextParserService } from './services/text-parser';
 import { PersonalGoalService } from './services/personalgoal';
 import { BattleGoalService } from './services/battlegoal';
 import { AbilityService } from './services/ability';
+import { CharResolverService } from './services/char-resolver';
+import { ClassDataService } from './services/classdata';
 
 export class Bot {
   @Inject private logger: LoggerService;
@@ -25,6 +27,8 @@ export class Bot {
   @Inject private textParserService: TextParserService;
   @Inject private presenceService: PresenceService;
 
+  @Inject private charService: CharResolverService;
+  @Inject private classDataService: ClassDataService;
   @Inject private itemService: ItemService;
   @Inject private pgoalService: PersonalGoalService;
   @Inject private bgoalService: BattleGoalService;
@@ -50,6 +54,8 @@ export class Bot {
         this.textParserService,
         this.presenceService,
 
+        this.charService,
+        this.classDataService,
         this.itemService,
         this.pgoalService,
         this.bgoalService,

@@ -8,36 +8,7 @@ import Jimp from 'jimp';
 import { ICommand, ICommandArgs, ICommandResult } from '../interfaces';
 import { PresenceService } from '../services/presence';
 import { AbilityService } from '../services/ability';
-
-const Characters = {
-  'brute':        ['1'],
-  'circles':      ['9', 'summoner'],
-  'cragheart':    ['5'],
-  'cthulhu':      ['11', 'plagueherald'],
-  'diviner':      ['18'],
-  'eclipse':      ['10', 'nightshroud'],
-  'lightning':    ['12', 'lightningbolts', 'lightningbolt', 'lightning-bolt', 'berserker'],
-  'mindthief':    ['6'],
-  'music-note':   ['13', 'musicnote', 'soothsinger', 'music', 'bard'],
-  'saw':          ['15', 'sawbones'],
-  'scoundrel':    ['4'],
-  'spellweaver':  ['3'],
-  'spike-head':   ['14', 'spikehead', 'doomstalker', 'angryface', 'angry-face'],
-  'sun':          ['7', 'sunkeeper'],
-  'three-spears': ['8', 'threespears', 'quartermaster', 'spears'],
-  'three-swords': ['x', 'threeswords', 'bladeswarm'],
-  'tinkerer':     ['2'],
-  'triangles':    ['16', 'elementalist', 'triforce'],
-  'two-minis':    ['17', 'twominis', 'beasttyrant', 'tyrant', 'phoenix'],
-  'manifestation-of-corruption': ['manifestation'],
-};
-
-const AllCharacterAliases = Object.keys(Characters).reduce((prev, cur) => {
-  prev[cur] = cur;
-  Characters[cur].forEach((c) => prev[c] = cur);
-
-  return prev;
-}, {});
+import { CharResolverService } from '../services/char-resolver';
 
 export class AbilityCommand implements ICommand {
 
@@ -45,6 +16,7 @@ export class AbilityCommand implements ICommand {
 
   aliases = ['a', 'ability', 'abilityg', 'abilityf', 'abilityj'];
 
+  @Inject private charService: CharResolverService;
   @Inject private abilityService: AbilityService;
   @Inject private presenceService: PresenceService;
 
@@ -52,7 +24,7 @@ export class AbilityCommand implements ICommand {
     const { message, args } = cmdArgs;
 
     const [potentialChar, potentialLevel] = args.split(' ').map((a) => a.toLowerCase());
-    const realChar = AllCharacterAliases[potentialChar];
+    const realChar = this.charService.resolveClass(potentialChar);
 
     const validLevels = ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'x', 'm', 'all', 'a', 'b'];
 

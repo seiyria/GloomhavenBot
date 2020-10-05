@@ -1,0 +1,573 @@
+
+brute:
+  name: Inox Brute
+  hp: [10, 12, 14, 16, 18, 20, 22, 24, 26]
+  handSize: 10
+  perks:
+    - text: Remove two -1 cards
+
+    - text: Replace one -1 card with one +1 card
+
+    - text: Add two +1 cards
+      count: 2
+      
+    - text: Add one +3 card
+
+    - text: Add three <emoji>:rolling PUSH <emoji>:statuspush 1 cards
+      count: 2
+
+    - text: Add two <emoji>:rolling PIERCE <emoji>:statuspierce 3 cards
+
+    - text: Add one <emoji>:rolling STUN <emoji>:statusstun card
+      count: 2
+
+    - text: Add one <emoji>:rolling DISARM <emoji>:statusdisarm card and one <emoji>:rolling MUDDLE <emoji>:statusmuddle
+
+    - text: Add one <emoji>:rolling ADD TARGET <emoji>:statusaddtarget card
+      count: 2
+      
+    - text: Add one +1 Shield <emoji>:iconshield 1, Self card
+
+    - text: Ignore negative item effects and add one +1 card
+    
+circles:
+  name: Aesther Summoner
+  hp: [8, 9, 11, 12, 14, 15, 17, 18, 20]
+  handSize: 9
+  perks:
+    - text: Remove two -1 cards
+
+    - text: Replace one -2 card with one +0 card
+
+    - text: Replace one -1 card with one +1 card
+      count: 3
+
+    - text: Add one +2 card
+      count: 2
+
+    - text: Add two <emoji>:rolling WOUND <emoji>:statuswound cards
+
+    - text: Add two <emoji>:rolling POISON <emoji>:statuspoison cards
+
+    - text: Add two <emoji>:rolling Heal +1 cards
+      count: 3
+
+    - text: Add one <emoji>:rolling <emoji>:elementfire and one <emoji>:rolling <emoji>:elementair card
+
+    - text: Add one <emoji>:rolling <emoji>:elementdark and one <emoji>:rolling <emoji>:elementearth card
+
+    - text: Ignore negative scenario effects and add two +1 cards
+    
+cragheart:
+  name: Savvas Cragheart
+  hp: [10, 12, 14, 16, 18, 20, 22, 24, 26]
+  handSize: 11
+  perks:
+    - text: Remove four +0 cards
+
+    - text: Replace one -1 card with one +1 card
+      count: 3
+
+    - text: Add one -2 card and two +2 cards
+    
+    - text: Add one +1 IMMOBILIZE <emoji>:statusimmobilize card
+      count: 2
+
+    - text: Add one +2 MUDDLE <emoji>:statusmuddle card
+      count: 2
+
+    - text: Add two <emoji>:rolling PUSH <emoji>:statuspush 2 cards
+
+    - text: Add two <emoji>:rolling <emoji>:elementearth cards
+      count: 2
+
+    - text: Add two <emoji>:rolling <emoji>:elementair cards
+
+    - text: Ignore negative item effects
+
+    - text: Ignore negative scenario effects
+    
+cthulhu:
+  name: Harrower Plagueherald
+  hp: [6, 7, 8, 9, 10, 11, 12, 13, 14]
+  handSize: 11
+  perks:
+    - text: Replace one -2 card with one +0 card
+
+    - text: Replace one -1 card with one +1 card
+      count: 2
+
+    - text: Replace one +0 card with one +2 card
+      count: 2
+
+    - text: Add two +1 cards
+
+    - text: Add one +1 <emoji>:elementair card
+      count: 3
+
+    - text: Add three <emoji>:rolling POISON <emoji>:statuspoison cards
+
+    - text: Add two <emoji>:rolling CURSE <emoji>:statuscurse cards
+
+    - text: Add two <emoji>:rolling IMMOBILIZE <emoji>:statusimmobilize cards
+    
+    - text: Add one <emoji>:rolling STUN <emoji>:statusstun card
+      count: 2
+
+    - text: Ignore negative scenario effects and add one +1 card
+    
+diviner:
+  name: Aesther Diviner
+  hp: [6, 7, 8, 9, 10, 11, 12, 13, 14]
+  handSize: 9
+  perks:
+    - text: Remove two -1 cards
+      count: 2
+
+    - text: Remove one -2 card
+
+    - text: Replace two +1 cards with one +3 Shield <emoji>:iconshield 1, Self card
+      count: 2
+
+    - text: Replace one +0 card with one +1 Shield <emoji>:iconshield 1, Affect any ally card
+
+    - text: Replace one +0 card with one +2 <emoji>:elementdark card
+
+    - text: Replace one +0 card with one +2 <emoji>:elementlight card
+
+    - text: Replace one +0 card with one +3 MUDDLE <emoji>:statusmuddle card
+    
+    - text: Replace one +0 card with one +2 CURSE <emoji>:statuscurse card
+    
+    - text: Replace one +0 card with one +2 REGENERATE <emoji>:statusregenerate, Self card
+
+    - text: Replace one -1 card with one +1 Heal +2, Affect any ally card
+
+    - text: Add two <emoji>:rolling Heal +1, Self cards
+
+    - text: Add two <emoji>:rolling CURSE <emoji>:statuscurse cards
+
+    - text: Ignore negative scenario effects and add two +1 cards
+    
+eclipse:
+  name: Aesther Nightshroud
+  hp: [8, 9, 10, 11, 12, 14, 15, 17, 18, 20]
+  handSize: 9
+  perks:
+    - text: Remove two -1 cards
+      count: 2
+
+    - text: Remove four +0 cards
+
+    - text: Add one -1 <emoji>:elementdark card
+      count: 2
+
+    - text: Replace one -1 <emoji>:elementdark card with one +1 <emoji>:elementdark card
+      count: 2
+
+    - text: Add one +1 INVISIBLE <emoji>:statusinvisible card
+      count: 2
+
+    - text: Add three <emoji>:rolling MUDDLE <emoji>:statusmuddle cards
+      count: 2
+
+    - text: Add two <emoji>:rolling Heal +1 cards
+
+    - text: Add two <emoji>:rolling CURSE <emoji>:statuscurse cards
+
+    - text: Add one <emoji>:rolling ADD TARGET <emoji>:statusaddtarget card
+
+    - text: Ignore negative scenario effects and add two +1 cards
+    
+lightning:
+  name: Inox Berserker
+  hp: [10, 12, 14, 16, 18, 20, 22, 24, 26]
+  handSize: 10
+  perks:
+    - text: Remove two -1 cards
+    
+    - text: Remove four +0 cards
+
+    - text: Replace one -1 card with one +1 card
+      count: 2
+
+    - text: Replace one +0 card with one <emoji>:rolling +2 card
+      count: 2
+
+    - text: Add two <emoji>:rolling WOUND <emoji>:statuswound cards
+      count: 2
+
+    - text: Add one <emoji>:rolling STUN <emoji>:statusstun cards
+      count: 2
+
+    - text: Add one <emoji>:rolling +1 DISARM <emoji>:statusdisarm card
+
+    - text: Add two <emoji>:rolling Heal +1 cards
+
+    - text: Add two +2 <emoji>:elementfire card
+      count: 2
+
+    - text: Ignore negative item effects
+    
+mindthief:
+  name: Vermling Mindthief
+  hp: [6, 7, 8, 9, 10, 11, 12, 13, 14]
+  handSize: 10
+  perks:
+    - text: Remove two -1 cards
+      count: 2
+
+    - text: Remove four +0 cards
+
+    - text: Replace two +1 cards with two +2 cards
+
+    - text: Replace one -2 card with one +0 card
+
+    - text: Add one +2 <emoji>:elementice card
+      count: 2
+
+    - text: Add two <emoji>:rolling +1 cards
+      count: 2
+
+    - text: Add three <emoji>:rolling <emoji>:statuspull 1 cards
+
+    - text: Add three <emoji>:rolling MUDDLE <emoji>:statusmuddle cards
+    
+    - text: Add two <emoji>:rolling IMMOBILIZE <emoji>:immobilize cards
+
+    - text: Add one <emoji>:rolling STUN <emoji>:statusstun card
+
+    - text: Add one <emoji>:rolling DISARM <emoji>:statusdisarm card and one <emoji>:rolling MUDDLE <emoji>:statusmuddle card
+
+    - text: Ignore negative scenario effects
+    
+music-note:
+  name: Quatryl Soothsinger
+  hp: [6, 7, 8, 9, 10, 11, 12, 13, 14]
+  handSize: 9
+  perks:
+    - text: Remove two -1 cards
+      count: 2
+
+    - text: Remove one -2 card
+
+    - text: Replace two +1 cards with one +4 card
+      count: 2
+
+    - text: Replace one +0 card with one +1 IMMOBILIZE <emoji>:statusimmobilize card
+
+    - text: Replace one +0 card with one +1 DISARM <emoji>:statusdisarm card
+
+    - text: Replace one +0 card with one +2 WOUND <emoji>:statuswound card
+
+    - text: Replace one +0 card with one +2 POISON <emoji>:statuspoison card
+
+    - text: Replace one +0 card with one +2 CURSE <emoji>:statuscurse card
+
+    - text: Replace one +0 card with one +3 MUDDLE <emoji>:statusmuddle card
+
+    - text: Replace one -1 card with one +0 STUN <emoji>:statusstun card
+
+    - text: Add three <emoji>:rolling +1 cards
+
+    - text: Add two <emoji>:rolling CURSE <emoji>:statuscurse cards
+      count: 2
+    
+saw:
+  name: Human Sawbones
+  hp: [8, 9, 11, 12, 14, 15, 17, 18, 20]
+  handSize: 10
+  perks:
+    - text: Remove two -1 cards
+      count: 2
+
+    - text: Remove four +0 cards
+  
+    - text: Replace one +0 card with one +2 card
+
+    - text: Add one <emoji>:rolling +2 card
+      count: 2
+
+    - text: Add one +1 IMMOBILIZE <emoji>:statusimmobilize card
+      count: 2
+
+    - text: Add two <emoji>:rolling WOUND <emoji>:statuswound cards
+      count: 2
+
+    - text: Add one <emoji>:rolling STUN <emoji>:statusstun card
+
+    - text: Add one <emoji>:rolling Heal +3 card
+      count: 2
+
+    - text: Add one +0 Refresh an item card
+    
+scoundrel:
+  name: Human Scoundrel
+  hp: [8, 9, 11, 12, 14, 15, 17, 18, 20]
+  handSize: 9
+  perks:
+    - text: Remove two -1 cards
+      count: 2
+
+    - text: Remove four +0 cards
+
+    - text: Replace one -2 card with one +0 card
+
+    - text: Replace one -1 card with one +1 card
+
+    - text: Replace one +0 card with one +2 card
+      count: 2
+
+    - text: Add two <emoji>:rolling +1 cards
+      count: 2
+
+    - text: Add two <emoji>:rolling PIERCE <emoji>:statuspierce 3 cards
+    
+    - text: Add two <emoji>:rolling POISON <emoji>:statuspoison cards
+      count: 2
+
+    - text: Add two <emoji>:rolling MUDDLE <emoji>:statusmuddle cards
+
+    - text: Add one <emoji>:rolling INVISIBLE <emoji>:statusinvisible card
+
+    - text: Ignore negative scenario effects
+    
+spellweaver:
+  name: Orchid Spellweaver
+  hp: [6, 7, 8, 9, 10, 11, 12, 13, 14]
+  handSize: 8
+  perks:
+    - text: Remove four +0 cards
+
+    - text: Replace one -1 card with one +1 card
+      count: 2
+
+    - text: Add two +1 cards
+      count: 2
+
+    - text: Add one +0 STUN <emoji>:statusstun card
+
+    - text: Add one +1 WOUND <emoji>:statuswound card
+
+    - text: Add one +1 IMMOBILIZE <emoji>:statusimmobilize card
+
+    - text: Add one +1 CURSE <emoji>:statuscurse card
+
+    - text: Add one +2 <emoji>:elementfire card
+      count: 2
+
+    - text: Add one +2 <emoji>:elementice card
+      count: 2
+
+    - text: Add one <emoji>:rolling <emoji>:elementearth card and one <emoji>:rolling <emoji>:elementair card
+
+    - text: Add one <emoji>:rolling <emoji>:elementlight card and one <emoji>:rolling <emoji>:elementdark card 
+    
+spike-head:
+  name: Orchid Doomstalker
+  hp: [8, 9, 11, 12, 14, 15, 17, 18, 20]
+  handSize: 12
+  perks:
+    - text: Remove two -1 cards
+      count: 2
+
+    - text: Replace two +0 cards with two +1 cards
+      count: 3
+
+    - text: Add two <emoji>:rolling +1 cards
+      count: 2
+
+    - text: Add one +2 MUDDLE <emoji>:statusmuddle card
+
+    - text: Add one +1 POISON <emoji>:statuspoison card
+
+    - text: Add one +1 WOUND <emoji>:statuswound card
+
+    - text: Add one +1 IMMOBILIZE <emoji>:statusimmobilize card
+
+    - text: Add one +0 STUN <emoji>:statusstun card
+
+    - text: Add one <emoji>:rolling ADD TARGET <emoji>:statusaddtarget card
+      count: 2
+
+    - text: Ignore negative scenario effects
+    
+sun:
+  name: Valrath Sunkeeper
+  hp: [10, 12, 14, 16, 18, 20, 22, 24, 26]
+  handSize: 11
+  perks:
+    - text: Remove two -1 cards
+      count: 2
+
+    - text: Remove four +0 cards
+
+    - text: Replace one -2 card with one +0 card
+
+    - text: Add two <emoji>:rolling +1 cards
+      count: 2
+
+    - text: Add two <emoji>:rolling Heal +1 cards
+      count: 2
+      
+    - text: Add one <emoji>:rolling STUN <emoji>:statusstun card
+
+    - text: Add two <emoji>:rolling <emoji>:elementlight cards
+      count: 2
+
+    - text: Add two <emoji>:rolling Shield <emoji>:iconshield 1, Self cards
+
+    - text: Ignore negative item effects and add two +1 cards
+
+    - text: Ignore negative scenario effects
+    
+three-spears:
+  name: Valrath Quartermaster
+  hp: [10, 12, 14, 16, 18, 20, 22, 24, 26]
+  handSize: 9
+  perks:
+    - text: Remove two -1 cards
+      count: 2
+
+    - text: Remove four +0 cards
+    
+    - text: Replace one +0 card with one +2 card
+
+    - text: Add two <emoji>:rolling +1 cards
+      count: 2
+
+    - text: Add three <emoji>:rolling MUDDLE <emoji>:statusmuddle cards
+
+    - text: Add two <emoji>:rolling PIERCE <emoji>:statuspierce 3 cards
+
+    - text: Add one <emoji>:rolling STUN <emoji>:statusstun card
+
+    - text: Add one <emoji>:rolling ADD TARGET <emoji>:statusaddtarget card
+
+    - text: Add one +0 Refresh an item card
+      count: 3
+
+    - text: Ignore negative item effects and add two +1 cards
+    
+three-swords:
+  name: Harrower Bladeswarm
+  hp: [8, 9, 11, 12, 14, 15, 17, 18, 20]
+  handSize: 11
+  perks:
+    - text: Remove one -2 card
+
+    - text: Remove four +0 cards
+
+    - text: Replace one -1 card with one +1 <emoji>:elementair card
+
+    - text: Replace one -1 card with one +1 <emoji>:elementearth card
+
+    - text: Replace one -1 card with one +1 <emoji>:elementlight card
+
+    - text: Replace one -1 card with one +1 <emoji>:elementdark card
+
+    - text: Add two <emoji>:rolling Heal +1 cards
+      count: 2
+
+    - text: Add one +1 WOUND <emoji>:statuswound card
+      count: 2
+
+    - text: Add one +1 POISON <emoji>:statuspoison card
+      count: 2
+
+    - text: Add one +2 MUDDLE <emoji>:statusmuddle card
+
+    - text: Ignore negative item effects and add one +1 card
+
+    - text: Ignore negative scenario effects and add one +1 card
+    
+tinkerer:
+  name: Quatryl Tinkerer
+  hp: [8, 9, 11, 12, 14, 15, 17, 18, 20]
+  handSize: 11
+  perks:
+    - text: Remove two -1 cards
+      count: 2
+
+    - text: Replace one -2 card with one +0 card
+
+    - text: Add two +1 cards
+
+    - text: Add one +3 card
+
+    - text: Add two <emoji>:rolling <emoji>:elementfire cards
+
+    - text: Add three <emoji>:rolling MUDDLE <emoji>:statusmuddle cards
+
+    - text: Add one +1 WOUND <emoji>:statuswound card
+      count: 2
+
+    - text: Add one +1 IMMOBILIZE <emoji>:statusimmobilize card
+      count: 2
+
+    - text: Add one +1 Heal +2 card
+      count: 2
+
+    - text: Add one +0 ADD TARGET <emoji>:statusaddtarget card
+    
+    - text: Ignore negative scenario effects
+    
+triangles:
+  name: Savvas Elementalist
+  hp: [6, 7, 8, 9, 10, 11, 12, 13, 14]
+  handSize: 10
+  perks:
+    - text: Remove two -1 cards
+      count: 2
+
+    - text: Replace one -1 card with one +1 card
+    
+    - text: Replace one +0 card with one +2 card
+      count: 2
+
+    - text: Add three +0 <emoji>:elementfire cards
+
+    - text: Add three +0 <emoji>:elementice cards
+
+    - text: Add three +0 <emoji>:elementair cards
+
+    - text: Add three +0 <emoji>:elementearth cards
+
+    - text: Replace two +0 cards with one +0 <emoji>:elementfire and one +0 <emoji>:elementearth card
+
+    - text: Replace two +0 cards with one +0 <emoji>:elementice and one +0 <emoji>:elementair card
+
+    - text: Add two +1 PUSH <emoji>:statuspush cards
+
+    - text: Add one +1 WOUND <emoji>:statuswound card
+
+    - text: Add one +0 STUN <emoji>:statusstun card
+
+    - text: Add one +0 <emoji>:statusaddtarget card
+    
+two-minis:
+  name: Vermling Beast Tyrant
+  hp: [6, 7, 8, 9, 10, 11, 12, 13, 14]
+  extraHP: [10, 12, 14, 16, 18, 20, 22, 24, 26]
+  handSize: 10
+  perks:
+    - text: Remove two -1 cards
+
+    - text: Replace one -1 card with one +1 card
+      count: 3
+
+    - text: Replace one +0 card with one +2 card
+      count: 2
+
+    - text: Add one +1 WOUND <emoji>:statuswound card
+      count: 2
+
+    - text: Add one +1 IMMOBILIZE <emoji>:statusimmobilize card
+      count: 2
+
+    - text: Add two <emoji>:rolling Heal +1 cards
+      count: 3
+
+    - text: Add two <emoji>:rolling <emoji>:elementearth cards
+
+    - text: Ignore negative scenario effects
