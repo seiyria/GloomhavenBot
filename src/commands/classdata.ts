@@ -44,8 +44,8 @@ export class ClassDataCommand implements ICommand {
       .setAuthor('Class Overview', `attachment://${realChar}.png`)
       .setTitle(`||${classData.name}||`);
 
-    embed.addField('HP', classData.hp.join(' | '), true);
-    embed.addField('Hand Size', classData.handSize, true);
+    embed.addField('HP', `||${classData.hp.join(' | ')}||`, true);
+    embed.addField('Hand Size', `||${classData.handSize}||`, true);
 
     if (classData.extraHP) {
       embed.addField('||Secondary HP||', `||${classData.extraHP.join(' | ')}||`);
