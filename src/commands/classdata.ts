@@ -51,9 +51,9 @@ export class ClassDataCommand implements ICommand {
       embed.addField('||Secondary HP||', `||${classData.extraHP.join(' | ')}||`);
     }
 
-    const perkText = classData.perks.map((p) => `${Array(p.count || 1).fill('▫️').join(' ')} ${this.textService.formatTextForEmojis(p.text)}`);
+    const perkText = classData.perks.map((p) => `${Array(p.count || 1).fill('▫️').join(' ')} ${this.textService.formatTextForEmojis(p.text)}`).join('\n');
 
-    embed.addField('Perks', perkText);
+    embed.addField('Perks', `||${perkText}||`);
 
     message.channel.send({ embed });
 
