@@ -484,7 +484,7 @@ three-swords:
 tinkerer:
   name: Quatryl Tinkerer
   hp: [8, 9, 11, 12, 14, 15, 17, 18, 20]
-  handSize: 11
+  handSize: 12
   perks:
     - text: Remove two -1 cards
       count: 2
