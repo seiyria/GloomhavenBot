@@ -233,7 +233,7 @@ mindthief:
 
     - text: Add three <emoji>:rolling MUDDLE <emoji>:statusmuddle cards
     
-    - text: Add two <emoji>:rolling IMMOBILIZE <emoji>:immobilize cards
+    - text: Add two <emoji>:rolling IMMOBILIZE <emoji>:statusimmobilize cards
 
     - text: Add one <emoji>:rolling STUN <emoji>:statusstun card
 
