@@ -82,7 +82,7 @@ export class CommandParser extends BaseService {
       cmdInst.aliases.forEach((alias) => {
         if (this.executableCommands[alias]) {
           throw new Error(
-            `Cannot re-register alias "${alias}". Trying to register ${cmdInst} but already registered ${this.executableCommands[alias]}.`
+            `Cannot re-register alias "${alias}". Trying to register ${JSON.stringify(cmdInst)} but already registered ${JSON.stringify(this.executableCommands[alias])}.`
           );
         }
 
