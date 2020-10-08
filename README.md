@@ -1,7 +1,7 @@
 
 # Gloomhaven Bot
 
-A discord bot for Gloomhaven-related lookups.
+A Discord bot for Gloomhaven-related lookups.
 
 ## Developing
 
