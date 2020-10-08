@@ -20,7 +20,7 @@ export class ItemCommand implements ICommand {
   async execute(cmdArgs: ICommandArgs): Promise<ICommandResult> {
     const { message, args } = cmdArgs;
 
-    const card = this.itemService.getGloomItem(args);
+    const card = this.itemService.getGloomItem(args.split('|').join(''));
     if (!card) {
       message.channel.send(`Sorry! I could not find anything like "${args}"`);
       return;

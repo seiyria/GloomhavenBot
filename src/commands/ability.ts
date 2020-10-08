@@ -23,7 +23,7 @@ export class AbilityCommand implements ICommand {
   async execute(cmdArgs: ICommandArgs): Promise<ICommandResult> {
     const { message, args } = cmdArgs;
 
-    const [potentialChar, potentialLevel] = args.split(' ').map((a) => a.toLowerCase());
+    const [potentialChar, potentialLevel] = args.split('|').join('').split(' ').map((a) => a.toLowerCase());
     const realChar = this.charService.resolveClass(potentialChar);
 
     const validLevels = ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'x', 'm', 'all', 'a', 'b'];

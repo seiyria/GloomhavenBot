@@ -17,7 +17,7 @@ export class PersonalGoalCommand implements ICommand {
   async execute(cmdArgs: ICommandArgs): Promise<ICommandResult> {
     const { message, args } = cmdArgs;
 
-    const pgoal = this.pgoalService.getGloomPersonalGoal(args);
+    const pgoal = this.pgoalService.getGloomPersonalGoal(args.split('|').join(''));
     if (!pgoal) {
       message.channel.send(`Sorry! I could not find anything like "${args}"`);
       return;

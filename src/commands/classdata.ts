@@ -21,7 +21,7 @@ export class ClassDataCommand implements ICommand {
   async execute(cmdArgs: ICommandArgs): Promise<ICommandResult> {
     const { message, args } = cmdArgs;
 
-    const searchClass = args.toLowerCase().trim();
+    const searchClass = args.split('|').join('').toLowerCase().trim();
     const realChar = this.charService.resolveClass(searchClass);
 
     if (!realChar) {

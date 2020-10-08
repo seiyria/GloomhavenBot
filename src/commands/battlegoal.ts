@@ -17,7 +17,7 @@ export class BattleGoalCommand implements ICommand {
   async execute(cmdArgs: ICommandArgs): Promise<ICommandResult> {
     const { message, args } = cmdArgs;
 
-    const bgoal = this.pgoalService.getGloomBattleGoal(args);
+    const bgoal = this.pgoalService.getGloomBattleGoal(args.split('|').join(''));
     if (!bgoal) {
       message.channel.send(`Sorry! I could not find anything like "${args}"`);
       return;

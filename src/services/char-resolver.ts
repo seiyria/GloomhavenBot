@@ -25,11 +25,11 @@ const Characters = {
   'manifestation-of-corruption': ['manifestation'],
 };
 
-const AllCharacterAliases = Object.keys(Characters).reduce((prev, cur) => {w;
-                                                                           prev[cur] = cur;
-                                                                           Characters[cur].forEach((c) => prev[c] = cur);
+const AllCharacterAliases = Object.keys(Characters).reduce((prev, cur) => {
+  prev[cur] = cur;
+  Characters[cur].forEach((c) => prev[c] = cur);
 
-                                                                           return prev;
+  return prev;
 }, {});
 
 @Singleton
