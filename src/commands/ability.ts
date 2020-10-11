@@ -22,6 +22,7 @@ export class AbilityCommand implements ICommand {
 
   async execute(cmdArgs: ICommandArgs): Promise<ICommandResult> {
     const { message, args } = cmdArgs;
+    const retVal = { resultString: JSON.stringify({ query: args, requester: message.author.username, requesterTag: message.author.tag }) };
 
     const [potentialChar, potentialLevel] = args.split('|').join('').split(' ').map((a) => a.toLowerCase());
     const realChar = this.charService.resolveClass(potentialChar);
@@ -32,7 +33,7 @@ export class AbilityCommand implements ICommand {
 
       if (!potentialLevel) {
         message.channel.send(`You need to specify a level, like so: \`!ability brute 2\`.`);
-        return;
+        return retVal;
       }
 
       const cards = potentialLevel !== 'all'
@@ -41,7 +42,7 @@ export class AbilityCommand implements ICommand {
 
       if (cards.length === 0) {
         message.channel.send(`Sorry! I could not find any cards for that character/level combination.`);
-        return;
+        return retVal;
       }
 
       const fileName = `${realChar}-${potentialLevel || 'all'}.jpg`;
@@ -86,13 +87,13 @@ export class AbilityCommand implements ICommand {
 
       await message.channel.send({ files: attachFile });
 
-      return { };
+      return retVal;
     }
 
     const ability = this.abilityService.getGloomAbility(args);
     if (!ability) {
       message.channel.send(`Sorry! I could not find anything like "${args}"`);
-      return;
+      return retVal;
     }
 
     const attachFiles = [
@@ -106,7 +107,7 @@ export class AbilityCommand implements ICommand {
 
     message.channel.send({ files: attachFiles });
 
-    return { };
+    return retVal;
   }
 
 }
