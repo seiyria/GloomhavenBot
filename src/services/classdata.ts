@@ -32,7 +32,7 @@ export class ClassDataService extends BaseService {
 
   private loadAll() {
     ['Gloomhaven', 'JOTL'].forEach((game) => {
-      const classes: Record<string, IClassData> = YAML.load(`assets/${game}/classes.yml`);
+      const classes: Record<string, IClassData> = YAML.load(`assets/${game.toLowerCase()}/classes.yml`);
       Object.values(classes).forEach((c) => {
         c.game = game as unknown as Game;
         c.assetPath = game.toLowerCase();
