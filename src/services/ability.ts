@@ -43,21 +43,19 @@ export class AbilityService extends BaseService {
   }
 
   private loadAll() {
-    this.loadGloomAbilities();
-  }
+    ['Gloomhaven', 'JOTL'].forEach((game) => {
+      const cards = YAML.load(`assets/${game.toLowerCase()}/abilities.yml`);
 
-  private loadGloomAbilities() {
-    const cards = YAML.load('assets/gloomhaven/abilities.yml');
+      cards.forEach((card) => {
 
-    cards.forEach((card) => {
+        card.level = card.level.toString().toLowerCase();
+        card.longImage = `assets/${game.toLowerCase()}/images/characters/${card.char}/${card.image}`;
 
-      card.level = card.level.toString().toLowerCase();
-      card.longImage = `assets/gloomhaven/images/characters/${card.char}/${card.image}`;
+        const nameRef = Object.assign({ _key: card.name }, card);
 
-      const nameRef = Object.assign({ _key: card.name }, card);
-
-      this.gloomAbilities.add(nameRef);
-      this.gloomCards.push(card);
+        this.gloomAbilities.add(nameRef);
+        this.gloomCards.push(card);
+      });
     });
   }
 

@@ -1,9 +1,12 @@
+import { Game } from 'discord.js';
 import { AutoWired, Singleton } from 'typescript-ioc';
 import * as YAML from 'yamljs';
 
 import { BaseService } from '../base/BaseService';
 
 interface IClassData {
+  game: Game;
+  assetPath: string;
   name: string;
   hp: number[];
   extraHP?: number[];
@@ -28,11 +31,15 @@ export class ClassDataService extends BaseService {
   }
 
   private loadAll() {
-    this.loadGloomClasses();
-  }
+    ['Gloomhaven', 'JOTL'].forEach((game) => {
+      const classes: Record<string, IClassData> = YAML.load(`assets/${game}/classes.yml`);
+      Object.values(classes).forEach((c) => {
+        c.game = game as unknown as Game;
+        c.assetPath = game.toLowerCase();
+      });
 
-  private loadGloomClasses() {
-    this.classData = YAML.load('assets/gloomhaven/classes.yml');
+      Object.assign(this.classData, classes);
+    });
   }
 
 }

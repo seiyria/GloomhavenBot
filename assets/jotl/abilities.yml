@@ -1,0 +1,725 @@
+
+# Demolitionist
+- name: Implode (A)
+  char: demolitionist
+  image: demo-ab-0.jpg
+  level: a
+
+- name: Knock Out The Support (A)
+  char: demolitionist
+  image: demo-ab-1.jpg
+  level: a
+
+- name: Piston Punch (A)
+  char: demolitionist
+  image: demo-ab-2.jpg
+  level: a
+
+- name: Explosive Blitz (A)
+  char: demolitionist
+  image: demo-ab-3.jpg
+  level: a
+
+- name: The Big One (A)
+  char: demolitionist
+  image: demo-ab-4.jpg
+  level: a
+
+- name: One-Two Punch (A)
+  char: demolitionist
+  image: demo-ab-5.jpg
+  level: a
+
+- name: The Big One (B)
+  char: demolitionist
+  image: demo-ab-6.jpg
+  level: b
+
+- name: One-Two Punch (B)
+  char: demolitionist
+  image: demo-ab-7.jpg
+  level: b
+  
+- name: Windup
+  char: demolitionist
+  image: demo-lvl-0.jpg
+  level: 1
+  
+- name: Crushing Weight
+  char: demolitionist
+  image: demo-lvl-1.jpg
+  level: 1
+
+- name: Knock Out The Support
+  char: demolitionist
+  image: demo-lvl-2.jpg
+  level: 1
+  
+- name: Explode
+  char: demolitionist
+  image: demo-lvl-3.jpg
+  level: 1
+  
+- name: Implode
+  char: demolitionist
+  image: demo-lvl-4.jpg
+  level: 1
+
+- name: Piston Punch
+  char: demolitionist
+  image: demo-lvl-5.jpg
+  level: 1
+
+- name: Explosive Blitz
+  char: demolitionist
+  image: demo-lvl-6.jpg
+  level: 1
+
+- name: The Big One
+  char: demolitionist
+  image: demo-lvl-7.jpg
+  level: 1
+
+- name: One-Two Punch
+  char: demolitionist
+  image: demo-lvl-8.jpg
+  level: 1
+
+- name: Rubble
+  char: demolitionist
+  image: demo-lvl-9.jpg
+  level: x
+
+- name: Level
+  char: demolitionist
+  image: demo-lvl-10.jpg
+  level: x
+
+- name: Lobbed Charge
+  char: demolitionist
+  image: demo-lvl-11.jpg
+  level: x
+
+- name: Robotic Enhancement
+  char: demolitionist
+  image: demo-lvl-12.jpg
+  level: 2
+
+- name: Crash Protocol
+  char: demolitionist
+  image: demo-lvl-13.jpg
+  level: 2
+
+- name: Fire Bombs
+  char: demolitionist
+  image: demo-lvl-14.jpg
+  level: 3
+
+- name: Nowhere to Run
+  char: demolitionist
+  image: demo-lvl-15.jpg
+  level: 3
+
+- name: Remote Detonation
+  char: demolitionist
+  image: demo-lvl-16.jpg
+  level: 4
+
+- name: Extra Fuel
+  char: demolitionist
+  image: demo-lvl-17.jpg
+  level: 4
+
+- name: Mech Suit
+  char: demolitionist
+  image: demo-secret-0.jpg
+  level: 5
+
+- name: Dust Cloud
+  char: demolitionist
+  image: demo-secret-1.jpg
+  level: 6
+
+- name: Drill Fist
+  char: demolitionist
+  image: demo-secret-2.jpg
+  level: 6
+
+- name: Micro Missiles
+  char: demolitionist
+  image: demo-secret-3.jpg
+  level: 7
+
+- name: Insult to Injury
+  char: demolitionist
+  image: demo-secret-4.jpg
+  level: 7
+
+- name: Gut Punch
+  char: demolitionist
+  image: demo-secret-5.jpg
+  level: 8
+
+- name: The Bigger One
+  char: demolitionist
+  image: demo-secret-6.jpg
+  level: 8
+
+- name: Collateral Damage
+  char: demolitionist
+  image: demo-secret-7.jpg
+  level: 9
+
+- name: Wholesale Destruction
+  char: demolitionist
+  image: demo-secret-8.jpg
+  level: 9
+  
+# Hatchet
+- name: Stopping Power (A)
+  char: hatchet
+  image: hatchet-ab-0.jpg
+  level: a
+
+- name: Double Throw (A)
+  char: hatchet
+  image: hatchet-ab-1.jpg
+  level: a
+
+- name: Disorienting Barrage (A)
+  char: hatchet
+  image: hatchet-ab-2.jpg
+  level: a
+
+- name: Second Wind (A)
+  char: hatchet
+  image: hatchet-ab-3.jpg
+  level: a
+
+- name: Center Mass (A)
+  char: hatchet
+  image: hatchet-ab-4.jpg
+  level: a
+
+- name: Close Cuts (A)
+  char: hatchet
+  image: hatchet-ab-5.jpg
+  level: a
+
+- name: Center Mass (B)
+  char: hatchet
+  image: hatchet-ab-6.jpg
+  level: b
+
+- name: Close Cuts (B)
+  char: hatchet
+  image: hatchet-ab-7.jpg
+  level: b
+  
+- name: The Favorite
+  char: hatchet
+  image: hatchet-lvl-0.jpg
+  level: 1
+  
+- name: Retrieval
+  char: hatchet
+  image: hatchet-lvl-1.jpg
+  level: 1
+
+- name: Close Cuts
+  char: hatchet
+  image: hatchet-lvl-2.jpg
+  level: 1
+  
+- name: Center Mass
+  char: hatchet
+  image: hatchet-lvl-3.jpg
+  level: 1
+  
+- name: Stopping Power
+  char: hatchet
+  image: hatchet-lvl-4.jpg
+  level: 1
+
+- name: Double Throw
+  char: hatchet
+  image: hatchet-lvl-5.jpg
+  level: 1
+
+- name: Disorienting Barrage
+  char: hatchet
+  image: hatchet-lvl-6.jpg
+  level: 1
+
+- name: Power Pitch
+  char: hatchet
+  image: hatchet-lvl-7.jpg
+  level: 1
+
+- name: Follow Through
+  char: hatchet
+  image: hatchet-lvl-8.jpg
+  level: 1
+
+- name: Second Wind
+  char: hatchet
+  image: hatchet-lvl-9.jpg
+  level: 1
+
+- name: Care Package
+  char: hatchet
+  image: hatchet-lvl-10.jpg
+  level: x
+
+- name: Extra Lift
+  char: hatchet
+  image: hatchet-lvl-11.jpg
+  level: x
+
+- name: Fancy Hat
+  char: hatchet
+  image: hatchet-lvl-12.jpg
+  level: x
+
+- name: Repeat Shot
+  char: hatchet
+  image: hatchet-lvl-13.jpg
+  level: 2
+
+- name: Ricochet
+  char: hatchet
+  image: hatchet-lvl-14.jpg
+  level: 2
+
+- name: Sharpened Blades
+  char: hatchet
+  image: hatchet-lvl-15.jpg
+  level: 3
+
+- name: Fearsome Efficiency
+  char: hatchet
+  image: hatchet-lvl-16.jpg
+  level: 3
+
+- name: Ripped From the Flesh
+  char: hatchet
+  image: hatchet-lvl-17.jpg
+  level: 4
+
+- name: Overwatch
+  char: hatchet
+  image: hatchet-lvl-18.jpg
+  level: 4
+
+- name: The New Favorite
+  char: hatchet
+  image: hatchet-secret-0.jpg
+  level: 5
+
+- name: Bombardment
+  char: hatchet
+  image: hatchet-secret-1.jpg
+  level: 6
+
+- name: Quick Turnaround
+  char: hatchet
+  image: hatchet-secret-2.jpg
+  level: 6
+
+- name: Excessive Force
+  char: hatchet
+  image: hatchet-secret-3.jpg
+  level: 7
+
+- name: Brutalize
+  char: hatchet
+  image: hatchet-secret-4.jpg
+  level: 7
+
+- name: Shrapnel
+  char: hatchet
+  image: hatchet-secret-5.jpg
+  level: 8
+
+- name: Camaraderie
+  char: hatchet
+  image: hatchet-secret-6.jpg
+  level: 8
+
+- name: Executioner's Axe
+  char: hatchet
+  image: hatchet-secret-7.jpg
+  level: 9
+
+- name: Heart Seeker
+  char: hatchet
+  image: hatchet-secret-8.jpg
+  level: 9
+  
+# Red Guard
+- name: Flaming Sickle (A)
+  char: redguard
+  image: red-ab-0.jpg
+  level: a
+
+- name: Blinding Sickle (A)
+  char: redguard
+  image: red-ab-1.jpg
+  level: a
+
+- name: Twirling Stabs (A)
+  char: redguard
+  image: red-ab-2.jpg
+  level: a
+
+- name: Shocking Advance (A)
+  char: redguard
+  image: red-ab-3.jpg
+  level: a
+
+- name: Desert Night (A)
+  char: redguard
+  image: red-ab-4.jpg
+  level: a
+
+- name: Shield Spikes (A)
+  char: redguard
+  image: red-ab-5.jpg
+  level: a
+
+- name: Desert Night (B)
+  char: redguard
+  image: red-ab-6.jpg
+  level: b
+
+- name: Flaming Sickle (B)
+  char: redguard
+  image: red-ab-7.jpg
+  level: b
+  
+- name: Swift Strength
+  char: redguard
+  image: red-lvl-0.jpg
+  level: 1
+  
+- name: Healing Sands
+  char: redguard
+  image: red-lvl-1.jpg
+  level: 1
+
+- name: Shield Spikes
+  char: redguard
+  image: red-lvl-2.jpg
+  level: 1
+  
+- name: Flaming Sickle
+  char: redguard
+  image: red-lvl-3.jpg
+  level: 1
+  
+- name: Blinding Sickle
+  char: redguard
+  image: red-lvl-4.jpg
+  level: 1
+
+- name: Twirling Stabs
+  char: redguard
+  image: red-lvl-5.jpg
+  level: 1
+
+- name: Flame Shroud
+  char: redguard
+  image: red-lvl-6.jpg
+  level: 1
+
+- name: Shocking Advance
+  char: redguard
+  image: red-lvl-7.jpg
+  level: 1
+
+- name: Shield of the Desert
+  char: redguard
+  image: red-lvl-8.jpg
+  level: 1
+
+- name: Desert Night
+  char: redguard
+  image: red-lvl-9.jpg
+  level: 1
+
+- name: Warrior of the Sun
+  char: redguard
+  image: red-lvl-10.jpg
+  level: x
+
+- name: Blade Dance
+  char: redguard
+  image: red-lvl-11.jpg
+  level: x
+
+- name: Precision Strike
+  char: redguard
+  image: red-lvl-12.jpg
+  level: x
+
+- name: Harvest Sickle
+  char: redguard
+  image: red-lvl-13.jpg
+  level: 2
+
+- name: Barbaric Instincts
+  char: redguard
+  image: red-lvl-14.jpg
+  level: 2
+
+- name: Warmth of the Sun
+  char: redguard
+  image: red-lvl-15.jpg
+  level: 3
+
+- name: Strangling Chain
+  char: redguard
+  image: red-lvl-16.jpg
+  level: 3
+
+- name: Radiant Sickle
+  char: redguard
+  image: red-lvl-17.jpg
+  level: 4
+
+- name: Burn Away the Dark
+  char: redguard
+  image: red-lvl-18.jpg
+  level: 4
+
+- name: Sand Devil
+  char: redguard
+  image: red-secret-0.jpg
+  level: 5
+
+- name: Fierce Brilliance
+  char: redguard
+  image: red-secret-1.jpg
+  level: 6
+
+- name: Flying Sickle
+  char: redguard
+  image: red-secret-2.jpg
+  level: 6
+
+- name: Vicious Ballet
+  char: redguard
+  image: red-secret-3.jpg
+  level: 7
+
+- name: Horns of the Beast
+  char: redguard
+  image: red-secret-4.jpg
+  level: 7
+
+- name: Prismatic Sickle
+  char: redguard
+  image: red-secret-5.jpg
+  level: 8
+
+- name: No Fear
+  char: redguard
+  image: red-secret-6.jpg
+  level: 8
+
+- name: Soaring Shield
+  char: redguard
+  image: red-secret-7.jpg
+  level: 9
+
+- name: Honorable Fury
+  char: redguard
+  image: red-secret-8.jpg
+  level: 9
+  
+# Voidwarden
+- name: Black Boon (A)
+  char: voidwarden
+  image: void-ab-0.jpg
+  level: a
+
+- name: Turn Out the Lights (A)
+  char: voidwarden
+  image: void-ab-1.jpg
+  level: a
+
+- name: Wicked Scratch (A)
+  char: voidwarden
+  image: void-ab-2.jpg
+  level: a
+
+- name: Suggestion (A)
+  char: voidwarden
+  image: void-ab-3.jpg
+  level: a
+
+- name: Gift of the Void (A)
+  char: voidwarden
+  image: void-ab-4.jpg
+  level: a
+
+- name: Lure of the Void (A)
+  char: voidwarden
+  image: void-ab-5.jpg
+  level: a
+
+- name: Lure of the Void (B)
+  char: voidwarden
+  image: void-ab-6.jpg
+  level: b
+
+- name: Wicked Scratch (B)
+  char: voidwarden
+  image: void-ab-7.jpg
+  level: b
+  
+- name: Signs of the Void
+  char: voidwarden
+  image: void-lvl-0.jpg
+  level: 1
+  
+- name: Close to the Abyss
+  char: voidwarden
+  image: void-lvl-1.jpg
+  level: 1
+
+- name: Gift of the Void
+  char: voidwarden
+  image: void-lvl-2.jpg
+  level: 1
+  
+- name: Black Boon
+  char: voidwarden
+  image: void-lvl-3.jpg
+  level: 1
+  
+- name: Freeze the Soul
+  char: voidwarden
+  image: void-lvl-4.jpg
+  level: 1
+
+- name: Wicked Scratch
+  char: voidwarden
+  image: void-lvl-5.jpg
+  level: 1
+
+- name: Turn Out the Lights
+  char: voidwarden
+  image: void-lvl-6.jpg
+  level: 1
+
+- name: Lure of the Void
+  char: voidwarden
+  image: void-lvl-7.jpg
+  level: 1
+
+- name: Grasp of Doom
+  char: voidwarden
+  image: void-lvl-8.jpg
+  level: 1
+
+- name: Master Influence
+  char: voidwarden
+  image: void-lvl-9.jpg
+  level: 1
+
+- name: Suggestion
+  char: voidwarden
+  image: void-lvl-10.jpg
+  level: 1
+
+- name: Resigned Frenzy
+  char: voidwarden
+  image: void-lvl-11.jpg
+  level: x
+
+- name: Cold Embrace
+  char: voidwarden
+  image: void-lvl-12.jpg
+  level: x
+
+- name: Sap Warmth
+  char: voidwarden
+  image: void-lvl-13.jpg
+  level: x
+
+- name: Give and Take
+  char: voidwarden
+  image: void-lvl-14.jpg
+  level: 2
+
+- name: Crushing Cold
+  char: voidwarden
+  image: void-lvl-15.jpg
+  level: 2
+
+- name: Taunting Fate
+  char: voidwarden
+  image: void-lvl-16.jpg
+  level: 3
+
+- name: Commanding Presence
+  char: voidwarden
+  image: void-lvl-17.jpg
+  level: 3
+
+- name: Savage Instinct
+  char: voidwarden
+  image: void-lvl-18.jpg
+  level: 4
+
+- name: The Last Journey
+  char: voidwarden
+  image: void-lvl-19.jpg
+  level: 4
+
+- name: Stand Fast
+  char: voidwarden
+  image: void-secret-0.jpg
+  level: 5
+
+- name: Withering Conviction
+  char: voidwarden
+  image: void-secret-1.jpg
+  level: 6
+
+- name: Surge of Power
+  char: voidwarden
+  image: void-secret-2.jpg
+  level: 6
+
+- name: Hateful Blast
+  char: voidwarden
+  image: void-secret-3.jpg
+  level: 7
+
+- name: Spirit Hunger
+  char: voidwarden
+  image: void-secret-4.jpg
+  level: 7
+
+- name: Lull Into Oblivion
+  char: voidwarden
+  image: void-secret-5.jpg
+  level: 8
+
+- name: Empowered Link
+  char: voidwarden
+  image: void-secret-6.jpg
+  level: 8
+
+- name: Eye of the Void
+  char: voidwarden
+  image: void-secret-7.jpg
+  level: 9
+
+- name: Possessed by Fate
+  char: voidwarden
+  image: void-secret-8.jpg
+  level: 9
+  

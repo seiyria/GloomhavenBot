@@ -1,0 +1,115 @@
+
+# JOTL
+redguard:
+  name: Valrath Red Guard
+  hp: [10, 12, 14, 16, 18, 20, 22, 24, 26]
+  handSize: 10
+  perks:
+    - text: Remove four +0 cards
+
+    - text: Remove two -1 cards
+
+    - text: Remove one -2 card and one +1 card
+
+    - text: Replace one -1 card with one +1 card
+      count: 2
+
+    - text: Replace one +1 card with one +2 <emoji>:elementfire card
+      count: 2
+
+    - text: Replace one +1 card with one +2 <emoji>:elementlight card
+
+    - text: Add one +1 <emoji>:elementfire <emoji>:elementlight card
+      count: 2
+
+    - text: Add one +1 Shield <emoji>:iconshield 1 card
+      count: 2
+
+    - text: Replace one +0 with one +1 IMMOBILIZE <emoji>:statusimmobilize card
+
+    - text: Replace one +0 card with one +1 WOUND <emoji>:statuswound card
+
+voidwarden:
+  name: Human Voidwarden
+  hp: [6, 7, 8, 9, 10, 11, 12, 13, 14]
+  handSize: 11
+  perks:
+    - text: Remove two -1 cards
+
+    - text: Remove one -2 card
+
+    - text: Replace one +0 card with one +1 <emoji>:elementdark card
+      count: 2
+
+    - text: Replace one +0 card with one +1 <emoji>:elementice card
+      count: 2
+
+    - text: Replace one -1 card with one +0 Heal 1 (Ally) card
+      count: 2
+
+    - text: Add one +1 Heal 1 (Ally) card
+      count: 3
+
+    - text: Add one +1 POISON <emoji>:statuspoison card
+
+    - text: Add one +3 card
+
+    - text: Add one +1 CURSE <emoji>:statuscurse card
+      count: 2
+
+demolitionist:
+  name: Quatryl Demolitionist
+  hp: [8, 9, 11, 12, 14, 15, 17, 18, 20]
+  handSize: 9
+  perks:
+    - text: Remove four +0 cards
+
+    - text: Remove two -1 cards
+      count: 2
+
+    - text: Remove one -2 card and one +1 card
+
+    - text: Replace one +0 card with one +2 MUDDLE <emoji>:statusmuddle card
+      count: 2
+
+    - text: Replace one -1 card with one +0 POISON <emoji>:statuspoison card
+
+    - text: Add one +2 card
+      count: 2
+
+    - text: Replace one +1 card with one +2 <emoji>:elementearth card
+      count: 2
+
+    - text: Replace one +1 card with one +2 <emoji>:elementfire card
+      count: 2
+
+    - text: Add one +0 all adjacent enemies suffer 1 damage card
+      count: 2
+
+hatchet:
+  name: Inox Hatchet
+  hp: [8, 9, 11, 12, 14, 15, 17, 18, 20]
+  handSize: 10
+  perks:
+    - text: Remove two -1 cards
+      count: 2
+
+    - text: Replace one +0 card with one +2 MUDDLE <emoji>:statusmuddle card
+
+    - text: Replace one +0 card with one +1 POISON <emoji>:statuspoison card
+
+    - text: Replace one +0 card with one +1 WOUND <emoji>:statuswound card
+
+    - text: Replace one +0 card with one +1 IMMOBILIZE <emoji>:statusimmobilize card
+
+    - text: Replace one +0 card with one +1 PUSH <emoji>:statuspush 2 card
+
+    - text: Replace one +0 card with one +0 STUN <emoji>:statusstun card
+
+    - text: Replace one +1 card with one +1 STUN <emoji>:statusstun card
+
+    - text: Add one +2 <emoji>:elementair card
+      count: 3
+
+    - text: Replace one +1 card with one +3 card
+      count: 3

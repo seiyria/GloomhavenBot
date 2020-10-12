@@ -25,6 +25,7 @@ ${this.helpService.allHelp.map(({ aliases, help }) => {
 })
 .join('\n')}
 
+_Supported games: Gloomhaven, Jaws of the Lion_
 _For bot info, reach out to Seiyria#3457_
 `
     );

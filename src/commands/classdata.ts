@@ -36,12 +36,12 @@ export class ClassDataCommand implements ICommand {
     }
 
     const attachFiles = [
-      `./assets/gloomhaven/images/icons/${realChar}.png`
+      `./assets/${classData.assetPath}/images/icons/${realChar}.png`
     ];
 
     const embed = new Discord.RichEmbed()
       .attachFiles(attachFiles)
-      .setAuthor('Class Overview', `attachment://${realChar}.png`)
+      .setAuthor(`Class Overview (${classData.game})`, `attachment://${realChar}.png`)
       .setTitle(`||${classData.name}||`);
 
     embed.addField('HP', `||${classData.hp.join(' | ')}||`, true);
