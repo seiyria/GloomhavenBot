@@ -50,7 +50,7 @@ export class CommandParser extends BaseService {
     const cmd = message.content.split(' ')[0].substring(1);
     const args = message.content.substring(message.content.indexOf(cmd) + cmd.length + 1);
 
-    const cmdInst = this.executableCommands[cmd];
+    const cmdInst = this.executableCommands[cmd.toLowerCase()];
     if (!cmdInst) { return; }
 
     try {
