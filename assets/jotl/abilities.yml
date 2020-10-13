@@ -135,6 +135,11 @@
   image: demo-secret-0.jpg
   level: 5
 
+- name: Mech Suit (Copy)
+  char: demolitionist
+  image: demo-secret-0.jpg
+  level: 5
+
 - name: Dust Cloud
   char: demolitionist
   image: demo-secret-1.jpg
@@ -316,6 +321,11 @@
   image: hatchet-secret-0.jpg
   level: 5
 
+- name: The New Favorite (Copy)
+  char: hatchet
+  image: hatchet-secret-0.jpg
+  level: 5
+
 - name: Bombardment
   char: hatchet
   image: hatchet-secret-1.jpg
@@ -493,6 +503,11 @@
   level: 4
 
 - name: Sand Devil
+  char: redguard
+  image: red-secret-0.jpg
+  level: 5
+
+- name: Sand Devil (Copy)
   char: redguard
   image: red-secret-0.jpg
   level: 5
@@ -679,6 +694,11 @@
   level: 4
 
 - name: Stand Fast
+  char: voidwarden
+  image: void-secret-0.jpg
+  level: 5
+
+- name: Stand Fast (Copy)
   char: voidwarden
   image: void-secret-0.jpg
   level: 5
