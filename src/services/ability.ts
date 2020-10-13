@@ -55,6 +55,8 @@ export class AbilityService extends BaseService {
         this.gloomAbilities.add(Object.assign({ _key: `${card.name} ${card.char}` }, card));
         this.gloomAbilities.add(Object.assign({ _key: `${card.name} ${card.level}` }, card));
         this.gloomAbilities.add(Object.assign({ _key: `${card.char} ${card.name}` }, card));
+        this.gloomAbilities.add(Object.assign({ _key: `${game.toLowerCase()} ${card.name}` }, card));
+        this.gloomAbilities.add(Object.assign({ _key: `${card.name} ${game.toLowerCase()}` }, card));
         this.gloomCards.push(card);
       });
     });
