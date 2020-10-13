@@ -51,9 +51,10 @@ export class AbilityService extends BaseService {
         card.level = card.level.toString().toLowerCase();
         card.longImage = `assets/${game.toLowerCase()}/images/characters/${card.char}/${card.image}`;
 
-        const nameRef = Object.assign({ _key: card.name }, card);
-
-        this.gloomAbilities.add(nameRef);
+        this.gloomAbilities.add(Object.assign({ _key: card.name }, card));
+        this.gloomAbilities.add(Object.assign({ _key: `${card.name} ${card.char}` }, card));
+        this.gloomAbilities.add(Object.assign({ _key: `${card.name} ${card.level}` }, card));
+        this.gloomAbilities.add(Object.assign({ _key: `${card.char} ${card.name}` }, card));
         this.gloomCards.push(card);
       });
     });

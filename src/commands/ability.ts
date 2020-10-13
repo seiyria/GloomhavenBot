@@ -14,7 +14,7 @@ export class AbilityCommand implements ICommand {
 
   help = `Display a character ability! Do \`!ability eye for an eye\` to see Eye for an Eye, \`!ability brute all\` to see all Brute skills and \`!ability brute x\` to see all Brute Level X abilities.`;
 
-  aliases = ['a', 'ability', 'abilityg', 'abilityf', 'abilityj'];
+  aliases = ['a', 'ability'];
 
   @Inject private charService: CharResolverService;
   @Inject private abilityService: AbilityService;
