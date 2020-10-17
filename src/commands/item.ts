@@ -11,16 +11,25 @@ export class ItemCommand implements ICommand {
 
   help = `Display an item! Do \`!item #001\` or \`!item boots of striding\` to search for the Boots of Striding item. **WARNING**: Embedded images can\'t be spoiler-hidden at this time.`;
 
-  aliases = ['i', 'item', 'itemg', 'itemf', 'itemj'];
+  aliases = ['i', 'item', 'itemg', 'itemj'];
 
   @Inject private itemService: ItemService;
   @Inject private presenceService: PresenceService;
   @Inject private textParserService: TextParserService;
 
   async execute(cmdArgs: ICommandArgs): Promise<ICommandResult> {
-    const { message, args } = cmdArgs;
+    const { cmd, message, args } = cmdArgs;
 
-    const card = this.itemService.getGloomItem(args.split('|').join(''));
+    const search = args.split('|').join('');
+
+    let prepend = '';
+
+    if (cmd === 'itemg') { prepend = 'Gloomhaven'; }
+    if (cmd === 'itemj') { prepend = 'JOTL'; }
+
+    const query = prepend ? `${prepend} ${search}` : search;
+
+    const card = this.itemService.getItem(query);
     if (!card) {
       message.channel.send(`Sorry! I could not find anything like "${args}"`);
       return;
@@ -35,8 +44,9 @@ export class ItemCommand implements ICommand {
 
     const embed = new Discord.RichEmbed()
       .attachFiles(attachFiles)
-      .setAuthor(`Item #${card.num.toString().padStart(3, '0')}`)
-      .setThumbnail(`attachment://SPOILER_${card.image}`);
+      .setAuthor(`Item #${card.num.toString().padStart(3, '0')} (${card.game})`)
+      .setThumbnail(`attachment://SPOILER_${card.image}`)
+      .setFooter(`If this result was not correct, please use a game specific query command like !itemg or !itemj.`);
 
     embed.addField('Name', this.formatTextForSpoiler(card, card.name));
 

@@ -56,6 +56,7 @@ export class CommandParser extends BaseService {
     try {
       return await cmdInst.execute({
         debug: false,
+        cmd,
         args,
         message,
         user: message.author

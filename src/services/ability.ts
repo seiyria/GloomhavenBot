@@ -26,7 +26,7 @@ export class AbilityService extends BaseService {
     this.loadAll();
   }
 
-  public getGloomAbility(name: string): IAbility {
+  public getAbility(name: string): IAbility {
     try {
       return this.gloomAbilities.getFirst(name);
     } catch {
@@ -34,12 +34,12 @@ export class AbilityService extends BaseService {
     }
   }
 
-  public getGloomAbilitiesByCharacter(char: string): IAbility[] {
+  public getAbilitiesByCharacter(char: string): IAbility[] {
     return uniqBy(this.gloomCards.filter((c) => c.char === char), (x) => x.name);
   }
 
-  public getGloomAbilitiesByCharacterLevel(char: string, level: string): IAbility[] {
-    return this.getGloomAbilitiesByCharacter(char).filter((c) => c.level === level);
+  public getAbilitiesByCharacterLevel(char: string, level: string): IAbility[] {
+    return this.getAbilitiesByCharacter(char).filter((c) => c.level === level);
   }
 
   private loadAll() {

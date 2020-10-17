@@ -37,8 +37,8 @@ export class AbilityCommand implements ICommand {
       }
 
       const cards = potentialLevel !== 'all'
-                  ? this.abilityService.getGloomAbilitiesByCharacterLevel(realChar, potentialLevel)
-                  : this.abilityService.getGloomAbilitiesByCharacter(realChar);
+                  ? this.abilityService.getAbilitiesByCharacterLevel(realChar, potentialLevel)
+                  : this.abilityService.getAbilitiesByCharacter(realChar);
 
       if (cards.length === 0) {
         message.channel.send(`Sorry! I could not find any cards for that character/level combination.`);
@@ -90,7 +90,7 @@ export class AbilityCommand implements ICommand {
       return retVal;
     }
 
-    const ability = this.abilityService.getGloomAbility(args);
+    const ability = this.abilityService.getAbility(args);
     if (!ability) {
       message.channel.send(`Sorry! I could not find anything like "${args}"`);
       return retVal;

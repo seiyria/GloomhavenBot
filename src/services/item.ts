@@ -3,6 +3,7 @@ import * as YAML from 'yamljs';
 import { FuzzySetContainer } from 'fuzzyset-obj';
 
 import { BaseService } from '../base/BaseService';
+import { Game } from '../interfaces/IGame';
 
 interface IItem {
   name: string;
@@ -11,13 +12,14 @@ interface IItem {
   longImage: string;
   source: string;
   isSpoiler: boolean;
+  game: Game;
 }
 
 @Singleton
 @AutoWired
 export class ItemService extends BaseService {
 
-  private gloomItems: FuzzySetContainer<IItem> = new FuzzySetContainer<IItem>({ key: '_key' });
+  private items: FuzzySetContainer<IItem> = new FuzzySetContainer<IItem>({ key: '_key' });
 
   public async init(client) {
     super.init(client);
@@ -25,31 +27,33 @@ export class ItemService extends BaseService {
     this.loadAll();
   }
 
-  public getGloomItem(name: string): IItem {
+  public getItem(name: string): IItem {
     try {
-      return this.gloomItems.getFirst(name);
+      return this.items.getFirst(name);
     } catch {
       return null;
     }
   }
 
   private loadAll() {
-    this.loadGloomItems();
-  }
+    ['Gloomhaven', 'JOTL'].forEach((game) => {
+      const cards = YAML.load(`assets/${game.toLowerCase()}/items.yml`);
 
-  private loadGloomItems() {
-    const cards = YAML.load('assets/gloomhaven/items.yml');
+      cards.forEach((card) => {
+        card.longImage = `assets/${game.toLowerCase()}/images/items/${card.image}`;
+        card.game = game;
 
-    cards.forEach((card) => {
+        if (game === 'Gloomhaven' && card.source !== 'Prosperity 1') { card.isSpoiler = true; }
+        if (game === 'JOTL') { card.isSpoiler = true; }
 
-      card.longImage = `assets/gloomhaven/images/items/${card.image}`;
-      if (card.source !== 'Prosperity 1') { card.isSpoiler = true; }
+        const itemNum = `#${card.num.toString().padStart(3, '0')}`;
 
-      const nameRef = Object.assign({ _key: card.name }, card);
-      const idRef = Object.assign({ _key: `#${card.num.toString().padStart(3, '0')}` }, card);
-
-      this.gloomItems.add(nameRef);
-      this.gloomItems.add(idRef);
+        this.items.add(Object.assign({ _key: card.name }, card));
+        this.items.add(Object.assign({ _key: `${game.toLowerCase()} ${card.name}` }, card));
+        this.items.add(Object.assign({ _key: `${card.name} ${game.toLowerCase()}` }, card));
+        this.items.add(Object.assign({ _key: `${game.toLowerCase()} ${itemNum}` }, card));
+        this.items.add(Object.assign({ _key: `${itemNum} ${game.toLowerCase()}` }, card));
+      });
     });
   }
 

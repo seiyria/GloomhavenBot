@@ -1,0 +1,180 @@
+
+- name: Eagle Eye Goggles
+  num: 1
+  image: item-0.jpg
+  source: Scenario \#2
+
+- name: Iron Helmet
+  num: 2
+  image: item-2.jpg
+  source: Scenario \#2
+
+- name: Chain Armor
+  num: 3
+  image: item-4.jpg
+  source: Scenario \#2
+
+- name: Studded Leather
+  num: 4
+  image: item-6.jpg
+  source: Scenario \#2
+
+- name: Weathered Boots
+  num: 5
+  image: item-8.jpg
+  source: Scenario \#2
+
+- name: Winged Shoes
+  num: 6
+  image: item-10.jpg
+  source: Scenario \#2
+
+- name: Heater Shield
+  num: 7
+  image: item-12.jpg
+  source: Scenario \#2
+
+- name: Throwing Hammer
+  num: 8
+  image: item-14.jpg
+  source: Scenario \#2
+
+- name: Poison Dagger
+  num: 9
+  image: item-16.jpg
+  source: Scenario \#2
+
+- name: Iron Spear
+  num: 10
+  image: item-18.jpg
+  source: Scenario \#2
+
+- name: Healing Potion
+  num: 11
+  image: item-20.jpg
+  source: Scenario \#2
+
+- name: Stamina Potion
+  num: 12
+  image: item-22.jpg
+  source: Scenario \#2
+
+- name: Power Potion
+  num: 13
+  image: item-24.jpg
+  source: Scenario \#2
+
+- name: Mana Potion
+  num: 14
+  image: item-26.jpg
+  source: Scenario \#4 / Treasure \#16
+
+- name: Amulet of Life
+  num: 15
+  image: item-28.jpg
+  source: Scenario \#9
+
+- name: Robes of Evocation
+  num: 16
+  image: item-29.jpg
+  source: Scenario \#9
+
+- name: Comfortable Shoes
+  num: 17
+  image: item-30.jpg
+  source: Scenario \#9
+
+- name: Battle-Axe
+  num: 18
+  image: item-31.jpg
+  source: Scenario \#9
+
+- name: Black Candle
+  num: 19
+  image: item-32.jpg
+  source: Scenario \#9
+
+- name: Stun Powder
+  num: 20
+  image: item-33.jpg
+  source: Scenario \#9
+
+- name: Hawk Helm
+  num: 21
+  image: item-35.jpg
+  source: Scenario \#15
+
+- name: Bladed Armor
+  num: 22
+  image: item-36.jpg
+  source: Scenario \#15
+
+- name: Boots of Striding
+  num: 23
+  image: item-37.jpg
+  source: Scenario \#15
+
+- name: Volatile Bomb
+  num: 24
+  image: item-38.jpg
+  source: Scenario \#15
+
+- name: Barbed Chain
+  num: 25
+  image: item-39.jpg
+  source: Scenario \#15
+
+- name: Oak Charm
+  num: 26
+  image: item-41.jpg
+  source: Scenario \#15
+
+- name: Fateful Compass
+  num: 27
+  image: item-42.jpg
+  source: Treasure \#10
+
+- name: Flea-Bitten Shawl
+  num: 28
+  image: item-43.jpg
+  source: Scenario \#11 / Scenario \#12
+
+- name: Tower Shield
+  num: 29
+  image: item-44.jpg
+  source: Scenario \#16
+
+- name: Ring of Haste
+  num: 30
+  image: item-45.jpg
+  source: Treasure \#11
+
+- name: Ring of Strength
+  num: 31
+  image: item-46.jpg
+  source: Treasure \#2 / Scenario \#19
+
+- name: Ring of Restoration
+  num: 32
+  image: item-47.jpg
+  source: Scenario \#20
+
+- name: Steel Ring
+  num: 33
+  image: item-48.jpg
+  source: Scenario \#22
+
+- name: Barbed Axe
+  num: 34
+  image: item-49.jpg
+  source: Scenario \#23
+
+- name: Robes of Command
+  num: 35
+  image: item-50.jpg
+  source: Scenario \#24
+
+- name: Jet Boots
+  num: 36
+  image: item-51.jpg
+  source: Scenario \#25
