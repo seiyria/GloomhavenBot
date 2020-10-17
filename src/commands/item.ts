@@ -9,7 +9,7 @@ import { TextParserService } from '../services/text-parser';
 
 export class ItemCommand implements ICommand {
 
-  help = `Display an item! Do \`!item #001\` or \`!item boots of striding\` to search for the Boots of Striding item. **WARNING**: Embedded images can\'t be spoiler-hidden at this time.`;
+  help = `Display an item! Do \`!item #001\` or \`!item boots of striding\` to search for the Boots of Striding item. You can also use \`!itemg\` to search Gloomhaven items specifically, and similarly \`!itemj\` to search Jaws of the Lion items. **WARNING**: Embedded images can\'t be spoiler-hidden at this time.`;
 
   aliases = ['i', 'item', 'itemg', 'itemj'];
 
