@@ -26,20 +26,13 @@ export class FAQCommand implements ICommand {
 
     const attachFiles = [];
 
-    /*
     if (res.icon) {
-      attachFiles.push(
-        {
-          attachment: `assets/${res.game.toLowerCase()}/images/icons/${res.icon}.png`,
-          name: res.icon
-        }
-      );
+      attachFiles.push(`assets/${res.game.toLowerCase()}/images/icons/${res.icon}.png`);
     }
-    */
 
     const embed = new Discord.RichEmbed()
       .attachFiles(attachFiles)
-      .setAuthor(`${res.query}`, res.icon ? `attachment://${res.icon}` : '');
+      .setAuthor(`${res.query} (${res.game})`, res.icon ? `attachment://${res.icon}.png` : '');
 
     res.results.forEach(({ title, content }) => {
       embed.addField(`${title}`, `||${content}||`);
