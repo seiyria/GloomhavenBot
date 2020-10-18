@@ -1,0 +1,788 @@
+
+      
+# - search:
+#  icon:
+#  results:
+#    - title:
+#      content: >
+      
+- search: Trample
+  icon: brute
+  results:
+    - title: Bottom Ability
+      content: >
+        For the bottom action, the attacks are resolved after the movement is completely finished (so no enemy retaliations that are out of range of the ending hex). They are considered melee attacks, but you do not have to be adjacent to the targets at the end of the movement. However, you must have LOS to a target from your ending hex in order to attack it. Also, you cannot attack the same target multiple times.
+
+- search: Provoking Roar
+  icon: brute
+  results:
+    - title: Bottom Ability
+      content: >
+        If the Brute is invisible, a monster cannot target the Brute and will attack the original target instead.
+
+- search: Harmless Contraption
+  icon: tinkerer
+  results:
+    - title: Summon
+      content: >
+        This summon has no attack action or a base attack value. It cannot be commanded to attack with an "Attack +X" action, but it can be commanded to attack with an "Attack X" action (e.g. the Mindthief's "Possession").
+
+- search: Flamethrower
+  icon: tinkerer
+  results:
+    - title: Bottom Ability
+      content: >
+        The bottom effect applies to allies only while they are adjacent to you (like an aura), not allies adjacent to you at the time this action was performed.
+
+- search: Reinvigorating Elixir
+  icon: tinkerer
+  results:
+    - title: Bottom Ability
+      content: >
+        The bottom ability can be used on allies who are long resting for the round. In such case, when their long rest occurs at the end of the round, they do not recover any discards (because they have none), and thus do not have to lose any cards. They simply perform the other parts of the long rest, healing two hit points and refreshing their spent items.
+
+- search: Enhancement Field
+  icon: tinkerer
+  results:
+    - title: Bottom Ability
+      content: >
+        The bottom effect applies to allies only while they are adjacent to you (like an aura), not allies adjacent to you at the time this action was performed.
+
+- search: Harsh Stimulants
+  icon: tinkerer
+  results:
+    - title: First Part - Bottom Ability
+      content: >
+        The first part of the bottom effect applies to allies who are currently adjacent to you, not allies that were adjacent to you at the time the action was performed. The bottom effect, however, applies when you perform the action, since it is not an active bonus.
+
+- search: Chimeric Formula
+  icon: tinkerer
+  results:
+    - title: Chimeric Formula
+      content: >
+        So this is probably the most ridiculous action in the game. You're level 9, so have a little fun. The bottom action allows for any class to get the card of any another class in their hand to use as they would their own cards. For instance, the Brute could gain one of the Mindthief's augments. The sky's the limit, except that lost cards that cannot be recovered still cannot be recovered.
+
+        Also, for the top action, it is the ally that loses the cards.
+
+- search: Impaling Eruption
+  icon: spellweaver
+  results:
+    - title: Pathing
+      content: >
+        As with any ranged ability, you can trace the path to your target however you would like. It doesn't have to be in a straight line. Also note that this is a ranged attack, so any attack against someone adjacent to you has disadvantage.
+
+- search: Crackling Air
+  icon: spellweaver
+  results:
+    - title: Tracking Consumption
+      content: >
+        Keep track of whether you consumed air when you used this ability by placing another character token on the card.
+
+- search: Spirit of Doom
+  icon: spellweaver
+  results:
+    - title: Errata - Top Action
+      content: >
+        The top action, including the kill effect, is not targeted (should say "enemy" instead of "target") and therefore can be used on invisible enemies.
+
+- search: Living Torch
+  icon: spellweaver
+  results:
+    - title: Summon Removal
+      content: >
+        When the summon drops below 1 health, before it is removed from the map, it performs one last "Attack 3, target all adjacent enemies" action.
+
+- search: Inferno
+  icon: spellweaver
+  results:
+    - title: Top Action
+      content: >
+        The top action does not specify a range so it is considered melee attack.
+
+- search: Sinister Opportunity
+  icon: scoundrel
+  results:
+    - title: Top Action
+      content: >
+        The top action's element consumption replaces the ability's "Add +1 Attack for each of your..." to "Add +2 Attack for each of your..."
+
+- search: Swift Bow
+  icon: scoundrel
+  results:
+    - title: Graphical Error
+      content: >
+        The enhancement circle in the bottom action is no different than any other. This is just a graphical mistake.
+
+- search: Crippling Poison
+  icon: scoundrel
+  results:
+    - title: Top Action
+      content: >
+        For the top action, this bonus is in addition to the normal +1 attack against poisoned enemies.
+
+- search: Long Con
+  icon: scoundrel
+  results:
+    - title: Bottom Action
+      content: >
+        The bottom action has no effect on enemies who have already acted in the round.
+
+- search: Heaving Swing
+  icon: cragheart
+  results:
+    - title: Top Effect
+      content: >
+        The top attack effect works on flying enemies. The push may not be used into non-destructible obstacles nor obstacles with HP.
+
+- search: Avalanche
+  icon: cragheart
+  results:
+    - title: Bottom Ability
+      content: >
+        For the bottom ability, place the obstacles in hexes adjacent to the Cragheart.
+
+- search: Backup Ammunition
+  icon: cragheart
+  results:
+    - title: Targetting
+      content: >
+        Even if there is only one target in range, if the top action is active and you perform a ranged attack, a charge is expended.
+
+- search: Unstable Upheaval
+  icon: cragheart
+  results:
+    - title: Top Action
+      content: >
+        For the top action, if you consume earth, this turns from a melee attack into a ranged attack because a range is specified. Note that for R2+, the attack is always melee.
+
+- search: Crater
+  icon: cragheart
+  results:
+    - title: Bottom Action
+      content: >
+        For the bottom action, if you consume earth, only the second instance of everything adjacent suffering damage is augmented, not both.
+
+- search: Dirt Tornado
+  icon: cragheart
+  results:
+    - title: Top Action
+      content: >
+        Top Action - As per the wording on the card, the muddle effect is only applied to targets within the AoE. It is not applied to additional enemies targeted via an "Add Target" effect.
+
+- search: Explosive Punch
+  icon: cragheart
+  results:
+    - title: Top Action
+      content: >
+        The top attacks are considered melee attacks.
+
+- search: Sentient Growth
+  icon: cragheart
+  results:
+    - title: Top Action
+      content: >
+        For the top action, use the exact same area for both abilities. Also, because the heal says "targeted area", you must perform the attack against a target in order to be able to do the heal.
+
+- search: Clear the Way
+  icon: cragheart
+  results:
+    - title: Top Action
+      content: >
+        The top attacks are considered ranged attacks. Also, the card specifies which targets may be affected (all adjacent targets) so Add Target applied to the attack would not grant any additional targets.
+
+- search: Rock Slide
+  icon: cragheart
+  results:
+    - title: Top Action
+      content: >
+        For the top ability, any single enemy cannot take more than two damage. The damage from individual obstacles does not stack.
+
+- search: Petrify
+  icon: cragheart
+  results:
+    - title: Top Action
+      content: >
+        Place any money tokens or treasure tiles (including the one dropped by the enemy) in this hex on top of the obstacle. These are still lootable with loot actions (or if you are flying and end your turn in the hex).
+
+- search: Stone Pummel
+  icon: cragheart
+  results:
+    - title: Bottom Ability
+      content: >
+        A charge of the bottom ability will only be expended if there is an adjacent obstacle to destroy.
+
+- search: Meteor
+  icon: cragheart
+  results:
+    - title: Top Action
+      content: >
+        For the top action, all three hexes have to be within range 3. These attacks are considered ranged attacks.
+
+- search: Brutal Momentum
+  icon: cragheart
+  results:
+    - title: Top Action
+      content: >
+        For the top action, a target can be pushed into a wall or obstacle for each hex of the push even if an open hex is available. This is an exception to the rule that an open hex must be used if available when pushing/pulling. The hex still needs to be further from the character as per the normal Push rules.
+
+    - title: Bottom Action
+      content: >
+        For the bottom action, you can place a character token on this card as a reminder of whether you consumed earth for it.
+
+- search: Augments
+  icon: mindthief
+  results:
+    - title: Augments
+      content: >
+        In general, Augments are persistent ability cards that go in your active area when played. They will give you (not your summons) some persistent bonus (the part with the darker background) to all of your melee attacks once in your active area, and then will also allow you to immediately perform a one-time attack, which benefits from the augment just activated.
+
+        The Augment part of an augment card is an ability and can be skipped so you can play the card for its other abilities and leave a currently active Augment in play.
+
+        Whenever you force a monster to attack, they use the monster attack modifier deck.
+
+        Whenever you force a figure to take an action, unless otherwise noted, the figure still takes their turn during the round.
+
+- search: Submissive Affliction
+  icon: mindthief
+  results:
+    - title: Top Action
+      content: >
+        For the top action, the bonus does not count negative conditions applied by the attack, since negative conditions are applied after damage is dealt. The bonus only counts negative conditions that were on the target before the attack. It also does not count curse, as that effect is not target specific. For the bottom action, note that there is no plus on the attack line, but there is a plus in the range. This means that the enemy performs an "Attack 2" on another enemy within its base range. Any added effects from the monster's stat card are also applied to the attack, and the monster uses the monster attack modifier deck. This is not a targeted ability.
+
+- search: Feedback Loop
+  icon: mindthief
+  results:
+    - title: Shielding
+      content: >
+        The Shield effect can stack for each separate attack you make. Place a character token on this card for each attack, and each token adds "Shield 1." These tokens are removed from the card at the end of the round.
+
+- search: The Mind's Weakness
+  icon: mindthief
+  results:
+    - title: Top Ability
+      content: >
+        TYPO - The top ability should read "On your melee attacks:" just like all the other augment cards.
+
+- search: Perverse Edge
+  icon: mindthief
+  results:
+    - title: Top Action
+      content: >
+        For the top action, the bonus does not count negative conditions applied by the attack, since negative conditions are applied after damage is dealt. The bonus only counts negative conditions that were on the target before the attack. It also does not count curse, as that effect is not target specific.
+
+- search: Hostile Takeover
+  icon: mindthief
+  results:
+    - title: Bottom Action
+      content: >
+        The bottom action has no effect on enemies who have already acted in the round.
+
+- search: Pilfer
+  icon: mindthief
+  results:
+    - title: Looting
+      content: >
+        You cannot loot enemies if you can't loot at least one token on the ground.
+
+- search: Cranium Overload
+  icon: mindthief
+  results:
+    - title: Experience & Attacks
+      content: >
+        You do not gain experience for the initial enemy killed with the top action. Also, the attacks performed are considered ranged attacks.
+
+- search: Domination
+  icon: mindthief
+  results:
+    - title: Top Action
+      content: >    
+        The “Attack 4” action is considered a melee attack, even if the affected ally has a Range trait.
+
+    - title: Bottom Action
+      content: >
+        The bottom action has no effect on enemies who have already acted in the round.
+
+- search: Empowering Command
+  icon: sun
+  results:
+    - title: Attack Action
+      content: >
+        The “Attack 4” action is considered a melee attack, even if the affected ally has a Range trait.
+
+- search: Protective Blessing
+  icon: sun
+  results:
+    - title: Bottom Ability
+      content: >
+        The bottom effect applies to allies only while they are adjacent to you (like an aura), not allies adjacent to you at the time this action was performed.
+
+- search: Mobilizing Axium
+  icon: sun
+  results:
+    - title: Bottom Action
+      content: >
+        For the bottom action, the movement is optional for each affected ally. When applied to NPCs and summons, the caster can choose whether an NPC will move and the owner of the summons can choose if it will move.
+
+- search: Engulfing Radiance
+  icon: sun
+  results:
+    - title: Bottom Effect
+      content: >
+        The bottom effect applies to allies only while they are within range 4 to you (like a large aura), not allies that were within that range at the time this action was performed.
+
+- search: Sharpening Kit
+  icon: three-spears
+  results:
+    - title: Bottom Effect
+      content: >
+        The bottom effect applies to allies only while they are adjacent to you (like an aura), not allies adjacent to you at the time this action was performed.
+
+- search: Proficiency
+  icon: three-spears
+  results:
+    - title: Top Ability
+      content: >
+        Note that for the top ability, the item used doesn't have to directly affect the attack. Any items that you can use "during your turn" could also apply, and, if the attack action is also a move action (i.e. it has both an attack ability and a move ability), any items that apply to a move action could also work.
+
+- search: Iron Bulwark
+  icon: three-spears
+  results:
+    - title: Bottom Effect
+      content: >
+        The bottom effect applies to allies only while they are adjacent to you (like an aura), not allies adjacent to you at the time this action was performed.
+
+- search: Reinforced Steel
+  icon: three-spears
+  results:
+    - title: Bottom Effect
+      content: >
+        The bottom effect applies to allies only while they are adjacent to you (like an aura), not allies adjacent to you at the time this action was performed.
+
+- search: Quiver of Arrows
+  icon: three-spears
+  results:
+    - title: Errata - Top Action
+      content: >
+        The card should read "All allies gain ADD TARGET when performing ranged attack abilities while adjacent to you." As in, adjacent allies gain ADD TARGET for each attack ability (not each individual attack)
+
+- search: Summon
+  icon: circles
+  results:
+    - title: Living Night
+      content: >
+        Place down two summon tokens of the same color with different numbers to track the two separate summons.
+
+- search: Divided Mind
+  icon: circles
+  results:
+    - title: Errata
+      content: >
+        Both actions should read "Up to two summoned allies"
+
+- search: Conjured Aid
+  icon: circles
+  results:
+    - title: Summon Healing
+      content: >
+        This summon's heal ability will be performed exactly like a monster's heal ability - it will go to the ally within range (or itself) who has suffered the most damage, with a tie being decided by the players.
+
+- search: Endless Spikes
+  icon: circles
+  results:
+    - title: Summons
+      content: >
+        Place down three summon tokens of the same color with different numbers to track the three separate summons. These summons have no attack action or a base attack value. They cannot be commanded to attack with an "Attack +X" action, but they can be commanded to attack with an "Attack X" action (e.g. the Mindthief's "Possession").
+
+- search: Negative Energy
+  icon: circles
+  results:
+    - title: Errata - Bottom Action
+      content: >
+        Bottom action should read "any one summoned ally".
+
+- search: Empowering Void
+  icon: eclipse
+  results:
+    - title: Both Actions
+      content: >
+        The top and bottom action both only refer to the values written in main line abilities, such as "Attack X," and not to any bonus supplied by supplemental text, items, or persistent abilities (however any persistent abilities that grant additional move or attack abilities on your turn are still fair game). Note that the element consumption abilities in both the top and bottom actions are considered separate and can be performed independently.
+
+- search: Wings of Night
+  icon: eclipse
+  results:
+    - title: Bottom Action
+      content: >
+        Wording of Wings of the Night bottom should read “Before your next 4 Attack actions, perform a Move 2 as the first ability of the action”
+
+        You must actually attack to have an attack action, but as long as you get in a position to do so, you gain the move, even if you are not in a position to do so before the move. You must be able to provably do the attack after moving - so can't open doors or reveal new/hidden information if doing so may prevent the attack. Items and any other abilities or effects that affect the total movement may be used to reach the attack hex.
+
+- search: Spread the Plague
+  icon: cthulhu
+  results:
+    - title: Top Action
+      content: >
+        For the top action, you cannot give Poison to an ally who is immune to Poison.
+
+- search: Storm of Wings
+  icon: cthulhu
+  results:
+    - title: Ranged Ability
+      content: >
+        As with any ranged ability, you can trace the path to your target however you would like. It doesn't have to be in a straight line. As with any ranged ability, you can trace the path to your target however you would like. It doesn't have to be in a straight line. 
+
+- search: Baneful Hex
+  icon: cthulhu
+  results:
+    - title: Curse Draws
+      content: >
+        If an enemy draws two curse cards on an attack because of advantage or disadvantage, it still only suffers 3 damage since only one of them is activated.
+
+- search: Resolute Stand
+  icon: lightning
+  results:
+    - title: Attack Experience
+      content: >
+        Experience for these attacks is evaluated separately, such that any remainder damage from the first attack does not roll over into the second attack.
+
+- search: Growing Rage
+  icon: lightning
+  results:
+    - title: Top Action
+      content: >
+        For the top action, the number of cards you have lost is equal to the cards in your lost pile plus any lost cards in your active area. If you recover any lost cards, they no longer count toward the total.
+    
+    - title: Bottom Action
+      content: >
+        For the bottom action, the XP gain is part of the attack, so if you can perform the attack, you get the XP.
+
+- search: Blood Pact
+  icon: lightning
+  results:
+    - title: Top Action
+      content: >
+        For the top action, if you get damaged during the attack by retaliate, the effect of the retaliate happens immediately after the attack, before your current HP's are calculated.
+
+- search: Unbridled Power
+  icon: lightning
+  results:
+    - title: Bottom Action
+      content: >
+        The text on the bottom action means that any time you see the words "maximum hit point value," you would still apply your normal maximum hit point value instead of 26 (unless you are level 9 and they are the same). Also, the Heal 3 ability is performed only when you first play the card. Only the overheal ability is persistent.
+
+- search: Glass Hammer
+  icon: lightning
+  results:
+    - title: Damage
+      content: >
+        Since this is not damage it cannot be mitigated in any way. If an item is used to attack multiple targets with the top attack, all targets would receive the full effect of the attack. Experience, however, would be calculated separately, such that any remainder damage from the first attack does not roll over into the second attack.
+
+- search: Numb the Pain
+  icon: lightning
+  results:
+    - title: Bottom Action
+      content: >
+        For the bottom action, you cannot chose to take the damage if there is no adjacent enemy. However, you can take the damage if the enemy is adjacent but immune to stun.
+
+- search: Reckless Offensive
+  icon: lightning
+  results:
+    - title: Top Action
+      content: >
+        For the top action, if you suffer no damage, the action does nothing. This attack also costs double to enhance.
+
+- search: Final Fight
+  icon: lightning
+  results:
+    - title: Top Action
+      content: >
+        For the top action, there is no way to mitigate the effect of becoming exhausted. As the name implies, this will be your final action for the scenario.
+
+    - title: Bottom Action
+      content: >
+        For the bottom action, the number of cards you have lost is equal to the cards in your lost pile plus any lost cards in your active area. If you recover any lost cards, they no longer count toward the total.
+
+- search: Burning Hatred
+  icon: lightning
+  results:
+    - title: Top Action
+      content: >
+        For the top action, if you consume fire, this turns from a melee attack into a ranged attack because a range is specified. Note that for R2+, the attack is always melee.
+
+- search: Careless Charge
+  icon: lightning
+  results:
+    - title: Top Action
+      content: >
+        For the top action, at least one figure must be wounded in order to apply the effects (for the case of self or ally immunity)
+
+- search: Vengeful Barrage
+  icon: lightning
+  results:
+    - title: Top Action
+      content: >
+        Top Action - The charge is consumed even if the character can't do an attack (no target in range, disarmed, stunned, etc.). Also, the ability may be used multiple times against an enemy with retaliate, consuming a charge each time.
+
+- search: Songs
+  icon: music-note
+  results:
+    - title: Songs
+      content: >
+        In general, Songs are persistent bonuses for your allies that last until you choose to discard them, or you play a different song. Remember, however, that you are not an ally of yourself. Whenever you have a song active at the beginning of your turn (i.e. it was played on a previous turn), you gain an experience.
+      
+- search: Defensive Ditty
+  icon: music-note
+  results:
+    - title: Bottom Effect
+      content: >
+        The effect of the bottom action only happens once.
+      
+- search: Song of Speed
+  icon: music-note
+  results:
+    - title: Song Effect
+      content: >
+        The effect of the song only applies to a single move ability in an action - it doesn't apply twice if a single action has two separate move abilities.
+      
+- search: Unending Chant
+  icon: music-note
+  results:
+    - title: Top Bonus
+      content: >
+        For the top bonus, the additional curse caused by the bonus does not also trigger the bonus.
+    - title: Bottom Effect
+      content: >
+        The bottom effect applies to allies only while they are adjacent to you (like an aura), not allies adjacent to you at the time this action was performed.
+      
+- search: Echoing Aria
+  icon: music-note
+  results:
+    - title: Bottom Effect
+      content: >
+        The bottom effect applies to allies only while they are within range 3 of you (like an aura), not allies within range 3 of you at the time this action was performed.
+      
+- search: Mobilizing Measure
+  icon: music-note
+  results:
+    - title: Move Action (Players)
+      content: >
+        When granting the Move action with the top of the card, the ally must actually attack to have an attack action, but as long as they get in a position to do so, they gain the move 1, even if they are not in a position to do so before the move 1. The ally must be able to provably do the attack after moving - so they can't open doors or reveal new/hidden information if doing so may prevent the attack. Items and any other abilities or effects that affect the total movement may be used to reach the attack hex.
+    - title: Move Action (Summons)
+      content: >
+        It is the same for summons. They are granted the additional move action so long as using it would put them in a position to attack. This move is always executed automatically (not controlled by the summoner), and it is a separate action. The summons takes into account the granted movement as well as any other movement abilities and effects they are subject to when determining where to move and who to attack.
+      
+- search: Doom
+  icon:
+  results:
+    - title: Doom
+      content: >
+        In general, Dooms are persistent negative effects applied to a specific enemy that last until you choose to discard the applied doom card, you play a different doom, or the enemy dies.
+
+        Any enemy that has a doom applied to them is considered "doomed."
+
+        Note that while bosses are immune to many negative conditions, they are not immune to dooms. Obstacles with hit points, however, cannot be doomed.
+
+        Note that unless a card specifically says it only affects summoned allies you own, it can affect any summoned ally, including those of other players.
+
+        When there are multiple "on enemy death" effects from Dooms, the players decide the order but all are evaluated together - they all take effect and don't interrupt each other. Also, Doom effects still trigger if the Doom moves from the monster since it was Doomed when those effects were evaluated.
+
+        You cannot have doom tokens on more than one enemy.
+      
+- search: Felling Swoop
+  icon: spike-head
+  results:
+    - title: Bottom Action
+      content: >
+        For the bottom action, the move is considered a teleport. Additionally, no hexes between the start and end are interacted with.
+      
+- search: Race to the Grave
+  icon: spike-head
+  results:
+    - title: Bottom Ability
+      content: >
+        If the bottom ability kills a monster, kill credit goes to the Doomstalker.
+      
+- search: Frightening Curse
+  icon: spike-head
+  results:
+    - title: Top Bonus
+      content: >
+        For the top bonus, if there are multiple enemies within range, you can choose which one to move the doom to.
+      
+- search: Expose
+  icon: spike-head
+  results:
+    - title: Night Demons
+      content: >
+        If this card is active with night demons in play, the night demons will still consume darkness to attempt to go invisible even though they cannot.
+      
+- search: Inescapable Fate
+  icon: spike-head
+  results:
+    - title: Doom
+      content: >
+        Note that is doom is special in that it cannot be applied to named enemies or bosses.
+      
+- search: Wild Command
+  icon: spike-head
+  results:
+    - title: Bottom Action
+      content: >
+        The attack in the bottom action is considered ranged since the word "range" is used.
+      
+- search: Impending End
+  icon: spike-head
+  results:
+    - title: Top Action
+      content: >
+        If the monster dies from the base attack (as opposed to the insta-kill), no post-attack effects are applied (per the rules) so no XP is granted.
+      
+- search: Crashing Wave
+  icon: spike-head
+  results:
+    - title: Doom
+      content: >
+        This doom means you and all allies apply the curse effect to all attacks on the enemy (i.e. you curse the enemy), not that you are cursed every time you attack it.
+      
+- search: Rising Momentum
+  icon: spike-head
+  results:
+    - title: Doom
+      content: >
+        For the doom, if there are multiple enemies within range, you can choose which one to move the dooms to.
+      
+- search: Predator and Prey
+  icon: spike-head
+  results:
+    - title: Doom
+      content: >
+        As an example of this doom, if you were to perform a range 5 attack on the doomed enemy 2 hexes away, you would gain +3 attack. If this were to cause a negative bonus (due to an area effect attack), do not apply it.
+      
+- search: Lead to Slaughter
+  icon: spike-head
+  results:
+    - title: Top Action
+      content: >
+        The character picks an ally and the enemy moves towards that ally as if it has a move 3 - melee attack.
+      
+- search: Sawbones
+  icon: saw
+  results:
+    - title: Ownership
+      content: >
+        For the bottom actions of some cards, the light part is what is applied to the ally as a persistent bonus. This card is technically owned by the ally now, and they can recover it through special actions like any other card they own. These cards should be returned to the Sawbones at the end of the scenario.
+      
+- search: Curative Mixture
+  icon: saw
+  results:
+    - title: Poison
+      content: >
+        If the target is poisoned, will this ability heal the target 3 damage and remove the poison or only remove the poison and not heal the target? The poison gets removed, no other healing happens and if you have any other negative conditions, they get removed too.
+      
+- search: Syringe
+  icon: saw
+  results:
+    - title: Top Action
+      content: >
+        For the top action, this card is put in the Sawbones' discard pile at the end of the round. The Sawbones' ally never technically owns the card.
+      
+- search: Prevention is Key
+  icon: saw
+  results:
+    - title: Bottom Effect
+      content: >
+        The bottom effect applies to allies only while they are adjacent to you (like an aura), not allies adjacent to you at the time this action was performed.
+      
+- search: Medical Pack
+  icon: saw
+  results:
+    - title: Usage
+      content: >
+        These cards have an X (R1) / M (R2+) on them, but they are not cards that are included in the Sawbones' normal hand. Instead, keep the stack of them off to the side and hand them out to other characters when an ability tells you to. When these cards are discarded, or the scenario ends, return them to the Sawbones' supply.
+      
+- search: Prep for Surgery
+  icon: saw
+  results:
+    - title: Range
+      content: >
+        Unless the range is otherwise stated, all moves and attacks can become heals with a range of 1 (affect yourself or an adjacent ally).
+      
+- search: Raw Enhancement
+  icon: triangles
+  results:
+    - title: Consume Element
+      content: >
+        When exactly do you consume the element for upgrading the movement? The element can be consumed at any time during the movement - so before you start moving, after you move some spaces or after you move all spaces.
+      
+- search: Chain Lightning
+  icon: triangles
+  results:
+    - title: Add Target
+      content: >
+        If an Add Target effect is applied to the card, it adds a single attack vs. a different target using the main ability values (which can be boosted if light is consumed).
+      
+- search: Simalcrum
+  icon: triangles
+  results:
+    - title: Summon
+      content: >
+        For the summon on the bottom, for any attack ability, you can choose to originate it on your hex, or the summon's hex, but not both. So something like "target all enemies within range 4" would target either all enemies within range 4 of you, or all enemies within range 4 of your summon. Keep in mind that you are still the source of the attack, so you would only suffer disadvantage on a ranged attack, or suffer the effects of a non-ranged retaliate, if the attacked enemy was adjacent to you. Also note this summon has no attack action or a base attack value. It cannot be commanded to attack with an "Attack +X" action, but it can be commanded to attack with an "Attack X" action (e.g. the Mindthief's "Possession").
+      
+- search: Ethereal Manifestation
+  icon: triangles
+  results:
+    - title: Bottom Action
+      content: >
+        The bottom is the only action in the game that does not have a base ability. Consuming elements gives you different abilities you can perform in whatever order you want. For instance, you could consume fire, wind, and ice to move 3 hexes, loot 1, and then perform the attack 3, range 3.
+      
+- search: Beast Tyrant
+  icon:
+  results:
+    - title: Bear Card
+      content: >
+        You can put the extra card in your active area to keep track of the bear's attack and move values if you want (consider it a lost card that cannot be recovered), but it should be pretty easy to remember after a game or two.
+
+    - title: Command
+      content: >
+        Command actions allow only the bear to perform the abilities on them - not the Beast Tyrant or any other summon.
+
+        Note that unless a card specifically says it only affects summoned allies you own, it can affect any summoned ally, including those of other players.
+
+    - title: Removal
+      content: >
+        Can you voluntarily remove the bear from the board? No. However, it is still considered a summoned figure.
+
+    - title: Doors
+      content: >
+        Can the bear open doors with a Command action? No.
+
+    - title: Permadeath
+      content: >
+        How does the bear running out of hit points interact with the permanent death variant? Like any other summon, the bear will always be available to summon again in the next scenario. Permanent death would only apply if the Beast Tyrant himself ran out of hit points.
+      
+- search: Maul
+  icon: two-minis
+  results:
+    - title: Bottom Ability
+      content: >
+        The shield for the bottom ability is NOT an aura. The target of the shield must be chosen at the end of the Move. The shield remains with that ally for the remainder of the round even if they move away.
+      
+- search: Stone Sigil
+  icon: two-minis
+  results:
+    - title: Summon
+      content: >
+        This summon has no attack action or a base attack value. It has no move action or base move value. It cannot be commanded to attack or move with an "Attack +X" or "Move +X" action, but it can be commanded to attack with an "Attack X" action (e.g. the Mindthief's "Possession") or to move with a "Move X" action. It can also be pushed or pulled as normal.
+      
+- search: Storm Sigil
+  icon: two-minis
+  results:
+    - title: Sumon
+      content: >
+        This summon has no move action or base move value. It cannot be commanded to move with a "Move +X" action, but it can be commanded to move with a "Move X" action. It can also be pushed or pulled as normal.
+      
+- search: Tribal Sigil
+  icon: two-minis
+  results:
+    - title: Summon
+      content: >
+        This summon has no attack action or a base attack value. It has no move action or base move value. It cannot be commanded to attack or move with an "Attack +X" or "Move +X" action, but it can be commanded to attack with an "Attack X" action (e.g. the Mindthief's "Possession") or to move with a "Move X" action. It can also be pushed or pulled as normal.

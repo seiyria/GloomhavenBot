@@ -17,6 +17,7 @@ import { BattleGoalService } from './services/battlegoal';
 import { AbilityService } from './services/ability';
 import { CharResolverService } from './services/char-resolver';
 import { ClassDataService } from './services/classdata';
+import { FAQService } from './services/faq';
 
 export class Bot {
   @Inject private logger: LoggerService;
@@ -33,6 +34,7 @@ export class Bot {
   @Inject private pgoalService: PersonalGoalService;
   @Inject private bgoalService: BattleGoalService;
   @Inject private abilityService: AbilityService;
+  @Inject private faqService: FAQService;
 
   @Inject private commandParser: CommandParser;
 
@@ -60,6 +62,7 @@ export class Bot {
         this.pgoalService,
         this.bgoalService,
         this.abilityService,
+        this.faqService,
 
         this.commandParser
       ].forEach((s) => s.init(client));
