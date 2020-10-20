@@ -11,13 +11,22 @@ export class BattleGoalCommand implements ICommand {
 
   aliases = ['bg', 'bgoal', 'bgoalg', 'bgoalj', 'bgg', 'bgj'];
 
-  @Inject private pgoalService: BattleGoalService;
+  @Inject private bgoalService: BattleGoalService;
   @Inject private presenceService: PresenceService;
 
   async execute(cmdArgs: ICommandArgs): Promise<ICommandResult> {
-    const { message, args } = cmdArgs;
+    const { message, args, cmd } = cmdArgs;
 
-    const bgoal = this.pgoalService.getGloomBattleGoal(args.split('|').join(''));
+    const search = args.split('|').join('');
+
+    let prepend = '';
+
+    if (cmd.endsWith('g') && cmd.length > 2) { prepend = 'Gloomhaven'; }
+    if (cmd.endsWith('j')) { prepend = 'JOTL'; }
+
+    const query = prepend ? `${prepend} ${search}` : search;
+
+    const bgoal = this.bgoalService.getBattleGoal(query);
     if (!bgoal) {
       message.channel.send(`Sorry! I could not find anything like "${args}"`);
       return;

@@ -3,9 +3,11 @@ import * as YAML from 'yamljs';
 import { FuzzySetContainer } from 'fuzzyset-obj';
 
 import { BaseService } from '../base/BaseService';
+import { Game } from '../interfaces/IGame';
 
 interface IBattleGoal {
   name: string;
+  game: Game;
   longImage: string;
   image: string;
 }
@@ -14,7 +16,7 @@ interface IBattleGoal {
 @AutoWired
 export class BattleGoalService extends BaseService {
 
-  private gloomBGoals: FuzzySetContainer<IBattleGoal> = new FuzzySetContainer<IBattleGoal>({ key: '_key' });
+  private battleGoals: FuzzySetContainer<IBattleGoal> = new FuzzySetContainer<IBattleGoal>({ key: '_key' });
 
   public async init(client) {
     super.init(client);
@@ -22,28 +24,27 @@ export class BattleGoalService extends BaseService {
     this.loadAll();
   }
 
-  public getGloomBattleGoal(name: string): IBattleGoal {
+  public getBattleGoal(name: string): IBattleGoal {
     try {
-      return this.gloomBGoals.getFirst(name);
+      return this.battleGoals.getFirst(name);
     } catch {
       return null;
     }
   }
 
   private loadAll() {
-    this.loadGloomBGoals();
-  }
+    ['Gloomhaven', 'JOTL'].forEach((game) => {
+      const goals = YAML.load(`assets/${game.toLowerCase()}/battlegoals.yml`);
 
-  private loadGloomBGoals() {
-    const cards = YAML.load('assets/gloomhaven/battlegoals.yml');
+      goals.forEach((goal) => {
+        goal.game = game;
 
-    cards.forEach((card) => {
+        goal.longImage = `assets/${game.toLowerCase()}/images/battlegoals/${goal.image}`;
 
-      card.longImage = `assets/gloomhaven/images/battlegoals/${card.image}`;
-
-      const nameRef = Object.assign({ _key: card.name }, card);
-
-      this.gloomBGoals.add(nameRef);
+        this.battleGoals.add(Object.assign({ _key: goal.name }, goal));
+        this.battleGoals.add(Object.assign({ _key: `${game.toLowerCase()} ${goal.name}` }, goal));
+        this.battleGoals.add(Object.assign({ _key: `${goal.name} ${game.toLowerCase()}` }, goal));
+      });
     });
   }
 

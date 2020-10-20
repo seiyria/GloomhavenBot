@@ -1,0 +1,96 @@
+
+- name: Acrobat
+  image: battlegoal-0.jpg
+
+- name: Agoraphobe
+  image: battlegoal-1.jpg
+  
+- name: Altruist
+  image: battlegoal-2.jpg
+  
+- name: Assistant
+  image: battlegoal-3.jpg
+  
+- name: Challenger
+  image: battlegoal-4.jpg
+  
+- name: Closer
+  image: battlegoal-5.jpg
+  
+- name: Conservator
+  image: battlegoal-6.jpg
+  
+- name: Diehard
+  image: battlegoal-7.jpg
+  
+- name: Egoist
+  image: battlegoal-8.jpg
+  
+- name: Fast Healer
+  image: battlegoal-9.jpg
+  
+- name: Gambler
+  image: battlegoal-10.jpg
+  
+- name: Hothead
+  image: battlegoal-11.jpg
+  
+- name: Insomniac
+  image: battlegoal-12.jpg
+  
+- name: Masochist
+  image: battlegoal-13.jpg
+  
+- name: Mugger
+  image: battlegoal-14.jpg
+  
+- name: Opener
+  image: battlegoal-15.jpg
+  
+- name: Pacifist
+  image: battlegoal-16.jpg
+  
+- name: Pickpocket
+  image: battlegoal-17.jpg
+  
+- name: Pincushion
+  image: battlegoal-18.jpg
+  
+- name: Plebeian
+  image: battlegoal-19.jpg
+  
+- name: Prohibitionist
+  image: battlegoal-20.jpg
+  
+- name: Ravager
+  image: battlegoal-21.jpg
+  
+- name: Recluse
+  image: battlegoal-22.jpg
+  
+- name: Sadist
+  image: battlegoal-23.jpg
+  
+- name: Scrambler
+  image: battlegoal-24.jpg
+  
+- name: Shadow
+  image: battlegoal-25.jpg
+  
+- name: Shirker
+  image: battlegoal-26.jpg
+  
+- name: Specialist
+  image: battlegoal-27.jpg
+  
+- name: Straggler
+  image: battlegoal-28.jpg
+  
+- name: Trailblazer
+  image: battlegoal-29.jpg
+  
+- name: Transmitter
+  image: battlegoal-30.jpg
+  
+- name: Weakling
+  image: battlegoal-31.jpg
