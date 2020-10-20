@@ -25,11 +25,24 @@
       content: >
         An attack is a single attack on a single target that flips over a single attack modifier card. If your attack action is, say, "Attack 3," then there is only one attack in your attack action. If it is "Attack 2, Target 3," then your attack action consists of three separate attacks. If the action contains separate "attack" lines, all are part of the attack action. If the attack is an AoE, all attacks performed as part of the AoE are part of the attack action.
 
-    - title: Attack Effect
+- search: Attack Effect
+  results:
+    - title: After Effects
       content: >
         An attack effect is an effect attached to the attack. It is applied either during damage resolution or after the attack (see list below). If it happens after the attack, it is applied even if the attack does no damage, including due to the NULL or Curse cards. You must choose whether you will do an effect to an attack before you draw a modifier card. Some modifier cards have their own attack effects and you can choose to apply them after you draw if they qualify as optional effects. Attack effects except Add Target are applied before retaliate (Add Target grants a brand new attack and one attack must be resolved completely before another is performed). Some attacks have Abilities (like Heal) that aren't attack effects but that are still attached to the attack. These abilities are applied after the attack is completely resolved (after retaliate).
 
-      
+    - title: Kill Effects
+      content: >
+        If an ability allows me to "kill" an enemy, is that considered an attack? No, unless the ability says "attack," it is not an attack.
+
+    - title: Consume to Kill Effects
+      content: >
+        What if I consume an element to turn an attack action into a kill action? So long as you consume the element and trigger only the kill effect, the word "instead" negates the attack, and it is no longer an attack.
+
+    - title: Applying Effects To Dead Enemies
+      content: >
+        If I kill an enemy with my attack damage, can I still apply the effects of the attack on that enemy (i.e., curse, push, etc.)? No, added attack effects are always applied after the damage. If you kill an enemy with the damage, then it is no longer around to be pushed onto a trap or cursed.
+
 # Class FAQs
 - search: Trample
   icon: brute
