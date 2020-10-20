@@ -14,14 +14,14 @@ export class AbilityCommand implements ICommand {
 
   help = `Display a character ability! Do \`!ability eye for an eye\` to see Eye for an Eye, \`!ability brute all\` to see all Brute skills and \`!ability brute x\` to see all Brute Level X abilities.`;
 
-  aliases = ['a', 'ability'];
+  aliases = ['a', 'ability', 'abilityg', 'abilityj', 'ag', 'aj'];
 
   @Inject private charService: CharResolverService;
   @Inject private abilityService: AbilityService;
   @Inject private presenceService: PresenceService;
 
   async execute(cmdArgs: ICommandArgs): Promise<ICommandResult> {
-    const { message, args } = cmdArgs;
+    const { message, args, cmd } = cmdArgs;
     const retVal = { resultString: JSON.stringify({ query: args, requester: message.author.username, requesterTag: message.author.tag }) };
 
     const [potentialChar, potentialLevel] = args.split('|').join('').split(' ').map((a) => a.toLowerCase());
@@ -90,7 +90,14 @@ export class AbilityCommand implements ICommand {
       return retVal;
     }
 
-    const ability = this.abilityService.getAbility(args);
+    let prepend = '';
+
+    if (cmd.endsWith('g')) { prepend = 'Gloomhaven'; }
+    if (cmd.endsWith('j')) { prepend = 'JOTL'; }
+
+    const query = prepend ? `${prepend} ${args}` : args;
+
+    const ability = this.abilityService.getAbility(query);
     if (!ability) {
       message.channel.send(`Sorry! I could not find anything like "${args}"`);
       return retVal;

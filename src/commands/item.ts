@@ -11,7 +11,7 @@ export class ItemCommand implements ICommand {
 
   help = `Display an item! Do \`!item #001\` or \`!item boots of striding\` to search for the Boots of Striding item. You can also use \`!itemg\` to search Gloomhaven items specifically, and similarly \`!itemj\` to search Jaws of the Lion items. **WARNING**: Embedded images can\'t be spoiler-hidden at this time.`;
 
-  aliases = ['i', 'item', 'itemg', 'itemj'];
+  aliases = ['i', 'item', 'itemg', 'itemj', 'ig', 'ij'];
 
   @Inject private itemService: ItemService;
   @Inject private presenceService: PresenceService;
@@ -24,8 +24,8 @@ export class ItemCommand implements ICommand {
 
     let prepend = '';
 
-    if (cmd === 'itemg') { prepend = 'Gloomhaven'; }
-    if (cmd === 'itemj') { prepend = 'JOTL'; }
+    if (cmd.endsWith('g')) { prepend = 'Gloomhaven'; }
+    if (cmd.endsWith('j')) { prepend = 'JOTL'; }
 
     const query = prepend ? `${prepend} ${search}` : search;
 

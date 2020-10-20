@@ -9,7 +9,7 @@ export class BattleGoalCommand implements ICommand {
 
   help = `Display a battle goal! Do \`!bgoal Purist\``;
 
-  aliases = ['bg', 'bgoal', 'bgoalg', 'bgoalf', 'bgoalj'];
+  aliases = ['bg', 'bgoal', 'bgoalg', 'bgoalj', 'bgg', 'bgj'];
 
   @Inject private pgoalService: BattleGoalService;
   @Inject private presenceService: PresenceService;
