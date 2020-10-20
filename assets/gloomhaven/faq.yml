@@ -5,7 +5,32 @@
 #  results:
 #    - title:
 #      content: >
+
+# General FAQs
+- search: Action / Ability
+  results:
+    - title: Action
+      content: >
+        An action is the top half or bottom half of an ability card, or an item or persistent ability that specifically says it grants an "action". An out-of-turn ability (like move or attack) granted by another figure's ability is not an action unless the granting ability says "action".
+
+    - title: Attack Action
+      content: >
+        An attack action is an action in which an attack is performed. It constitutes any and all attacks made with that specific action. If none of the attack abilities of an action are performed, it is not an attack action.
+
+    - title: Attack Ability
+      content: >
+        An ability is considered an attack ability if it has the word "attack" printed on the card.
+
+    - title: Attack
+      content: >
+        An attack is a single attack on a single target that flips over a single attack modifier card. If your attack action is, say, "Attack 3," then there is only one attack in your attack action. If it is "Attack 2, Target 3," then your attack action consists of three separate attacks. If the action contains separate "attack" lines, all are part of the attack action. If the attack is an AoE, all attacks performed as part of the AoE are part of the attack action.
+
+    - title: Attack Effect
+      content: >
+        An attack effect is an effect attached to the attack. It is applied either during damage resolution or after the attack (see list below). If it happens after the attack, it is applied even if the attack does no damage, including due to the NULL or Curse cards. You must choose whether you will do an effect to an attack before you draw a modifier card. Some modifier cards have their own attack effects and you can choose to apply them after you draw if they qualify as optional effects. Attack effects except Add Target are applied before retaliate (Add Target grants a brand new attack and one attack must be resolved completely before another is performed). Some attacks have Abilities (like Heal) that aren't attack effects but that are still attached to the attack. These abilities are applied after the attack is completely resolved (after retaliate).
+
       
+# Class FAQs
 - search: Trample
   icon: brute
   results:
