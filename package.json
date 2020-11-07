@@ -1,7 +1,7 @@
 {
   "name": "gloomhavenbot",
   "version": "1.0.0",
-  "description": "A bot for Gloomhaven discords.",
+  "description": "A bot for Gloomhaven Discords.",
   "main": "index.js",
   "engines": {
     "node": "10.11.0"
