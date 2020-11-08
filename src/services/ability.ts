@@ -35,7 +35,11 @@ export class AbilityService extends BaseService {
   }
 
   public getAbilitiesByCharacter(char: string): IAbility[] {
-    return uniqBy(this.gloomCards.filter((c) => c.char === char), (x) => x.name);
+    return uniqBy(this.gloomCards
+        .filter((c) => c.char === char)
+        .filter((c) => c.level !== 'S'),
+      (x) => x.name
+    );
   }
 
   public getAbilitiesByCharacterLevel(char: string, level: string): IAbility[] {

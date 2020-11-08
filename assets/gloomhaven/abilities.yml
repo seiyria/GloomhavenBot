@@ -447,6 +447,21 @@
   image: mindthief-x-2.jpg
   level: X
 
+- name: Rat Swarm
+  char: mindthief
+  image: mindthief-1-5.jpg
+  level: S
+
+- name: Monstrous Rat
+  char: mindthief
+  image: mindthief-2-0.jpg
+  level: S
+
+- name: Rat King
+  char: mindthief
+  image: mindthief-9-0.jpg
+  level: S
+
 # Scoundrel
 - name: Special Mixture
   char: scoundrel
@@ -724,6 +739,16 @@
   image: spellweaver-x-2.jpg
   level: X
 
+- name: Mystic Ally
+  char: spellweaver
+  image: spellweaver-x-2.jpg
+  level: S
+
+- name: Burning Avatar
+  char: spellweaver
+  image: spellweaver-6-0.jpg
+  level: S
+
 # Tinkerer
 - name: Proximity Mine
   char: tinkerer
@@ -880,6 +905,21 @@
   image: tinkerer-x-2.jpg
   level: X
 
+- name: Decoy
+  char: tinkerer
+  image: tinkerer-1-1.jpg
+  level: S
+
+- name: Battle Bot
+  char: tinkerer
+  image: tinkerer-4-0.jpg
+  level: S
+
+- name: Kill Bot
+  char: tinkerer
+  image: tinkerer-7-0.jpg
+  level: S
+
 # cthulhu / Summoner
 - name: Forged Ferocity
   char: circles
@@ -1020,6 +1060,66 @@
   char: circles
   image: circles-27.jpg
   level: X
+
+- name: Stone Spirit
+  char: circles
+  image: circles-4.jpg
+  level: S
+
+- name: Rock Colossus
+  char: circles
+  image: circles-5.jpg
+  level: S
+
+- name: Healing Sprite
+  char: circles
+  image: circles-8.jpg
+  level: S
+
+- name: Nail Spheres
+  char: circles
+  image: circles-9.jpg
+  level: S
+
+- name: Void Eater
+  char: circles
+  image: circles-11.jpg
+  level: S
+
+- name: Black Unicorn
+  char: circles
+  image: circles-16.jpg
+  level: S
+
+- name: Iron Beast
+  char: circles
+  image: circles-17.jpg
+  level: S
+
+- name: Thorn Shooter
+  char: circles
+  image: circles-18.jpg
+  level: S
+
+- name: Shadow Wolves
+  char: circles
+  image: circles-19.jpg
+  level: S
+
+- name: Lava Golem
+  char: circles
+  image: circles-20.jpg
+  level: S
+
+- name: Bat Swarm
+  char: circles
+  image: circles-26.jpg
+  level: S
+
+- name: Living Bomb
+  char: circles
+  image: circles-27.jpg
+  level: S
 
 # Cthulhu / Plagueherald
 - name: Winged Congregation
@@ -2053,6 +2153,31 @@
   image: spike-head-11.jpg
   level: X
 
+- name: Battle Boar
+  char: spike-head
+  image: spike-head-0.jpg
+  level: S
+
+- name: Vicious Jackal
+  char: spike-head
+  image: spike-head-10.jpg
+  level: S
+
+- name: Giant Toad
+  char: spike-head
+  image: spike-head-20.jpg
+  level: S
+
+- name: Spitting Cobra
+  char: spike-head
+  image: spike-head-26.jpg
+  level: S
+
+- name: War Hawk
+  char: spike-head
+  image: spike-head-30.jpg
+  level: S
+
 # Sun / Sunkeeper
 - name: Holy Strike
   char: sun
@@ -2496,6 +2621,46 @@
   image: three-swords-26.jpg
   level: X
 
+- name: Lightning Moths
+  char: three-swords
+  image: three-swords-0.jpg
+  level: S
+
+- name: Soul Leeches
+  char: three-swords
+  image: three-swords-4.jpg
+  level: S
+
+- name: Creeping Beetles
+  char: three-swords
+  image: three-swords-5.jpg
+  level: S
+
+- name: Angry Wasps
+  char: three-swords
+  image: three-swords-7.jpg
+  level: S
+
+- name: Bloat Maggots
+  char: three-swords
+  image: three-swords-4.jpg
+  level: S
+
+- name: Dueling Hornets
+  char: three-swords
+  image: three-swords-20.jpg
+  level: S
+
+- name: Steel Scarabs
+  char: three-swords
+  image: three-swords-26.jpg
+  level: S
+
+- name: Rust Vermin
+  char: three-swords
+  image: three-swords-30.jpg
+  level: S
+
 # Triangles / Elementalist
 - name: Raw Enhancement
   char: triangles
@@ -2642,6 +2807,11 @@
   image: triangles-2.jpg
   level: X
 
+- name: Mana Sphere
+  char: triangles
+  image: triangles-17.jpg
+  level: S
+
 # Two Minis / Beast Tyrant
 - name: Relentless Ally
   char: two-minis
@@ -2787,3 +2957,38 @@
   char: two-minis
   image: two-minis-9.jpg
   level: X
+
+- name: Tattered Wolf
+  char: two-minis
+  image: two-minis-0.jpg
+  level: S
+
+- name: Red Falcon
+  char: two-minis
+  image: two-minis-7.jpg
+  level: S
+
+- name: Swamp Alligator
+  char: two-minis
+  image: two-minis-12.jpg
+  level: S
+
+- name: Monolith
+  char: two-minis
+  image: two-minis-17.jpg
+  level: S
+  
+- name: Wind Totem
+  char: two-minis
+  image: two-minis-20.jpg
+  level: S
+
+- name: Spirit Banner
+  char: two-minis
+  image: two-minis-25.jpg
+  level: S
+
+- name: Green Adder
+  char: two-minis
+  image: two-minis-28.jpg
+  level: S
