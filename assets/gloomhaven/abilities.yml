@@ -462,6 +462,46 @@
   image: mindthief-9-0.jpg
   level: S
 
+- name: Feedback Loop (Augment)
+  char: mindthief
+  image: mindthief-1-4.jpg
+  level: A
+
+- name: The Mind's Weakness (Augment)
+  char: mindthief
+  image: mindthief-1-6.jpg
+  level: A
+
+- name: Parasitic Influence (Augment)
+  char: mindthief
+  image: mindthief-1-7.jpg
+  level: A
+
+- name: Silent Scream (Augment)
+  char: mindthief
+  image: mindthief-3-1.jpg
+  level: A
+
+- name: Frozen Mind (Augment)
+  char: mindthief
+  image: mindthief-5-1.jpg
+  level: A
+
+- name: Vicious Blood (Augment)
+  char: mindthief
+  image: mindthief-7-0.jpg
+  level: A
+
+- name: Phantasmal Killer (Augment)
+  char: mindthief
+  image: mindthief-9-1.jpg
+  level: A
+
+- name: Withering Claw (Augment)
+  char: mindthief
+  image: mindthief-x-1.jpg
+  level: A
+
 # Scoundrel
 - name: Special Mixture
   char: scoundrel
@@ -1841,6 +1881,66 @@
   image: music-note-26.jpg
   level: X
 
+- name: Echoing Aria
+  char: music-note
+  image: music-note-1.jpg
+  level: S
+
+- name: Disorienting Dirge
+  char: music-note
+  image: music-note-3.jpg
+  level: S
+
+- name: Mobilizing Measure
+  char: music-note
+  image: music-note-6.jpg
+  level: S
+
+- name: Pull the Strings
+  char: music-note
+  image: music-note-7.jpg
+  level: S
+
+- name: Nightmare Serenade
+  char: music-note
+  image: music-note-9.jpg
+  level: S
+
+- name: Tranquil Trill
+  char: music-note
+  image: music-note-11.jpg
+  level: S
+
+- name: Captivating Performance
+  char: music-note
+  image: music-note-13.jpg
+  level: S
+
+- name: Power Ballad
+  char: music-note
+  image: music-note-15.jpg
+  level: S
+
+- name: Defensive Ditty
+  char: music-note
+  image: music-note-16.jpg
+  level: S
+
+- name: Song of Speed
+  char: music-note
+  image: music-note-17.jpg
+  level: S
+
+- name: Soothing Lullaby
+  char: music-note
+  image: music-note-27.jpg
+  level: S
+
+- name: Wistful Wounding
+  char: music-note
+  image: music-note-24.jpg
+  level: S
+
 # Saw / Sawbones
 - name: Battlefield Medicine
   char: saw
@@ -2177,6 +2277,96 @@
   char: spike-head
   image: spike-head-30.jpg
   level: S
+
+- name: Vital Charge
+  char: spike-head
+  image: spike-head-0.jpg
+  level: D
+
+- name: Race to the Grave
+  char: spike-head
+  image: spike-head-1.jpg
+  level: D
+
+- name: Multi-Pronged Assault
+  char: spike-head
+  image: spike-head-2.jpg
+  level: D
+
+- name: Detonation
+  char: spike-head
+  image: spike-head-3.jpg
+  level: D
+
+- name: Frightening Curse
+  char: spike-head
+  image: spike-head-4.jpg
+  level: D
+
+- name: Sap Life
+  char: spike-head
+  image: spike-head-9.jpg
+  level: D
+
+- name: The Hunt Begins
+  char: spike-head
+  image: spike-head-10.jpg
+  level: D
+
+- name: Expose
+  char: spike-head
+  image: spike-head-12.jpg
+  level: D
+
+- name: Darkened Skies
+  char: spike-head
+  image: spike-head-14.jpg
+  level: D
+
+- name: Singular Focus
+  char: spike-head
+  image: spike-head-16.jpg
+  level: D
+
+- name: Inescapable Fate
+  char: spike-head
+  image: spike-head-18.jpg
+  level: D
+
+- name: Nature's Hunger
+  char: spike-head
+  image: spike-head-20.jpg
+  level: D
+
+- name: Crashing Wave
+  char: spike-head
+  image: spike-head-23.jpg
+  level: D
+
+- name: Rising Momentum
+  char: spike-head
+  image: spike-head-24.jpg
+  level: D
+
+- name: Predator and Prey
+  char: spike-head
+  image: spike-head-26.jpg
+  level: D
+
+- name: Rain of Arrows
+  char: spike-head
+  image: spike-head-28.jpg
+  level: D
+
+- name: Crippling Noose
+  char: spike-head
+  image: spike-head-29.jpg
+  level: D
+
+- name: Felling Swoop
+  char: spike-head
+  image: spike-head-30.jpg
+  level: D
 
 # Sun / Sunkeeper
 - name: Holy Strike
@@ -2992,3 +3182,113 @@
   char: two-minis
   image: two-minis-28.jpg
   level: S
+
+- name: Soaring Ally
+  char: two-minis
+  image: two-minis-7.jpg
+  level: S
+
+- name: Disappearing Wounds
+  char: two-minis
+  image: two-minis-2.jpg
+  level: C
+
+- name: Disorienting Roar
+  char: two-minis
+  image: two-minis-26.jpg
+  level: C
+
+- name: Spirit Swap
+  char: two-minis
+  image: two-minis-27.jpg
+  level: C
+
+- name: Patch Fur
+  char: two-minis
+  image: two-minis-3.jpg
+  level: C
+
+- name: Forceful Swipe
+  char: two-minis
+  image: two-minis-5.jpg
+  level: C
+
+- name: Maul
+  char: two-minis
+  image: two-minis-4.jpg
+  level: C
+
+- name: Howling Bolts
+  char: two-minis
+  image: two-minis-6.jpg
+  level: C
+
+- name: Soaring Ally
+  char: two-minis
+  image: two-minis-7.jpg
+  level: C
+
+- name: Focused Aggresion
+  char: two-minis
+  image: two-minis-8.jpg
+  level: C
+
+- name: Forceful Swipe
+  char: two-minis
+  image: two-minis-5.jpg
+  level: C
+
+- name: Energizing Strike
+  char: two-minis
+  image: two-minis-10.jpg
+  level: C
+
+- name: Vicious Ally
+  char: two-minis
+  image: two-minis-12.jpg
+  level: C
+
+- name: Unstoppable Beast
+  char: two-minis
+  image: two-minis-13.jpg
+  level: C
+
+- name: Unstoppable Beast
+  char: two-minis
+  image: two-minis-13.jpg
+  level: C
+
+- name: Punch Through
+  char: two-minis
+  image: two-minis-15.jpg
+  level: C
+
+- name: Rampage
+  char: two-minis
+  image: two-minis-16.jpg
+  level: C
+
+- name: Stone Sigil
+  char: two-minis
+  image: two-minis-17.jpg
+  level: C
+
+- name: Blood Hunger
+  char: two-minis
+  image: two-minis-19.jpg
+  level: C
+
+- name: Storm Sigil
+  char: two-minis
+  image: two-minis-20.jpg
+  level: C
+
+- name: Lash Out
+  char: two-minis
+  image: two-minis-22.jpg
+  level: C
+
+- name: Jaws of Death
+  char: two-minis
+  image: two-minis-24.jpg
+  level: C

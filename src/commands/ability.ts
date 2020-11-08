@@ -1,6 +1,7 @@
 
 import fs from 'fs';
 
+import { uniqBy } from 'lodash';
 import { Inject } from 'typescript-ioc';
 
 import Jimp from 'jimp';
@@ -27,7 +28,7 @@ export class AbilityCommand implements ICommand {
     const [potentialChar, potentialLevel] = args.split('|').join('').split(' ').map((a) => a.toLowerCase());
     const realChar = this.charService.resolveClass(potentialChar);
 
-    const validLevels = ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'x', 'm', 'all', 'a', 'b', 's'];
+    const validLevels = ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'all', 'a', 'b', 'c', 'd', 's', 'm', 'x'];
 
     if (realChar && potentialLevel && validLevels.includes(potentialLevel)) {
 
@@ -45,11 +46,13 @@ export class AbilityCommand implements ICommand {
         return retVal;
       }
 
+      const uniqueCards: any[] = uniqBy(cards, (x) => x.image);
+
       const fileName = `${realChar}-${potentialLevel || 'all'}.jpg`;
       const path = `assets/tmp/${fileName}`;
 
       if (!fs.existsSync(path)) {
-        const allImages = await Promise.all(cards.map((c) => Jimp.read(c.longImage)));
+        const allImages = await Promise.all(uniqueCards.map((c) => Jimp.read(c.longImage)));
         const cardWidth = allImages[0].getWidth();
         const cardHeight = allImages[0].getHeight();
 

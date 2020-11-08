@@ -35,15 +35,15 @@ export class AbilityService extends BaseService {
   }
 
   public getAbilitiesByCharacter(char: string): IAbility[] {
-    return uniqBy(this.gloomCards
-        .filter((c) => c.char === char)
-        .filter((c) => c.level !== 'S'),
-      (x) => x.name
-    );
+    const filteredCards = this.gloomCards
+      .filter((c) => c.char === char);
+
+    return uniqBy(filteredCards, (x) => x.level + x.name);
   }
 
   public getAbilitiesByCharacterLevel(char: string, level: string): IAbility[] {
-    return this.getAbilitiesByCharacter(char).filter((c) => c.level === level);
+    return this.getAbilitiesByCharacter(char)
+      .filter((c) => c.level === level.toLowerCase());
   }
 
   private loadAll() {
@@ -51,7 +51,6 @@ export class AbilityService extends BaseService {
       const cards = YAML.load(`assets/${game.toLowerCase()}/abilities.yml`);
 
       cards.forEach((card) => {
-
         card.level = card.level.toString().toLowerCase();
         card.longImage = `assets/${game.toLowerCase()}/images/characters/${card.char}/${card.image}`;
 
