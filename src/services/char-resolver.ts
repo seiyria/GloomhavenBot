@@ -9,7 +9,7 @@ const Characters = {
   'cthulhu':       ['11', 'plagueherald'],
   'diviner':       ['18'],
   'eclipse':       ['10', 'nightshroud', 'moon'],
-  'lightning':     ['12', 'lightningbolts', 'lightningbolt', 'lightning-bolt', 'berserker'],
+  'lightning':     ['12', 'lightningbolts', 'lightningbolt', 'lightning-bolt', 'berserker', 'lightning'],
   'mindthief':     ['6'],
   'music-note':    ['13', 'musicnote', 'soothsinger', 'music', 'bard'],
   'saw':           ['15', 'sawbones'],
