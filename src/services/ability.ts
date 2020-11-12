@@ -11,6 +11,7 @@ interface IAbility {
   level: string;
   longImage: string;
   image: string;
+  requireExact: boolean;
 }
 
 @Singleton
@@ -28,7 +29,10 @@ export class AbilityService extends BaseService {
 
   public getAbility(name: string): IAbility {
     try {
-      return this.gloomAbilities.getFirst(name);
+      const card: IAbility = this.gloomAbilities.getFirst(name);
+      if (card.requireExact && name.toLowerCase() !== card.name.toLowerCase()) { return null; }
+
+      return card;
     } catch {
       return null;
     }
@@ -51,6 +55,10 @@ export class AbilityService extends BaseService {
       const cards = YAML.load(`assets/${game.toLowerCase()}/abilities.yml`);
 
       cards.forEach((card) => {
+        if (['three-swords'].includes(card.char)) {
+          card.requireExact = true;
+        }
+
         card.level = card.level.toString().toLowerCase();
         card.longImage = `assets/${game.toLowerCase()}/images/characters/${card.char}/${card.image}`;
 
