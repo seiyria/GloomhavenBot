@@ -105,6 +105,8 @@ export class AbilityCommand implements ICommand {
       message.channel.send(`Sorry! I could not find anything like "${args}"`);
       return retVal;
     }
+    
+    retVal.ability = ability.name;
 
     const attachFiles = [
       {
