@@ -12,6 +12,7 @@ interface IClassData {
   extraHP?: number[];
   handSize: number;
   perks: Array<{ text: string, count: number }>;
+  extra?: { text: string, title: string };
 }
 
 @Singleton
