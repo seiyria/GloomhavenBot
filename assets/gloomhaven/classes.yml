@@ -11,7 +11,7 @@ brute:
 
     - text: Add two +1 cards
       count: 2
-      
+
     - text: Add one +3 card
 
     - text: Add three <emoji>:rolling PUSH <emoji>:statuspush 1 cards
@@ -26,11 +26,11 @@ brute:
 
     - text: Add one <emoji>:rolling ADD TARGET <emoji>:statusaddtarget card
       count: 2
-      
+
     - text: Add one +1 Shield <emoji>:iconshield 1, Self card
 
     - text: Ignore negative item effects and add one +1 card
-    
+
 circles:
   name: Aesther Summoner
   hp: [8, 9, 11, 12, 14, 15, 17, 18, 20]
@@ -58,7 +58,7 @@ circles:
     - text: Add one <emoji>:rolling <emoji>:elementdark and one <emoji>:rolling <emoji>:elementearth card
 
     - text: Ignore negative scenario effects and add two +1 cards
-    
+
 cragheart:
   name: Savvas Cragheart
   hp: [10, 12, 14, 16, 18, 20, 22, 24, 26]
@@ -70,7 +70,7 @@ cragheart:
       count: 3
 
     - text: Add one -2 card and two +2 cards
-    
+
     - text: Add one +1 IMMOBILIZE <emoji>:statusimmobilize card
       count: 2
 
@@ -87,7 +87,7 @@ cragheart:
     - text: Ignore negative item effects
 
     - text: Ignore negative scenario effects
-    
+
 cthulhu:
   name: Harrower Plagueherald
   hp: [6, 7, 8, 9, 10, 11, 12, 13, 14]
@@ -111,12 +111,12 @@ cthulhu:
     - text: Add two <emoji>:rolling CURSE <emoji>:statuscurse cards
 
     - text: Add two <emoji>:rolling IMMOBILIZE <emoji>:statusimmobilize cards
-    
+
     - text: Add one <emoji>:rolling STUN <emoji>:statusstun card
       count: 2
 
     - text: Ignore negative scenario effects and add one +1 card
-    
+
 diviner:
   name: Aesther Diviner
   hp: [6, 7, 8, 9, 10, 11, 12, 13, 14]
@@ -137,9 +137,9 @@ diviner:
     - text: Replace one +0 card with one +2 <emoji>:elementlight card
 
     - text: Replace one +0 card with one +3 MUDDLE <emoji>:statusmuddle card
-    
+
     - text: Replace one +0 card with one +2 CURSE <emoji>:statuscurse card
-    
+
     - text: Replace one +0 card with one +2 REGENERATE <emoji>:statusregenerate, Self card
 
     - text: Replace one -1 card with one +1 Heal +2, Affect any ally card
@@ -149,7 +149,7 @@ diviner:
     - text: Add two <emoji>:rolling CURSE <emoji>:statuscurse cards
 
     - text: Ignore negative scenario effects and add two +1 cards
-    
+
 eclipse:
   name: Aesther Nightshroud
   hp: [8, 9, 10, 11, 12, 14, 15, 17, 18, 20]
@@ -179,14 +179,14 @@ eclipse:
     - text: Add one <emoji>:rolling ADD TARGET <emoji>:statusaddtarget card
 
     - text: Ignore negative scenario effects and add two +1 cards
-    
+
 lightning:
   name: Inox Berserker
   hp: [10, 12, 14, 16, 18, 20, 22, 24, 26]
   handSize: 10
   perks:
     - text: Remove two -1 cards
-    
+
     - text: Remove four +0 cards
 
     - text: Replace one -1 card with one +1 card
@@ -209,7 +209,7 @@ lightning:
       count: 2
 
     - text: Ignore negative item effects
-    
+
 mindthief:
   name: Vermling Mindthief
   hp: [6, 7, 8, 9, 10, 11, 12, 13, 14]
@@ -233,7 +233,7 @@ mindthief:
     - text: Add three <emoji>:rolling <emoji>:statuspull 1 cards
 
     - text: Add three <emoji>:rolling MUDDLE <emoji>:statusmuddle cards
-    
+
     - text: Add two <emoji>:rolling IMMOBILIZE <emoji>:statusimmobilize cards
 
     - text: Add one <emoji>:rolling STUN <emoji>:statusstun card
@@ -241,7 +241,7 @@ mindthief:
     - text: Add one <emoji>:rolling DISARM <emoji>:statusdisarm card and one <emoji>:rolling MUDDLE <emoji>:statusmuddle card
 
     - text: Ignore negative scenario effects
-    
+
 music-note:
   name: Quatryl Soothsinger
   hp: [6, 7, 8, 9, 10, 11, 12, 13, 14]
@@ -273,7 +273,7 @@ music-note:
 
     - text: Add two <emoji>:rolling CURSE <emoji>:statuscurse cards
       count: 2
-    
+
 saw:
   name: Human Sawbones
   hp: [8, 9, 11, 12, 14, 15, 17, 18, 20]
@@ -283,7 +283,7 @@ saw:
       count: 2
 
     - text: Remove four +0 cards
-  
+
     - text: Replace one +0 card with one +2 card
 
     - text: Add one <emoji>:rolling +2 card
@@ -301,7 +301,7 @@ saw:
       count: 2
 
     - text: Add one +0 Refresh an item card
-    
+
 scoundrel:
   name: Human Scoundrel
   hp: [8, 9, 11, 12, 14, 15, 17, 18, 20]
@@ -323,7 +323,7 @@ scoundrel:
       count: 2
 
     - text: Add two <emoji>:rolling PIERCE <emoji>:statuspierce 3 cards
-    
+
     - text: Add two <emoji>:rolling POISON <emoji>:statuspoison cards
       count: 2
 
@@ -332,7 +332,7 @@ scoundrel:
     - text: Add one <emoji>:rolling INVISIBLE <emoji>:statusinvisible card
 
     - text: Ignore negative scenario effects
-    
+
 spellweaver:
   name: Orchid Spellweaver
   hp: [6, 7, 8, 9, 10, 11, 12, 13, 14]
@@ -362,8 +362,8 @@ spellweaver:
 
     - text: Add one <emoji>:rolling <emoji>:elementearth card and one <emoji>:rolling <emoji>:elementair card
 
-    - text: Add one <emoji>:rolling <emoji>:elementlight card and one <emoji>:rolling <emoji>:elementdark card 
-    
+    - text: Add one <emoji>:rolling <emoji>:elementlight card and one <emoji>:rolling <emoji>:elementdark card
+
 spike-head:
   name: Orchid Doomstalker
   hp: [8, 9, 11, 12, 14, 15, 17, 18, 20]
@@ -392,7 +392,7 @@ spike-head:
       count: 2
 
     - text: Ignore negative scenario effects
-    
+
 sun:
   name: Valrath Sunkeeper
   hp: [10, 12, 14, 16, 18, 20, 22, 24, 26]
@@ -410,7 +410,7 @@ sun:
 
     - text: Add two <emoji>:rolling Heal +1 cards
       count: 2
-      
+
     - text: Add one <emoji>:rolling STUN <emoji>:statusstun card
 
     - text: Add two <emoji>:rolling <emoji>:elementlight cards
@@ -421,7 +421,7 @@ sun:
     - text: Ignore negative item effects and add two +1 cards
 
     - text: Ignore negative scenario effects
-    
+
 three-spears:
   name: Valrath Quartermaster
   hp: [10, 12, 14, 16, 18, 20, 22, 24, 26]
@@ -431,7 +431,7 @@ three-spears:
       count: 2
 
     - text: Remove four +0 cards
-    
+
     - text: Replace one +0 card with one +2 card
 
     - text: Add two <emoji>:rolling +1 cards
@@ -449,7 +449,7 @@ three-spears:
       count: 3
 
     - text: Ignore negative item effects and add two +1 cards
-    
+
 three-swords:
   name: Harrower Bladeswarm
   hp: [8, 9, 11, 12, 14, 15, 17, 18, 20]
@@ -481,7 +481,7 @@ three-swords:
     - text: Ignore negative item effects and add one +1 card
 
     - text: Ignore negative scenario effects and add one +1 card
-    
+
 tinkerer:
   name: Quatryl Tinkerer
   hp: [8, 9, 11, 12, 14, 15, 17, 18, 20]
@@ -510,9 +510,9 @@ tinkerer:
       count: 2
 
     - text: Add one +0 ADD TARGET <emoji>:statusaddtarget card
-    
+
     - text: Ignore negative scenario effects
-    
+
 triangles:
   name: Savvas Elementalist
   hp: [6, 7, 8, 9, 10, 11, 12, 13, 14]
@@ -522,7 +522,7 @@ triangles:
       count: 2
 
     - text: Replace one -1 card with one +1 card
-    
+
     - text: Replace one +0 card with one +2 card
       count: 2
 
@@ -545,7 +545,7 @@ triangles:
     - text: Add one +0 STUN <emoji>:statusstun card
 
     - text: Add one +0 <emoji>:statusaddtarget card
-    
+
 two-minis:
   name: Vermling Beast Tyrant
   hp: [6, 7, 8, 9, 10, 11, 12, 13, 14]
@@ -572,3 +572,25 @@ two-minis:
     - text: Add two <emoji>:rolling <emoji>:elementearth cards
 
     - text: Ignore negative scenario effects
+
+  extra:
+    title: Bear Companion
+    text: >
+      There are a few special rules to take note of when playing the Beast Tyrant, who has a permanent bear summon.
+
+      The bear has:
+
+
+      * HP: 8 + (2xL)
+      * Move: 3
+      * Attack: 2
+      * Range: 1
+
+
+      where L is the level of the Beast Tyrant.
+
+      A player can lose cards as normal to negate damage done to the Beast Tyrant or the bear. When the bear drops below 1 hit point, it is removed from the map and cannot return.
+
+      At the beginning of each scenario, the Beast Tyrant immediately summons his bear into an adjacent hex, and the bear acts directly before the Beast Tyrant's turn every round as normal.
+
+      In addition, the Beast Tyrant has specific "Command" actions, which allow the bear to perform actions instead of the Beast Tyrant, with the Beast Tyrant performing the action.
