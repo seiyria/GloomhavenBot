@@ -88,7 +88,11 @@ export class AbilityCommand implements ICommand {
         }
       ];
 
-      await message.channel.send({ files: attachFile });
+      try {
+        await message.channel.send({ files: attachFile });
+      } catch {
+        message.channel.send('Could not create/upload file. Try again?');
+      }
 
       return retVal;
     }
@@ -115,7 +119,11 @@ export class AbilityCommand implements ICommand {
 
     this.presenceService.setPresence(`with ${ability.name}`);
 
-    message.channel.send({ files: attachFiles });
+    try {
+      message.channel.send({ files: attachFiles });
+    } catch {
+      message.channel.send('Could not create/upload file. Try again?');
+    }
 
     return retVal;
   }
