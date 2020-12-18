@@ -13,7 +13,7 @@ import { CharResolverService } from '../services/char-resolver';
 
 export class AbilityCommand implements ICommand {
 
-  help = `Display a character ability! Do \`!ability eye for an eye\` to see Eye for an Eye, \`!ability brute all\` to see all Brute skills and \`!ability brute x\` to see all Brute Level X abilities.`;
+  help = `Display a character ability! Do \`!ability eye for an eye\` to see Eye for an Eye, \`!ability brute all\` to see all Brute skills and \`!ability brute x\` to see all Brute Level X abilities. Other things you can search by: a (augments), c (||command||), d (||doom||), s (||song||)`;
 
   aliases = ['a', 'ability', 'abilityg', 'abilityj', 'ag', 'aj'];
 
