@@ -46,7 +46,7 @@ export class AbilityCommand implements ICommand {
         return retVal;
       }
 
-      const uniqueCards: any[] = uniqBy(cards, (x) => x.image);
+      const uniqueCards: any[] = cards; // uniqBy(cards, (x) => x.image);
 
       const fileName = `${realChar}-${potentialLevel || 'all'}.jpg`;
       const path = `assets/tmp/${fileName}`;

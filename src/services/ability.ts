@@ -46,8 +46,14 @@ export class AbilityService extends BaseService {
   }
 
   public getAbilitiesByCharacterLevel(char: string, level: string): IAbility[] {
-    return this.getAbilitiesByCharacter(char)
+    const cards = this.getAbilitiesByCharacter(char)
       .filter((c) => c.level === level.toLowerCase());
+
+    if (['redguard', 'voidwarden', 'hatchet', 'demolitionist'].includes(char) && cards[0].level === '5') {
+      return [cards[0], cards[0]];
+    }
+
+    return cards;
   }
 
   private loadAll() {
