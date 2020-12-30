@@ -33,7 +33,7 @@ export class AbilityCommand implements ICommand {
     if (realChar && potentialLevel && validLevels.includes(potentialLevel)) {
 
       if (!potentialLevel) {
-        message.channel.send(`You need to specify a level, like so: \`!ability brute 2\`.`);
+        message.reply(`You need to specify a level, like so: \`!ability brute 2\`.`);
         return retVal;
       }
 
@@ -42,11 +42,11 @@ export class AbilityCommand implements ICommand {
                   : this.abilityService.getAbilitiesByCharacter(realChar);
 
       if (cards.length === 0) {
-        message.channel.send(`Sorry! I could not find any cards for that character/level combination.`);
+        message.reply(`Sorry! I could not find any cards for that character/level combination (${args}).`);
         return retVal;
       }
 
-      const uniqueCards: any[] = cards; // uniqBy(cards, (x) => x.image);
+      const uniqueCards: any[] = uniqBy(cards, (x) => x.name);
 
       const fileName = `${realChar}-${potentialLevel || 'all'}.jpg`;
       const path = `assets/tmp/${fileName}`;
@@ -106,7 +106,7 @@ export class AbilityCommand implements ICommand {
 
     const ability = this.abilityService.getAbility(query);
     if (!ability) {
-      message.channel.send(`Sorry! I could not find anything like "${args}"`);
+      message.reply(`Sorry! I could not find anything like "${args}"`);
       return retVal;
     }
 

@@ -1,6 +1,6 @@
 import { AutoWired, Singleton } from 'typescript-ioc';
 import * as YAML from 'yamljs';
-import { uniqBy } from 'lodash';
+import { uniqBy, clone } from 'lodash';
 import { FuzzySetContainer } from 'fuzzyset-obj';
 
 import { BaseService } from '../base/BaseService';
@@ -51,7 +51,9 @@ export class AbilityService extends BaseService {
       .filter((c) => c.level === level.toLowerCase());
 
     if (['redguard', 'voidwarden', 'hatchet', 'demolitionist'].includes(char) && cards[0].level === '5') {
-      return [cards[0], cards[0]];
+      const copy = clone(cards[0]);
+      copy.name = `${copy.name} (2)`;
+      return [cards[0], copy];
     }
 
     return cards;
