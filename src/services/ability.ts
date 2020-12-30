@@ -58,9 +58,9 @@ export class AbilityService extends BaseService {
   }
 
   private loadAll() {
-    if(this.isLoaded) return;
+    if (this.isLoaded) { return; }
     this.isLoaded = true;
-    
+
     ['Gloomhaven', 'JOTL'].forEach((game) => {
       const cards = YAML.load(`assets/${game.toLowerCase()}/abilities.yml`);
 
