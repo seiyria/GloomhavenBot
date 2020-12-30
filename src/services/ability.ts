@@ -18,6 +18,7 @@ interface IAbility {
 @AutoWired
 export class AbilityService extends BaseService {
 
+  private isLoaded = false;
   private gloomCards: IAbility[] = [];
   private gloomAbilities: FuzzySetContainer<IAbility> = new FuzzySetContainer<IAbility>({ key: '_key' });
 
@@ -57,6 +58,9 @@ export class AbilityService extends BaseService {
   }
 
   private loadAll() {
+    if(!this.isLoaded) return;
+    this.isLoaded = true;
+    
     ['Gloomhaven', 'JOTL'].forEach((game) => {
       const cards = YAML.load(`assets/${game.toLowerCase()}/abilities.yml`);
 
