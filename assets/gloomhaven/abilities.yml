@@ -3002,6 +3002,11 @@
   image: triangles-17.jpg
   level: S
 
+- name: Simalcrum
+  char: triangles
+  image: triangles-12.jpg
+  level: S
+
 # Two Minis / Beast Tyrant
 - name: Relentless Ally
   char: two-minis
