@@ -42,7 +42,7 @@ export class ItemCommand implements ICommand {
       }
     ];
 
-    const embed = new Discord.RichEmbed()
+    const embed = new Discord.MessageEmbed()
       .attachFiles(attachFiles)
       .setAuthor(`Item #${card.num.toString().padStart(3, '0')} (${card.game})`)
       .setThumbnail(`attachment://SPOILER_${card.image}`)

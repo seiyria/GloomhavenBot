@@ -1,8 +1,8 @@
-import { Game } from 'discord.js';
 import { AutoWired, Singleton } from 'typescript-ioc';
 import * as YAML from 'yamljs';
 
 import { BaseService } from '../base/BaseService';
+import { Game } from '../interfaces/IGame';
 
 interface IClassData {
   game: Game;

@@ -39,7 +39,7 @@ export class ClassDataCommand implements ICommand {
       `./assets/${classData.assetPath}/images/icons/${realChar}.png`
     ];
 
-    const embed = new Discord.RichEmbed()
+    const embed = new Discord.MessageEmbed()
       .attachFiles(attachFiles)
       .setAuthor(`Class Overview (${classData.game})`, `attachment://${realChar}.png`)
       .setTitle(`||${classData.name}||`);
