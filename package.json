@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/seiyria/gloomhavenbot#readme",
   "dependencies": {
-    "discord.js": "^11.5.1",
+    "discord.js": "^12.5.3",
     "dotenv": "^8.0.0",
     "fuzzyset-obj": "^1.0.0",
     "jimp": "^0.16.1",
