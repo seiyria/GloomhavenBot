@@ -30,7 +30,7 @@ export class FAQCommand implements ICommand {
       attachFiles.push(`assets/${res.game.toLowerCase()}/images/icons/${res.icon}.png`);
     }
 
-    const embed = new Discord.RichEmbed()
+    const embed = new Discord.MessageEmbed()
       .attachFiles(attachFiles)
       .setAuthor(`${res.query} (${res.game})`, res.icon ? `attachment://${res.icon}.png` : '');
 

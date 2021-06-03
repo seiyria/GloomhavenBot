@@ -17,6 +17,6 @@ export class PresenceService extends BaseService {
   }
 
   public setPresence(presence: string) {
-    this.client.user.setPresence({ game: { name: presence } });
+    this.client.user.setPresence({ activity: { name: presence } });
   }
 }

@@ -26,8 +26,8 @@ export interface ICommand {
   onMessage?(message: Discord.Message);
 
   // run when an emoji is added to a message, if the function is added to the command
-  onEmojiAdd?(reaction: Discord.MessageReaction, user: Discord.User);
+  onEmojiAdd?(reaction: Discord.MessageReaction, user: Discord.User | Discord.PartialUser);
 
   // run when an emoji is removed from a message, if the function is added to the command
-  onEmojiRemove?(reaction: Discord.MessageReaction, user: Discord.User);
+  onEmojiRemove?(reaction: Discord.MessageReaction, user: Discord.User | Discord.PartialUser);
 }

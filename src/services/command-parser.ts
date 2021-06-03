@@ -34,13 +34,13 @@ export class CommandParser extends BaseService {
 
   // any command registering this will fire their callback when a reaction is added to a message
   // this function returns nothing because it can operate on multiple values
-  handleEmojiAdd(reaction: Discord.MessageReaction, user: Discord.User) {
+  handleEmojiAdd(reaction: Discord.MessageReaction, user: Discord.User | Discord.PartialUser) {
     this.emojiAddCommands.forEach((cmd) => cmd.onEmojiAdd(reaction, user));
   }
 
   // any command registering this will fire their callback when a reaction is removed from a message
   // this function returns nothing because it can operate on multiple values
-  handleEmojiRemove(reaction: Discord.MessageReaction, user: Discord.User) {
+  handleEmojiRemove(reaction: Discord.MessageReaction, user: Discord.User | Discord.PartialUser) {
     this.emojiRemoveCommands.forEach((cmd) => cmd.onEmojiRemove(reaction, user));
   }
 
