@@ -48,7 +48,7 @@ export class AbilityCommand implements ICommand {
 
       const uniqueCards: any[] = uniqBy(cards, (x) => x.name);
 
-      const fileName = `${realChar}-${potentialLevel || 'all'}_SPOILER.jpg`;
+      const fileName = `SPOILER_${realChar}-${potentialLevel || 'all'}.jpg`;
       const path = `assets/tmp/${fileName}`;
 
       if (!fs.existsSync(path)) {
