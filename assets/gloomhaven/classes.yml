@@ -152,7 +152,7 @@ diviner:
 
 eclipse:
   name: Aesther Nightshroud
-  hp: [8, 9, 10, 11, 12, 14, 15, 17, 18, 20]
+  hp: [8, 9, 11, 12, 14, 15, 17, 18, 20]
   handSize: 9
   perks:
     - text: Remove two -1 cards
