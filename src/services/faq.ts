@@ -1,5 +1,6 @@
 import { AutoWired, Singleton } from 'typescript-ioc';
 import * as YAML from 'yamljs';
+import * as fs from 'fs';
 import { FuzzySetContainer } from 'fuzzyset-obj';
 
 import { BaseService } from '../base/BaseService';
@@ -33,8 +34,10 @@ export class FAQService extends BaseService {
   }
 
   private loadAll() {
-    ['Gloomhaven'].forEach((game) => {
-      const faqs = YAML.load(`assets/${game.toLowerCase()}/faq.yml`);
+    ['Gloomhaven', 'Custom'].forEach((game) => {
+      if(!fs.existsSync(`assets/${game.toLowerCase()}/faq.yml`)) return;
+
+      const faqs = YAML.load(`assets/${game.toLowerCase()}/faq.yml`) || [];
 
       faqs.forEach((faq) => {
         this.faqs.add({ _key: faq.search, query: faq.search, results: faq.results, icon: faq.icon, game });
