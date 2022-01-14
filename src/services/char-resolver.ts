@@ -29,19 +29,29 @@ const Characters = {
   'manifestation-of-corruption': ['manifestation'],
 };
 
-const AllCharacterAliases = Object.keys(Characters).reduce((prev, cur) => {
-  prev[cur] = cur;
-  Characters[cur].forEach((c) => prev[c] = cur);
-
-  return prev;
-}, {});
-
 @Singleton
 @AutoWired
 export class CharResolverService extends BaseService {
 
+  public get allClasses(): string[] {
+    return Object.keys(Characters).filter(x => !['three-swords', 'manifestation-of-corruption'].includes(x));
+  }
+
   public resolveClass(search: string): string {
+    const AllCharacterAliases = Object.keys(Characters).reduce((prev, cur) => {
+      prev[cur] = cur;
+      Characters[cur].forEach((c) => prev[c] = cur);
+
+      return prev;
+    }, {});
+
     return AllCharacterAliases[search];
+  }
+
+  public addClass(name: string): void {
+    if(Characters[name]) return;
+
+    Characters[name] = [name];
   }
 
 }

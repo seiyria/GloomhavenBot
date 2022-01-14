@@ -8,7 +8,7 @@ ruinmaw:
 
     - text: Replace one -1 card with one +0 WOUND <emoji>:statuswound card
       count: 2
-      
+
     - text: Replace one -1 card with one +0 RUPTURE <emoji>:rupture card
       count: 2
 
@@ -25,8 +25,8 @@ ruinmaw:
     - text: Whenever one of your abilities causes at least one enemy to gain RUPTURE <emoji>:rupture , immedatiately after that ability perform "Move 1"
 
     - text: Ignore negative scenario effects and remove one -1 card
-    
-    extra:
+
+  extra:
     title: Sated
     text: >
       The Ruinmaw's power increase when they become Sated. Loss actions will sate the Ruinmaw's hunger, denoted with a <emoji>:sated symbol at the bottom of the action. Persistent loss actions with a track can have a <emoji>:sated symbol within a use slot. When that space is used or after a non-track loss action is resolved, the Ruinmaw must immediately become sated, which lasts until the end of their next turn.

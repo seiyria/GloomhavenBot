@@ -56,7 +56,7 @@ export class ClassDataCommand implements ICommand {
     embed.addField('Perks', `||${perkText}||`);
 
     if (classData.extra) {
-      embed.addField(`||${classData.extra.title}||`, `||${classData.extra.text}||`);
+      embed.addField(`||${classData.extra.title}||`, `||${this.textService.formatTextForEmojis(classData.extra.text)}||`);
     }
 
     message.channel.send({ embed });
