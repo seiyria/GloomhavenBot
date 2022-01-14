@@ -1,5 +1,6 @@
 import { AutoWired, Singleton } from 'typescript-ioc';
 import * as YAML from 'yamljs';
+import * as fs from 'fs';
 import { FuzzySetContainer } from 'fuzzyset-obj';
 
 import { BaseService } from '../base/BaseService';
@@ -33,8 +34,10 @@ export class BattleGoalService extends BaseService {
   }
 
   private loadAll() {
-    ['Gloomhaven', 'JOTL'].forEach((game) => {
-      const goals = YAML.load(`assets/${game.toLowerCase()}/battlegoals.yml`);
+    ['Gloomhaven', 'JOTL', 'Custom'].forEach((game) => {
+      if(!fs.existsSync(`assets/${game.toLowerCase()}/battlegoals.yml`)) return;
+
+      const goals = YAML.load(`assets/${game.toLowerCase()}/battlegoals.yml`) || [];
 
       goals.forEach((goal) => {
         goal.game = game;

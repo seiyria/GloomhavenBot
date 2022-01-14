@@ -23,6 +23,7 @@ export class BattleGoalCommand implements ICommand {
 
     if (cmd.endsWith('g') && cmd.length > 2) { prepend = 'Gloomhaven'; }
     if (cmd.endsWith('j')) { prepend = 'JOTL'; }
+    if (cmd.endsWith('c')) { prepend = 'Custom'; }
 
     const query = prepend ? `${prepend} ${search}` : search;
 

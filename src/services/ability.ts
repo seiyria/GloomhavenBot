@@ -1,5 +1,6 @@
 import { AutoWired, Singleton } from 'typescript-ioc';
 import * as YAML from 'yamljs';
+import * as fs from 'fs';
 import { uniqBy, clone } from 'lodash';
 import { FuzzySetContainer } from 'fuzzyset-obj';
 
@@ -63,8 +64,10 @@ export class AbilityService extends BaseService {
     if (this.isLoaded) { return; }
     this.isLoaded = true;
 
-    ['Gloomhaven', 'JOTL'].forEach((game) => {
-      const cards = YAML.load(`assets/${game.toLowerCase()}/abilities.yml`);
+    ['Gloomhaven', 'JOTL', 'Custom'].forEach((game) => {
+      if(!fs.existsSync(`assets/${game.toLowerCase()}/abilities.yml`)) return;
+
+      const cards = YAML.load(`assets/${game.toLowerCase()}/abilities.yml`) || [];
 
       cards.forEach((card) => {
         if (['three-swords'].includes(card.char)) {

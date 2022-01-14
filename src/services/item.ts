@@ -1,6 +1,7 @@
 import { AutoWired, Singleton } from 'typescript-ioc';
 import * as YAML from 'yamljs';
 import { FuzzySetContainer } from 'fuzzyset-obj';
+import * as fs from 'fs';
 
 import { BaseService } from '../base/BaseService';
 import { Game } from '../interfaces/IGame';
@@ -36,7 +37,9 @@ export class ItemService extends BaseService {
   }
 
   private loadAll() {
-    ['Gloomhaven', 'JOTL'].forEach((game) => {
+    ['Gloomhaven', 'JOTL', 'Custom'].forEach((game) => {
+      if(!fs.existsSync(`assets/${game.toLowerCase()}/items.yml`)) return;
+
       const cards = YAML.load(`assets/${game.toLowerCase()}/items.yml`);
 
       cards.forEach((card) => {
@@ -45,6 +48,7 @@ export class ItemService extends BaseService {
 
         if (game === 'Gloomhaven' && card.source !== 'Prosperity 1') { card.isSpoiler = true; }
         if (game === 'JOTL') { card.isSpoiler = true; }
+        if (game === 'Custom') { card.isSpoiler = true; }
 
         const itemNum = `#${card.num.toString().padStart(3, '0')}`;
 

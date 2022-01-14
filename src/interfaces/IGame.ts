@@ -1,2 +1,2 @@
 
-export type Game = 'Gloomhaven' | 'JOTL' | 'Frosthaven';
+export type Game = 'Gloomhaven' | 'JOTL' | 'Custom' | 'Frosthaven';

@@ -1,5 +1,6 @@
 import { AutoWired, Singleton } from 'typescript-ioc';
 import * as YAML from 'yamljs';
+import * as fs from 'fs';
 
 import { BaseService } from '../base/BaseService';
 import { Game } from '../interfaces/IGame';
@@ -32,8 +33,10 @@ export class ClassDataService extends BaseService {
   }
 
   private loadAll() {
-    ['Gloomhaven', 'JOTL'].forEach((game) => {
-      const classes: Record<string, IClassData> = YAML.load(`assets/${game.toLowerCase()}/classes.yml`);
+    ['Gloomhaven', 'JOTL', 'Custom'].forEach((game) => {
+      if(!fs.existsSync(`assets/${game.toLowerCase()}/classes.yml`)) return;
+
+      const classes: Record<string, IClassData> = YAML.load(`assets/${game.toLowerCase()}/classes.yml`) || {};
       Object.values(classes).forEach((c) => {
         c.game = game as unknown as Game;
         c.assetPath = game.toLowerCase();
