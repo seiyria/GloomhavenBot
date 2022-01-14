@@ -4,3 +4,153 @@
 #  char:
 #  image:
 #  level:
+# ruinmaw
+- name: Berserk Barrage
+  char: ruinmaw
+  image: ruinmaw-1-0.png
+  level: 1
+
+- name: Burning Bile
+  char: ruinmaw
+  image: ruinmaw-1-1.png
+  level: 1
+
+- name: Caustic Claws
+  char: ruinmaw
+  image: ruinmaw-1-2.png
+  level: 1
+
+- name: Easy Prey
+  char: ruinmaw
+  image: ruinmaw-1-3.png
+  level: 1
+
+- name: Feast of Flesh
+  char: ruinmaw
+  image: ruinmaw-1-4.png
+  level: 1
+
+- name: Feral Lunge
+  char: ruinmaw
+  image: ruinmaw-1-5.png
+  level: 1
+
+- name: Fight or Flight
+  char: ruinmaw
+  image: ruinmaw-1-6.png
+  level: 1
+
+- name: Nourishing Meal
+  char: ruinmaw
+  image: ruinmaw-1-7.png
+  level: 1
+
+- name: Reckless Attack
+  char: ruinmaw
+  image: ruinmaw-1-8.png
+  level: 1
+
+- name: Strip the Flesh
+  char: ruinmaw
+  image: ruinmaw-1-9.png
+  level: 1
+  
+- name: Terrifying Howl
+  char: ruinmaw
+  image: ruinmaw-1-10.png
+  level: 1
+
+- name: Slake Thirst
+  char: ruinmaw
+  image: ruinmaw-2-0.png
+  level: 2
+
+- name: Fatal Frenzy
+  char: ruinmaw
+  image: ruinmaw-2-1.png
+  level: 2
+
+- name: Savage Stalker
+  char: ruinmaw
+  image: ruinmaw-3-0.png
+  level: 3
+
+- name: Ferocious Fling
+  char: ruinmaw
+  image: ruinmaw-3-1.png
+  level: 3
+
+- name: Ravenous Roar
+  char: ruinmaw
+  image: ruinmaw-4-0.png
+  level: 4
+
+- name: Lie in Wait
+  char: ruinmaw
+  image: ruinmaw-4-1.png
+  level: 4
+
+- name: Rend and Mutilate
+  char: ruinmaw
+  image: ruinmaw-5-0.png
+  level: 5
+
+- name: Voracious Hunter
+  char: ruinmaw
+  image: ruinmaw-5-1.png
+  level: 5
+
+- name: Corrosive Spew
+  char: ruinmaw
+  image: ruinmaw-6-0.png
+  level: 6
+
+- name: Pouncing Predator
+  char: ruinmaw
+  image: ruinmaw-6-1.png
+  level: 6
+
+- name: Indomitable Craving
+  char: ruinmaw
+  image: ruinmaw-7-0.png
+  level: 7
+
+- name: Survival Instincts
+  char: ruinmaw
+  image: ruinmaw-7-1.png
+  level: 7
+
+- name: Devour Whole
+  char: ruinmaw
+  image: ruinmaw-8-0.png
+  level: 8
+
+- name: Heartripper
+  char: ruinmaw
+  image: ruinmaw-8-1.png
+  level: 8
+
+- name: Belly of the Beast
+  char: ruinmaw
+  image: ruinmaw-9-0.png
+  level: 9
+
+- name: Rip and Tear
+  char: ruinmaw
+  image: ruinmaw-9-1.png
+  level: 9
+
+- name: Cornered Animal
+  char: ruinmaw
+  image: ruinmaw-x-0.png
+  level: X
+
+- name: Scrape and Scrounge
+  char: ruinmaw
+  image: ruinmaw-x-1.png
+  level: X
+
+- name: Seize
+  char: ruinmaw
+  image: ruinmaw-x-2.png
+  level: X
