@@ -1,0 +1,33 @@
+# Custom Gloomhaven
+ruinmaw:
+  name: Vermling Ruinmaw
+  hp: [8, 9, 11, 12, 14, 15, 17, 18, 20]
+  handSize: 11
+  perks:
+    - text: Replace one -2 card with one -1 RUPTURE <emoji>:rupture and WOUND <emoji>:statuswound card
+
+    - text: Replace one -1 card with one +0 WOUND <emoji>:statuswound card
+      count: 2
+      
+    - text: Replace one -1 card with one +0 RUPTURE <emoji>:rupture card
+      count: 2
+
+    - text: Replace one +0 card with one +1 "add +3 instead if the target has RUPTURE <emoji>:rupture or WOUND <emoji>:statuswound card
+      count: 3
+
+    - text: Replace one +0 with one <emoji>:rolling Heal 1, Self, EMPOWER <emoji>:empower card
+      count: 3
+
+    - text: Once each scenario, become <emoji>:sated after collecting your 5th loot token
+
+    - text: Become <emoji>:sated each time you lose a card to negate suffering damage
+
+    - text: Whenever one of your abilities causes at least one enemy to gain RUPTURE <emoji>:rupture , immedatiately after that ability perform "Move 1"
+
+    - text: Ignore negative scenario effects and remove one -1 card
+    
+    extra:
+    title: Sated
+    text: >
+      The Ruinmaw's power increase when they become Sated. Loss actions will sate the Ruinmaw's hunger, denoted with a <emoji>:sated symbol at the bottom of the action. Persistent loss actions with a track can have a <emoji>:sated symbol within a use slot. When that space is used or after a non-track loss action is resolved, the Ruinmaw must immediately become sated, which lasts until the end of their next turn.
+      While Sated, certain actions have mandatory augmented effects. This augment is represented with a <emoji>:sated , followed by a colon, followed by how the action is augmented
